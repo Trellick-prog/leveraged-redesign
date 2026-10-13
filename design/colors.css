@@ -1,0 +1,128 @@
+/* ==========================================================================
+   Leveraged redesign – colour tokens
+   --------------------------------------------------------------------------
+   Every scale is built in OKLCH: the hue stays fixed and the lightness steps
+   are even, so 50 → 950 reads as one family. Step 800 is the brand blue.
+
+   The blue fix, in short:
+   the old #0B3B5C (oklch 0.34 0.076 244°) leans teal and has low chroma, so
+   it reads as grey/petrol slate instead of navy. Its supporting blues
+   (#134A70, #23445C, #5C84A1, #08283F) all had different chroma, so they
+   didn't match each other. "Harbour" moves the hue to 256° (true navy) and
+   raises chroma to about 0.12, giving a clearer, more trustworthy bank blue
+   that also contrasts better with the orange.
+
+   Two other blues are included. Set data-blue="ink" or data-blue="refined"
+   on <html> to preview them.
+   ========================================================================== */
+
+:root {
+  /* ---- Accent: Leveraged Orange ---------------------------------------
+     #E5602B is the existing brand orange. White text on it is only 3.48:1,
+     which fails WCAG AA for button text, so buttons use --orange-600
+     (4.84:1). Keep #E5602B for large or decorative use: step numbers,
+     icons, illustrations. */
+  --orange-50:  #FFF4F1;
+  --orange-100: #FFE7DF;
+  --orange-200: #FECEBE;
+  --orange-300: #FDA98C;  /* eyebrow text on dark blue (7.6:1 on blue-900) */
+  --orange-400: #EB7951;
+  --orange-500: #E5602B;  /* brand orange – large / decorative */
+  --orange-600: #C94502;  /* action – buttons with white text */
+  --orange-700: #B23C00;  /* action hover; small orange text on white (5.9:1) */
+  --orange-800: #892D01;
+  --orange-900: #6B2100;
+
+  /* ---- Neutrals (cool, faintly tinted toward the blue) ---------------- */
+  --grey-0:   #FFFFFF;
+  --grey-25:  #F8FAFB;
+  --grey-50:  #F6F7F8;
+  --grey-100: #EBEDEF;
+  --grey-200: #D7DBDF;
+  --grey-300: #BCC2C8;
+  --grey-400: #989FA7;
+  --grey-500: #767E87;
+  --grey-600: #5C646D;   /* muted body text (5.6:1 on grey-50) */
+  --grey-700: #49515A;
+  --grey-800: #363E46;
+  --grey-900: #262C32;
+  --grey-950: #171B20;
+
+  /* ---- Status --------------------------------------------------------- */
+  --success-600: #2B7440;
+  --danger-600:  #B02A2D;
+  --warning-50:  #FEF0D4;
+  --warning-800: #6C4302;
+
+  /* ---- Semantic roles: use these in components ------------------------ */
+  --color-brand:            var(--blue-800);
+  --color-text:             var(--grey-950);
+  --color-text-muted:       var(--grey-600);
+  --color-text-on-dark:     #FFFFFF;
+  --color-text-on-dark-muted: var(--blue-200);
+  --color-link:             var(--blue-700);
+  --color-link-hover:       var(--orange-700);
+  --color-bg:               var(--grey-50);
+  --color-surface:          #FFFFFF;
+  --color-surface-tint:     var(--blue-50);
+  --color-border:           var(--grey-200);
+  --color-border-strong:    var(--blue-800);
+  --color-dark-bg:          var(--blue-900);
+  --color-dark-bg-raised:   var(--blue-800);
+  --color-dark-border:      var(--blue-700);
+  --color-footer-bg:        var(--blue-950);
+  --color-footer-text:      var(--grey-300);
+  --color-eyebrow:          var(--orange-700);
+  --color-eyebrow-on-dark:  var(--orange-300);
+  --color-accent:           var(--orange-500);
+  --color-action:           var(--orange-600);
+  --color-action-hover:     var(--orange-700);
+  --color-action-text:      #FFFFFF;
+  --color-focus-ring:       var(--blue-400);
+}
+
+:root,
+[data-blue="harbour"] {
+  /* ---- Primary: Harbour Navy (recommended) ---------------------------- */
+  --blue-50:  #F2F7FE;
+  --blue-100: #E2EEFF;
+  --blue-200: #C7DDFB;
+  --blue-300: #A3C3F0;
+  --blue-400: #73A1DE;
+  --blue-500: #4A7EC3;
+  --blue-600: #2D63A9;
+  --blue-700: #184F92;
+  --blue-800: #043B79;   /* brand blue */
+  --blue-900: #002A5B;   /* hero / dark sections */
+  --blue-950: #00193C;   /* footer */
+}
+
+/* ---- Alternative B: Ink Navy – deeper, more premium, slightly violet -- */
+[data-blue="ink"] {
+  --blue-50:  #F3F7FE;
+  --blue-100: #E4EDFE;
+  --blue-200: #CCDBF9;
+  --blue-300: #AAC1ED;
+  --blue-400: #7F9EDA;
+  --blue-500: #5A7CBF;
+  --blue-600: #3F61A4;
+  --blue-700: #2D4D8E;
+  --blue-800: #1D3976;
+  --blue-900: #112858;
+  --blue-950: #08183B;
+}
+
+/* ---- Alternative C: Refined Original – same hue as today, cleaned up -- */
+[data-blue="refined"] {
+  --blue-50:  #F0F8FF;
+  --blue-100: #E1EFFB;
+  --blue-200: #C6DEF3;
+  --blue-300: #A2C6E4;
+  --blue-400: #71A4CE;
+  --blue-500: #4783B2;
+  --blue-600: #276898;
+  --blue-700: #0C5482;
+  --blue-800: #014167;
+  --blue-900: #002E4C;
+  --blue-950: #001C32;
+}

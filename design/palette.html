@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Leveraged Palette & Type</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="colors.css">
+<link rel="stylesheet" href="typography.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--color-bg); color: var(--color-text); }
+  a { color: var(--color-link); } a:hover { color: var(--color-link-hover); }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+  section.block { padding: 56px 0; border-bottom: 1px solid var(--color-border); }
+  h1, h2, h3, p { margin: 0; }
+  .intro { padding: 56px 0 40px; display: grid; gap: 14px; max-width: 760px; }
+  .muted { color: var(--color-text-muted); }
+  .stack { display: grid; gap: 12px; }
+
+  /* Blue comparison */
+  .compare { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px; margin-top: 28px; }
+  .option { border-radius: 14px; overflow: hidden; border: 1px solid var(--color-border); background: #fff; display: flex; flex-direction: column; }
+  .option.pick { outline: 3px solid var(--orange-500); outline-offset: 2px; }
+  .mini-hero { background: var(--blue-900); color: #fff; padding: 26px 22px; display: grid; gap: 12px; }
+  .mini-hero .eyebrow { color: var(--orange-300); }
+  .mini-hero h3 { font-family: var(--font-display); font-size: 1.6rem; line-height: 1.1; }
+  .mini-hero p { color: var(--blue-200); font-size: .95rem; line-height: 1.5; }
+  .mini-hero .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn { min-height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: .95rem; }
+  .btn-action { background: var(--orange-600); color: #fff; }
+  .btn-ghost { border: 2px solid #fff; color: #fff; }
+  .btn-outline { border: 2px solid var(--blue-800); color: var(--blue-800); }
+  .mini-body { padding: 18px 22px 22px; display: grid; gap: 12px; flex: 1; }
+  .mini-body .logo { font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; color: var(--blue-800); letter-spacing: -0.5px; }
+  .chips { display: flex; gap: 6px; }
+  .chips span { flex: 1; height: 28px; border-radius: 6px; }
+  .mini-foot { background: var(--blue-950); color: var(--grey-300); font-size: .8rem; padding: 12px 22px; }
+  .tag { font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .meta { font-size: .85rem; color: var(--color-text-muted); line-height: 1.5; }
+  /* The current palette, frozen so it can be compared */
+  .current .mini-hero { background: #0B3B5C; } .current .mini-hero p { color: #D9E4EC; }
+  .current .mini-hero .eyebrow { color: #F4B393; } .current .btn-action { background: #E5602B; }
+  .current .mini-body .logo { color: #0B3B5C; } .current .btn-outline { border-color: #0B3B5C; color: #0B3B5C; }
+  .current .mini-foot { background: #08283F; color: #C3D1DC; }
+
+  /* Swatches */
+  .scale { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; margin-top: 14px; }
+  .sw { border-radius: 10px; overflow: hidden; border: 1px solid var(--color-border); background: #fff; font-size: .78rem; }
+  .sw .chip { height: 64px; display: flex; align-items: flex-end; padding: 6px 8px; font-weight: 700; }
+  .sw .info { padding: 6px 8px; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
+  .sw .info code { font-family: var(--font-mono); font-size: .75rem; }
+  .sw.brand { outline: 2px solid var(--orange-500); outline-offset: 1px; }
+  .scale-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; margin-top: 32px; }
+
+  /* Roles table */
+  table.roles { width: 100%; border-collapse: collapse; margin-top: 18px; font-size: .9rem; }
+  .roles th, .roles td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--color-border); vertical-align: middle; }
+  .roles td code { font-family: var(--font-mono); font-size: .8rem; }
+  .dot { display: inline-block; width: 18px; height: 18px; border-radius: 4px; border: 1px solid rgba(0,0,0,.12); vertical-align: middle; margin-right: 8px; }
+  .table-scroll { overflow-x: auto; }
+
+  /* Type */
+  .type-grid { display: grid; gap: 22px; margin-top: 24px; }
+  .type-row { display: grid; grid-template-columns: minmax(130px, 180px) 1fr; gap: 16px; align-items: baseline; padding-bottom: 18px; border-bottom: 1px dashed var(--color-border); }
+  .type-row .label { font-size: .8rem; color: var(--color-text-muted); font-family: var(--font-mono); line-height: 1.4; }
+  .rate-demo { justify-self: start; display: inline-grid; grid-template-columns: auto auto; gap: 4px 28px; background: #fff; border: 1px solid var(--color-border); border-radius: 10px; padding: 14px 18px; }
+  .rate-demo b { font-size: 1.25rem; color: var(--blue-800); text-align: right; }
+  .switch { display: flex; flex-wrap: wrap; gap: 8px; }
+  .switch button { font: inherit; font-weight: 700; font-size: .9rem; padding: 8px 14px; border-radius: 8px; border: 2px solid var(--blue-800); background: #fff; color: var(--blue-800); cursor: pointer; min-height: 40px; }
+  .switch button[aria-pressed="true"] { background: var(--blue-800); color: #fff; }
+  @media (max-width: 560px) { .type-row { grid-template-columns: 1fr; gap: 6px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="intro">
+    <span class="eyebrow" style="color: var(--color-eyebrow)">Leveraged redesign · design tokens</span>
+    <h1>Colour &amp; type</h1>
+    <p class="lead muted">The current blue <code>#0B3B5C</code> leans teal and has little colour, so it reads as grey slate instead of a confident navy. The darker and lighter blues used with it don't match each other either. Below, the current blue is shown next to three corrected blues, each with a full matching scale. <strong>Harbour</strong> is the recommendation.</p>
+  </header>
+
+  <!-- 1. Blue comparison -->
+  <section class="block">
+    <h2>Choosing the blue</h2>
+    <p class="muted" style="margin-top:8px">Each card shows the hero, a light surface and the footer as they would look on the homepage.</p>
+    <div class="compare">
+      <article class="option current">
+        <div class="mini-hero"><span class="eyebrow">Since 1991</span><h3>Borrow to invest in shares &amp; ETFs.</h3><p>Flexible margin loans, backed by Bendigo and Adelaide Bank.</p><div class="btns"><a class="btn btn-action" href="#">Apply online</a><a class="btn btn-ghost" href="#">Rates</a></div></div>
+        <div class="mini-body"><span class="tag" style="color:#B54418">Today</span><span class="logo">Leveraged</span>
+          <p class="meta"><b>Current</b> · <code>#0B3B5C</code> · oklch 0.34 / 0.076 / 244°. Greyish, teal-leaning, and the matching blues are inconsistent. White on #E5602B is only 3.5:1.</p>
+          <div class="chips"><span style="background:#08283F"></span><span style="background:#0B3B5C"></span><span style="background:#23445C"></span><span style="background:#134A70"></span><span style="background:#5C84A1"></span><span style="background:#D9E4EC"></span></div></div>
+        <div class="mini-foot">Footer · #08283F</div>
+      </article>
+
+      <article class="option pick" data-blue="harbour">
+        <div class="mini-hero"><span class="eyebrow">Since 1991</span><h3>Borrow to invest in shares &amp; ETFs.</h3><p>Flexible margin loans, backed by Bendigo and Adelaide Bank.</p><div class="btns"><a class="btn btn-action" href="#">Apply online</a><a class="btn btn-ghost" href="#">Rates</a></div></div>
+        <div class="mini-body"><span class="tag" style="color:var(--orange-700)">A · Recommended</span><span class="logo">Leveraged</span>
+          <p class="meta"><b>Harbour Navy</b> · <code>#043B79</code> · 256°, chroma 0.12. A true navy that looks clear and trustworthy, and the orange stands out more against it.</p>
+          <div class="chips"><span style="background:var(--blue-950)"></span><span style="background:var(--blue-900)"></span><span style="background:var(--blue-800)"></span><span style="background:var(--blue-600)"></span><span style="background:var(--blue-400)"></span><span style="background:var(--blue-100)"></span></div></div>
+        <div class="mini-foot">Footer · blue-950</div>
+      </article>
+
+      <article class="option" data-blue="ink">
+        <div class="mini-hero"><span class="eyebrow">Since 1991</span><h3>Borrow to invest in shares &amp; ETFs.</h3><p>Flexible margin loans, backed by Bendigo and Adelaide Bank.</p><div class="btns"><a class="btn btn-action" href="#">Apply online</a><a class="btn btn-ghost" href="#">Rates</a></div></div>
+        <div class="mini-body"><span class="tag" style="color:var(--orange-700)">B</span><span class="logo">Leveraged</span>
+          <p class="meta"><b>Ink Navy</b> · <code>#1D3976</code> · 263°, chroma 0.11. Deeper and slightly violet. Feels more premium, closer to private banking.</p>
+          <div class="chips"><span style="background:var(--blue-950)"></span><span style="background:var(--blue-900)"></span><span style="background:var(--blue-800)"></span><span style="background:var(--blue-600)"></span><span style="background:var(--blue-400)"></span><span style="background:var(--blue-100)"></span></div></div>
+        <div class="mini-foot">Footer · blue-950</div>
+      </article>
+
+      <article class="option" data-blue="refined">
+        <div class="mini-hero"><span class="eyebrow">Since 1991</span><h3>Borrow to invest in shares &amp; ETFs.</h3><p>Flexible margin loans, backed by Bendigo and Adelaide Bank.</p><div class="btns"><a class="btn btn-action" href="#">Apply online</a><a class="btn btn-ghost" href="#">Rates</a></div></div>
+        <div class="mini-body"><span class="tag" style="color:var(--orange-700)">C</span><span class="logo">Leveraged</span>
+          <p class="meta"><b>Refined Original</b> · <code>#014167</code> · 244°, chroma 0.09. The same hue as today with the greyness removed. The smallest change, but still a little petrol-blue.</p>
+          <div class="chips"><span style="background:var(--blue-950)"></span><span style="background:var(--blue-900)"></span><span style="background:var(--blue-800)"></span><span style="background:var(--blue-600)"></span><span style="background:var(--blue-400)"></span><span style="background:var(--blue-100)"></span></div></div>
+        <div class="mini-foot">Footer · blue-950</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 2. Scales -->
+  <section class="block" id="scales">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:end">
+      <div class="stack"><h2>Scales</h2><p class="muted">Each swatch shows its contrast with white, and with blue-950 for the light steps. The outlined swatch is the brand step.</p></div>
+      <div class="switch" role="group" aria-label="Blue option">
+        <button type="button" data-set="" aria-pressed="true">A · Harbour</button>
+        <button type="button" data-set="ink" aria-pressed="false">B · Ink</button>
+        <button type="button" data-set="refined" aria-pressed="false">C · Refined</button>
+      </div>
+    </div>
+    <div id="scale-root"></div>
+  </section>
+
+  <!-- 3. Roles -->
+  <section class="block">
+    <h2>Where each colour goes</h2>
+    <div class="table-scroll">
+    <table class="roles">
+      <thead><tr><th>Role</th><th>Token</th><th>Replaces</th><th>Contrast</th></tr></thead>
+      <tbody id="roles-body"></tbody>
+    </table>
+    </div>
+  </section>
+
+  <!-- 4. Type -->
+  <section class="block">
+    <h2>Typography</h2>
+    <p class="muted" style="margin-top:8px"><b>Source Serif 4</b> for display (h1, h2, logo) and <b>Manrope</b> for everything else. The serif makes the brand feel established; the sans keeps the UI, rates and forms crisp. Rates use tabular figures so columns line up.</p>
+    <div class="type-grid">
+      <div class="type-row"><span class="label">h1 · serif 700<br>36→56px / 1.1</span><h1>Borrow to invest in shares, ETFs and managed funds.</h1></div>
+      <div class="type-row"><span class="label">h2 · serif 600<br>28→40px / 1.15</span><h2>Find the right loan</h2></div>
+      <div class="type-row"><span class="label">h3 · Manrope 700<br>20→26px / 1.3</span><h3>Investment Funds Multiplier</h3></div>
+      <div class="type-row"><span class="label">eyebrow · Manrope 700<br>13px · +0.1em caps</span><span class="eyebrow" style="color:var(--color-eyebrow)">Margin lending specialist since 1991</span></div>
+      <div class="type-row"><span class="label">lead · Manrope 400<br>18→20px / 1.55</span><p class="lead muted">Grow your investment capacity with flexible margin loans.</p></div>
+      <div class="type-row"><span class="label">body · Manrope 400<br>16px / 1.6</span><p>Borrow against a broad list of shares, ETFs and managed funds, connected to most major platforms and selected brokers. <a href="#">Read the PDS</a>.</p></div>
+      <div class="type-row"><span class="label">figures · tabular</span>
+        <div class="rate-demo rate"><span>Variable rate</span><b>8.95% p.a.</b><span>1-year fixed</span><b>8.10% p.a.</b><span>Max LVR</span><b>75%</b></div></div>
+      <div class="type-row"><span class="label">legal · Manrope 400<br>14px / 1.65</span><p class="legal muted">Gearing involves risk. It can magnify returns but may also magnify losses. Consider the PDS before deciding.</p></div>
+      <div class="type-row"><span class="label">buttons · Manrope 700</span><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-action" href="#">Apply now</a><a class="btn btn-outline" href="#">Log in</a></div></div>
+    </div>
+  </section>
+
+  <footer style="padding:32px 0 56px" class="muted legal">Tokens: <code>colors.css</code>, <code>typography.css</code>, <code>tokens.json</code>. Concept only, not the official Leveraged website.</footer>
+</div>
+
+<script>
+(function () {
+  const scales = [
+    { name: 'Blue', key: 'blue', steps: [50,100,200,300,400,500,600,700,800,900,950], brand: 800 },
+    { name: 'Orange', key: 'orange', steps: [50,100,200,300,400,500,600,700,800,900], brand: 500, note: '500 = brand (decorative), 600 = buttons' },
+    { name: 'Grey', key: 'grey', steps: [25,50,100,200,300,400,500,600,700,800,900,950] }
+  ];
+  const roles = [
+    ['Brand / logo / outline buttons', 'blue-800', '#0B3B5C', '#FFFFFF'],
+    ['Hero & dark sections', 'blue-900', '#0B3B5C', '#FFFFFF'],
+    ['Copy on dark (muted)', 'blue-200', '#D9E4EC', 'blue-900'],
+    ['Footer background', 'blue-950', '#08283F', 'grey-300'],
+    ['Links', 'blue-700', '#0B3B5C', '#FFFFFF'],
+    ['Primary button', 'orange-600', '#E5602B', '#FFFFFF'],
+    ['Button hover / link hover', 'orange-700', '#B54418', '#FFFFFF'],
+    ['Eyebrow on white', 'orange-700', '#B54418', '#FFFFFF'],
+    ['Eyebrow on dark', 'orange-300', '#F4B393', 'blue-900'],
+    ['Step numbers / icons', 'orange-500', '#E5602B', '#FFFFFF'],
+    ['Body text', 'grey-950', '#12212E', 'grey-50'],
+    ['Muted text', 'grey-600', '#4A5A66', 'grey-50'],
+    ['Page background', 'grey-50', '#F6F7F5', null],
+    ['Borders', 'grey-200', '#E2E5E1', null],
+    ['Image placeholders / raised dark', 'blue-800', '#134A70', null],
+  ];
+  const css = getComputedStyle.bind(null, document.documentElement);
+  const v = t => t.startsWith('#') ? t : css().getPropertyValue('--' + t).trim().toUpperCase();
+  const lin = c => (c /= 255) <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+  const lum = h => { const n = parseInt(h.slice(1), 16); return 0.2126*lin(n>>16) + 0.7152*lin((n>>8)&255) + 0.0722*lin(n&255); };
+  const cr = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => p - q); return (y + 0.05) / (x + 0.05); };
+  const grade = r => r >= 7 ? 'AAA' : r >= 4.5 ? 'AA' : r >= 3 ? 'AA large' : 'fail';
+
+  function render() {
+    const root = document.getElementById('scale-root');
+    root.innerHTML = '';
+    scales.forEach(s => {
+      const head = document.createElement('div');
+      head.className = 'scale-head';
+      head.innerHTML = `<h3>${s.name}</h3>${s.note ? `<span class="meta">${s.note}</span>` : ''}`;
+      const grid = document.createElement('div');
+      grid.className = 'scale';
+      s.steps.forEach(step => {
+        const hex = v(`${s.key}-${step}`);
+        const w = cr(hex, '#FFFFFF'), d = cr(hex, v('blue-950'));
+        const onDark = w >= d;
+        const el = document.createElement('div');
+        el.className = 'sw' + (step === s.brand ? ' brand' : '');
+        el.innerHTML = `<div class="chip" style="background:${hex};color:${onDark ? '#fff' : v('blue-950')}">${step}</div>
+          <div class="info"><code>${hex}</code><span>W ${w.toFixed(2)} · ${grade(w)}</span>${onDark ? '' : `<span class="muted">D ${d.toFixed(2)}</span>`}</div>`;
+        grid.appendChild(el);
+      });
+      root.append(head, grid);
+    });
+    const tb = document.getElementById('roles-body');
+    tb.innerHTML = roles.map(([role, tok, old, against]) => {
+      const hex = v(tok);
+      const c = against ? cr(hex, v(against)) : null;
+      return `<tr><td>${role}</td><td><span class="dot" style="background:${hex}"></span><code>${tok}</code> <code class="muted">${hex}</code></td>
+        <td><span class="dot" style="background:${old}"></span><code class="muted">${old}</code></td>
+        <td>${c ? `${c.toFixed(2)}:1 <span class="muted">${grade(c)}</span>` : '<span class="muted">n/a</span>'}</td></tr>`;
+    }).join('');
+  }
+
+  document.querySelectorAll('.switch button').forEach(b => b.addEventListener('click', () => {
+    if (b.dataset.set) document.documentElement.setAttribute('data-blue', b.dataset.set);
+    else document.documentElement.removeAttribute('data-blue');
+    document.querySelectorAll('.switch button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    render();
+  }));
+  render();
+})();
+</script>
+</body>
+</html>
