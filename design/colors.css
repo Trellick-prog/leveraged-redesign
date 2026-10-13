@@ -2,15 +2,15 @@
    Leveraged redesign – colour tokens
    --------------------------------------------------------------------------
    Every scale is built in OKLCH: the hue stays fixed and the lightness steps
-   are even, so 50 → 950 reads as one family. Step 800 is the brand blue.
+   are even, so 50 → 950 reads as one family. Step 800 is the brand blue (#003F72).
 
    The blue fix, in short:
    the old #0B3B5C (oklch 0.34 0.076 244°) leans teal and has low chroma, so
    it reads as grey/petrol slate instead of navy. Its supporting blues
    (#134A70, #23445C, #5C84A1, #08283F) all had different chroma, so they
-   didn't match each other. "Harbour" moves the hue to 256° (true navy) and
-   raises chroma to about 0.12, giving a clearer, more trustworthy bank blue
-   that also contrasts better with the orange.
+   didn't match each other. "Harbour" is built around the official
+   Leveraged blue #003F72 (oklch 0.363 0.104 250.6°), which is step 800
+   exactly. It's a clearer navy, and the orange stands out more against it.
 
    Two other blues are included. Set data-blue="ink" or data-blue="refined"
    on <html> to preview them.
@@ -84,17 +84,17 @@
 :root,
 [data-blue="harbour"] {
   /* ---- Primary: Harbour Navy (recommended) ---------------------------- */
-  --blue-50:  #F2F7FE;
-  --blue-100: #E2EEFF;
-  --blue-200: #C7DDFB;
-  --blue-300: #A3C3F0;
-  --blue-400: #73A1DE;
-  --blue-500: #4A7EC3;
-  --blue-600: #2D63A9;
-  --blue-700: #184F92;
-  --blue-800: #043B79;   /* brand blue */
-  --blue-900: #002A5B;   /* hero / dark sections */
-  --blue-950: #00193C;   /* footer */
+  --blue-50:  #F1F8FF;
+  --blue-100: #E1EEFD;
+  --blue-200: #C7DDF6;
+  --blue-300: #A3C5E9;
+  --blue-400: #73A3D5;
+  --blue-500: #4A81BA;
+  --blue-600: #2C669F;
+  --blue-700: #145289;
+  --blue-800: #003F72;   /* brand blue */
+  --blue-900: #002C52;   /* hero / dark sections */
+  --blue-950: #001B36;   /* footer */
 }
 
 /* ---- Alternative B: Ink Navy – deeper, more premium, slightly violet -- */

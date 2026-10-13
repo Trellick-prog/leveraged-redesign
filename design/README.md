@@ -17,7 +17,7 @@ All new scales are built in OKLCH with a fixed hue and even lightness steps, so 
 
 | Option | Brand (800) | Hue / chroma | Character |
 |---|---|---|---|
-| **A · Harbour** (default) | `#043B79` | 256° / 0.12 | True navy that looks clear and trustworthy. Gives the strongest contrast with the orange |
+| **A · Harbour** (default) | `#003F72` | 250.6° / 0.10 (official brand blue) | True navy that looks clear and trustworthy. Gives the strongest contrast with the orange |
 | B · Ink | `#1D3976` | 263° / 0.11 | Deeper and slightly violet. Feels premium |
 | C · Refined | `#014167` | 244° / 0.09 | Today's hue with the greyness removed. The smallest change |
 
