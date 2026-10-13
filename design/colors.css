@@ -67,9 +67,9 @@
   --color-surface-tint:     var(--blue-50);
   --color-border:           var(--grey-200);
   --color-border-strong:    var(--blue-800);
-  --color-dark-bg:          var(--blue-900);
-  --color-dark-bg-raised:   var(--blue-800);
-  --color-dark-border:      var(--blue-700);
+  --color-dark-bg:          var(--blue-800);
+  --color-dark-bg-raised:   var(--blue-700);
+  --color-dark-border:      var(--blue-600);
   --color-footer-bg:        var(--blue-950);
   --color-footer-text:      var(--grey-300);
   --color-eyebrow:          var(--orange-700);
