@@ -88,6 +88,15 @@ fieldset{border:0;padding:0;margin:0 0 18px}
 @media (max-width:860px){.fp-body{grid-template-columns:1fr;gap:24px}.side{position:static}.toc{flex-direction:row;flex-wrap:wrap}.help{order:2}}
 @media (max-width:620px){.person{grid-template-columns:1fr}.ph{width:88px;height:88px;font-size:24px}dl.facts{grid-template-columns:1fr;gap:2px}dl.facts dd{margin-bottom:10px}tbody th{white-space:normal}.steps>li{grid-template-columns:1fr;gap:10px}}
 </style>
+<style>
+.ctabs{background:#FFFFFF;border-bottom:1px solid var(--grey-200)}
+.ctabs ul{list-style:none;margin:0 auto;max-width:1240px;padding:0 24px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.ctabs ul::-webkit-scrollbar{display:none}
+.ctabs a{display:inline-flex;align-items:center;min-height:54px;padding:0 16px;font-weight:600;text-decoration:none;white-space:nowrap;color:var(--blue-800);border-bottom:3px solid transparent}
+.ctabs a:hover{color:var(--orange-700)}
+.ctabs a[aria-current="page"]{border-bottom-color:var(--blue-800);font-weight:700;color:var(--grey-950)}
+.fp-body{grid-template-columns:minmax(0,1fr)!important}
+</style>
 </head><body><div style="background:var(--warning-50);color:var(--warning-800);text-align:center;padding:10px;font:600 14px system-ui">Design concept only – not the official Leveraged website. Visit <a href="https://www.leveraged.com.au/" style="color:var(--warning-800)">leveraged.com.au</a>.</div>
 <div style="font-family: 'Manrope', 'Segoe UI', system-ui, sans-serif; color: var(--grey-950); background: var(--grey-50)">
 <a href="#main" style="position:absolute;left:-9999px" onfocus="this.style.left='8px'" onblur="this.style.left='-9999px'">Skip to main content</a>
@@ -128,19 +137,15 @@ fieldset{border:0;padding:0;margin:0 0 18px}
 <h1>Contact us</h1>
 <p>Call, email or write to us. Our team is available Monday to Friday, 8:30am – 5:30pm AEST/AEDT.</p>
 </div></section>
+<nav class="ctabs" aria-label="Contact us pages"><ul><li><a href="index.html" aria-current="page">Contact us</a></li><li><a href="enquiry/index.html">Online enquiry</a></li><li><a href="our-team/index.html">Our team</a></li><li><a href="make-a-complaint/index.html">Make a complaint</a></li><li><a href="make-a-complaint/frequently-asked-questions/index.html">Complaints FAQs</a></li><li><a href="customer-advocate/index.html">Customer Advocate</a></li></ul></nav>
 <div class="fp fp-body">
-<aside class="side" aria-label="Contact pages"><nav class="toc" aria-label="Contact us section"><a href="../contact-us/index.html" aria-current="page">Contact us</a><a href="../contact-us/index.html#enquiry">Online enquiry</a><a href="../contact-us/our-team/index.html">Our team</a><a href="../contact-us/make-a-complaint/index.html">Make a complaint</a><a href="../contact-us/make-a-complaint/frequently-asked-questions/index.html">Complaints FAQs</a><a href="../contact-us/customer-advocate/index.html">Customer Advocate</a></nav>
-<div class="help"><strong>Talk to us</strong>
-<div class="row"><a href="tel:1300307807">1300 307 807</a><small>Mon–Fri, 8:30am–5:30pm AEST/AEDT</small></div>
-<div class="row"><a href="mailto:customerservice@leveraged.com.au">customerservice@leveraged.com.au</a></div>
-<div class="row"><small>GPO Box 5388, Sydney NSW 2001</small></div></div></aside>
 <main id="main">
 <section aria-labelledby="ways-h">
 <h2 id="ways-h">Ways to contact us</h2>
 <p class="lead">Contact us via one of the channels below or take a look at our <a href="../support/index.html">FAQs in the support section</a> of this website.</p>
 <div class="cards">
 <div class="card"><h3>Phone</h3><a class="big" href="tel:1300307807">1300 307 807</a><p style="margin:0">Overseas: <a href="tel:+61282828282">+61 2 8282 8282</a></p><p class="muted" style="margin:8px 0 0">8:30am – 5:30pm AEST/AEDT<br>Monday – Friday</p></div>
-<div class="card"><h3>Online</h3><p>Send us an online enquiry or email <a href="mailto:customerservice@leveraged.com.au" style="overflow-wrap:anywhere">customerservice@leveraged.com.au</a></p><a class="btn btn-s" href="#enquiry">Enquire now</a></div>
+<div class="card"><h3>Online</h3><p>Send us an online enquiry or email <a href="mailto:customerservice@leveraged.com.au" style="display:inline-block;white-space:nowrap;font-size:15px">customerservice@leveraged.com.au</a></p><a class="btn btn-s" href="enquiry/index.html">Enquire now</a></div>
 <div class="card"><h3>Mail</h3><p style="margin:0">GPO Box 5388<br>Sydney NSW 2001</p></div>
 </div>
 </section>
@@ -150,29 +155,6 @@ fieldset{border:0;padding:0;margin:0 0 18px}
 <div class="cards">
 <div class="card"><h3>Make a complaint</h3><p>We love to hear from you whether it’s a compliment or a complaint. It is important for us to know what we do well and we are just as keen to hear when we have not met your expectations no matter the circumstance.</p><p>Find out what to do if you have a complaint related to the Bendigo and Adelaide Bank Group.</p><a class="btn btn-s" href="make-a-complaint/index.html">Make a complaint</a></div>
 <div class="card"><h3>Provide a compliment</h3><p>We’re always keen to hear when one of our team has provided exceptional service. Please use our online form to let us know.</p><a class="btn btn-s" href="https://www.bendigobank.com.au/contact-us/customer-compliments/">Provide your feedback online</a></div>
-</div>
-</section>
-
-<section id="enquiry" aria-labelledby="enq-h">
-<h2 id="enq-h">Online enquiry</h2>
-<div class="card">
-<p class="formnote" role="note">Design concept only. This form is not connected and does not send your details anywhere. To make a real enquiry, call 1300 307 807 or email customerservice@leveraged.com.au.</p>
-<form action="#" method="get" onsubmit="return false" novalidate>
-<div class="grid2">
-<div class="field"><label for="fn">First name</label><input type="text" id="fn" name="first-name" autocomplete="given-name"></div>
-<div class="field"><label for="ln">Last name</label><input type="text" id="ln" name="last-name" autocomplete="family-name"></div>
-</div>
-<div class="field"><label for="pc">Postcode</label><input type="text" id="pc" name="postcode" inputmode="numeric" autocomplete="postal-code" style="max-width:200px"></div>
-<fieldset><legend>Preferred contact method</legend><div class="radios"><label><input type="radio" name="method" value="Phone"> Phone</label><label><input type="radio" name="method" value="Email"> Email</label></div></fieldset>
-<div class="grid2">
-<div class="field"><label for="tel">Phone number</label><input type="tel" id="tel" name="phone" autocomplete="tel"></div>
-<div class="field"><label for="em">Email address</label><input type="email" id="em" name="email" autocomplete="email"></div>
-</div>
-<fieldset><legend>Preferred contact time</legend><div class="radios"><label><input type="radio" name="time" value="Morning"> Morning</label><label><input type="radio" name="time" value="Afternoon"> Afternoon</label></div></fieldset>
-<div class="field"><label for="msg">What can we help you with? <span class="hint">(optional)</span></label><textarea id="msg" name="enquiry"></textarea></div>
-<p class="muted">Leveraged is part of the Bendigo and Adelaide Bank Group. We collect your personal information in order to respond to your enquiry and contact you; your personal information may be shared within the Group. This includes subsidiaries, related companies, agencies and franchises. To request access to your personal information, please contact <a href="tel:1300307807">1300 307 807</a>. For more information, please read our <a href="../policies/privacy-policy/index.html">Privacy policy</a>.</p>
-<button type="submit" class="btn btn-p">Submit (concept only)</button>
-</form>
 </div>
 </section>
 
@@ -196,7 +178,7 @@ fieldset{border:0;padding:0;margin:0 0 18px}
 <dl class="facts">
 <dt>Secured party group number</dt><dd style="font-variant-numeric:tabular-nums">101439973</dd>
 <dt>Secured party details</dt><dd>LEVERAGED EQUITIES LIMITED<br>ABN 26 051 629 282, AFSL 360118</dd>
-<dt>Email</dt><dd><a href="mailto:customerservice@leveraged.com.au" style="overflow-wrap:anywhere">customerservice@leveraged.com.au</a></dd>
+<dt>Email</dt><dd><a href="mailto:customerservice@leveraged.com.au" style="display:inline-block;white-space:nowrap;font-size:15px">customerservice@leveraged.com.au</a></dd>
 <dt>PPSR refinancing documents</dt><dd><a href="https://www.leveraged.com.au/siteassets/documents/financing-statement.pdf">Financing Statement (PDF)</a></dd>
 <dt>Mailing address</dt><dd>GPO Box 5388<br>Sydney NSW 2001<br>AUSTRALIA</dd>
 <dt>Physical address</dt><dd>Level 12<br>175 Pitt St<br>Sydney NSW 2000<br>AUSTRALIA</dd>
@@ -224,7 +206,7 @@ fieldset{border:0;padding:0;margin:0 0 18px}
 <div style="max-width: 1240px; margin: 0 auto; padding: 80px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 40px">
 <div style="display: flex; flex-direction: column; gap: 12px"><h2 id="contact-h" style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 36px">Talk to a specialist</h2><p style="margin: 0; color: var(--blue-200); line-height: 1.6">Mon–Fri, 8:30am–5:30pm AEST/AEDT</p></div>
 <div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Phone</h3><a href="tel:1300307807" style="color: #FFFFFF; font-size: 24px; font-weight: 700">1300 307 807</a><span style="color: var(--blue-200)">Overseas: <a href="tel:+61282828282" style="color: #FFFFFF">+61 2 8282 8282</a></span></div>
-<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Online</h3><a href="mailto:customerservice@leveraged.com.au" style="color: #FFFFFF; overflow-wrap: anywhere">customerservice@leveraged.com.au</a><a href="../contact-us/index.html#enquiry" style="color: #FFFFFF; font-weight: 700">Send an enquiry →</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Online</h3><a href="mailto:customerservice@leveraged.com.au" style="color: #FFFFFF; overflow-wrap: anywhere">customerservice@leveraged.com.au</a><a href="enquiry/index.html" style="color: #FFFFFF; font-weight: 700">Send an enquiry →</a></div>
 <div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Mail</h3><span style="color: var(--blue-200); line-height: 1.6">GPO Box 5388<br>Sydney NSW 2001</span></div>
 </div>
 </section>
@@ -250,4 +232,5 @@ fieldset{border:0;padding:0;margin:0 0 18px}
 </div>
 </footer>
 
-</div></body></html>
+</div><script>(function(){var a=document.querySelector('.ctabs a[aria-current="page"]');if(!a)return;var u=a.closest("ul");u.scrollLeft=a.getBoundingClientRect().left-u.getBoundingClientRect().left-24})();</script>
+</body></html>
