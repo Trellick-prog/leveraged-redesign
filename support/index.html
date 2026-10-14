@@ -1,0 +1,181 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>Support – Leveraged redesign concept</title>
+<meta name="description" content="Resources, forms, guides and FAQs to help you manage your Leveraged loan account.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../design/colors.css">
+<style>
+body{margin:0}
+a{color:var(--blue-800)}a:hover{color:var(--orange-700)}
+a:focus-visible,summary:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--color-focus-ring);outline-offset:2px;border-radius:4px}
+a.btn-primary:hover{background:var(--orange-700)!important;color:#FFFFFF!important}
+.skip{position:absolute;left:-9999px;top:0;background:#FFFFFF;padding:12px 16px;z-index:10}.skip:focus{left:16px;top:16px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+.hero{background:var(--blue-800);color:#FFFFFF}
+.hero .wrap{padding:56px 24px 44px;display:grid;gap:16px}
+.crumb{font-size:14px;color:var(--blue-200)}.crumb a{color:#FFFFFF}
+.crumb ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}.crumb li+li::before{content:"/";margin-right:6px}
+.hero h1{margin:0;font-family:'Source Serif 4',Georgia,serif;font-size:clamp(36px,5vw,52px);line-height:1.08}
+.hero p{margin:0;font-size:19px;line-height:1.55;color:var(--blue-200);max-width:700px}
+.hero .search input{font:inherit;font-size:16px;width:100%;max-width:640px;min-height:52px;border-radius:8px;border:0;padding:0 16px;background:#FFFFFF;color:var(--grey-950);box-sizing:border-box}
+.hero .search input:focus{outline:3px solid var(--orange-300);outline-offset:2px}
+.body{display:grid;grid-template-columns:250px minmax(0,1fr);gap:48px;padding:48px 24px 88px;align-items:start}
+.body.single{grid-template-columns:minmax(0,1fr) 320px}
+.side{position:sticky;top:20px;display:flex;flex-direction:column;gap:16px}
+.toc{display:flex;flex-direction:column;gap:2px;font-weight:600}
+.toc a{text-decoration:none;padding:10px 12px;border-radius:8px;display:flex;justify-content:space-between;gap:8px;min-height:24px}
+.toc a:hover,.toc a.on{background:var(--blue-50)}
+.toc .cnt{color:var(--grey-600);font-weight:500}
+.help{padding:18px;border-radius:12px;background:#FFFFFF;border:1px solid var(--grey-200);font-size:15px;line-height:1.55;color:var(--grey-700);display:grid;gap:10px}
+.help strong{color:var(--grey-950);font-size:17px}
+.help a{font-weight:700}
+.help small{font-size:14px;display:block}
+.prose{font-size:17px;line-height:1.65;color:var(--grey-900);max-width:760px}
+.prose h2{font-family:'Source Serif 4',Georgia,serif;font-size:30px;line-height:1.2;margin:40px 0 12px;color:var(--grey-950)}
+.prose h2:first-child{margin-top:0}
+.prose h3{font-size:20px;margin:28px 0 8px;color:var(--grey-950)}
+.prose p{margin:0 0 14px}
+.prose ul,.prose ol{margin:0 0 16px;padding-left:24px}.prose li{margin-bottom:6px}
+.card{background:#FFFFFF;border:1px solid var(--grey-200);border-radius:14px;padding:24px}
+.callout{background:var(--blue-50);border:1px solid var(--blue-200);border-radius:14px;padding:22px 24px;margin:0 0 32px}
+.callout h2{margin-top:0!important;font-size:24px!important}
+.callout .lines{display:grid;gap:6px;margin-top:8px}
+.callout .big{font-size:22px;font-weight:800}
+.urgent{background:var(--orange-50);border:1px solid var(--orange-300);border-radius:12px;padding:16px 20px;margin:0 0 24px;color:var(--grey-950);font-weight:600}
+.urgent a{font-weight:800}
+.note{font-size:15px;color:var(--grey-700);line-height:1.6;border-left:4px solid var(--orange-500);background:#FFFFFF;padding:16px 20px;border-radius:0 12px 12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.tile{display:flex;flex-direction:column;gap:10px}
+.tile h3{margin:0;font-size:20px}
+.tile p{margin:0;color:var(--grey-700);line-height:1.55}
+.tile ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.tile li a{display:flex;align-items:center;min-height:44px;font-weight:600}
+.tile .more{margin-top:auto;font-weight:700;display:inline-flex;align-items:center;min-height:44px}
+.sec-h{font-family:'Source Serif 4',Georgia,serif;font-size:32px;margin:0 0 8px}
+.sec-p{margin:0 0 24px;color:var(--grey-700);font-size:17px;line-height:1.55}
+.faq-group{scroll-margin-top:20px;margin-bottom:44px}
+.faq-group h2{font-family:'Source Serif 4',Georgia,serif;font-size:28px;margin:0 0 14px}
+.faq{background:#FFFFFF;border:1px solid var(--grey-200);border-radius:12px;margin-bottom:10px}
+.faq summary{cursor:pointer;list-style:none;padding:16px 52px 16px 20px;font-weight:700;font-size:17px;line-height:1.45;position:relative;min-height:24px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:20px;top:12px;font-size:24px;font-weight:500;color:var(--blue-800)}
+.faq[open] summary::after{content:"\2212"}
+.faq .a{padding:0 20px 18px;font-size:16px;line-height:1.65;color:var(--grey-900)}
+.faq .a p{margin:0 0 10px}.faq .a ul{margin:0 0 10px;padding-left:22px}
+.empty{padding:32px;text-align:center;background:#FFFFFF;border:1px dashed var(--grey-300);border-radius:12px;color:var(--grey-700)}
+.docs{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.doc{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;padding:18px 20px;background:#FFFFFF;border:1px solid var(--grey-200);border-radius:12px}
+.doc strong{font-size:17px;display:block}.doc span{color:var(--grey-700);font-size:15px}
+.dl{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:8px;border:2px solid var(--blue-800);font-weight:700;font-size:14px;text-decoration:none;white-space:nowrap}
+.dl:hover{background:var(--blue-800);color:#FFFFFF}
+.agencies{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.agencies h2{font-family:'Manrope',sans-serif!important;font-size:20px!important;margin:0 0 10px!important}
+.agencies ul{list-style:none;padding:0;margin:0;display:grid;gap:4px}
+.agencies li{display:flex;flex-direction:column;padding:6px 0;border-top:1px solid var(--grey-100)}
+.agencies li:first-child{border-top:0}
+.agencies li a{min-height:28px;display:inline-flex;align-items:center}
+.exit{position:fixed;right:16px;bottom:16px;z-index:20;display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:8px;background:var(--orange-600);color:#FFFFFF!important;font-weight:800;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.exit:hover{background:var(--orange-700)}
+.disclaimer{font-size:14px;color:var(--grey-700);line-height:1.6;border-top:1px solid var(--grey-200);padding-top:20px;margin-top:40px}
+[hidden]{display:none!important}
+@media (max-width:860px){.body,.body.single{grid-template-columns:1fr;gap:28px}.side{position:static}.toc{flex-direction:row;flex-wrap:wrap}}
+@media (max-width:620px){.doc{grid-template-columns:1fr}.dl{justify-self:start}.prose h2{font-size:26px}}
+</style>
+</head><body><div style="background:var(--warning-50);color:var(--warning-800);text-align:center;padding:10px;font:600 14px system-ui">Design concept only – not the official Leveraged website. Visit <a href="https://www.leveraged.com.au" style="color:var(--warning-800)">leveraged.com.au</a>.</div>
+<a class="skip" href="#main">Skip to main content</a>
+<div style="font-family: 'Manrope', 'Segoe UI', system-ui, sans-serif; color: var(--grey-950); background: var(--grey-50)">
+
+<div style="background: var(--blue-800); color: #FFFFFF; font-size: 14px">
+<div style="max-width: 1240px; margin: 0 auto; padding: 10px 24px; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center">
+<span>Gearing can magnify losses as well as gains. Read the PDS before investing.</span>
+<div style="display: flex; gap: 20px; flex-wrap: wrap">
+<a href="https://www.leveraged.com.au/security/" style="color: #FFFFFF">Security centre</a>
+<a href="https://www.leveraged.com.au/about-us/" style="color: #FFFFFF">About us</a>
+<a href="https://www.leveraged.com.au/adviser-only/" style="color: #FFFFFF">Adviser-only</a>
+<a href="https://www.leveraged.com.au/wholesale/" style="color: #FFFFFF">Wholesale</a>
+</div>
+</div>
+</div>
+
+<header style="background: #FFFFFF; border-bottom: 1px solid var(--grey-200)">
+<div style="max-width: 1240px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between">
+<a href="../index.html" style="display: inline-flex; align-items: center"><img src="../website-assets/leveraged-logo.webp" alt="Leveraged" width="300" height="111" style="height: 48px; width: auto; display: block"></a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 28px; font-weight: 600; font-size: 16px">
+<a href="../products/index.html" style="text-decoration: none">Products</a>
+<a href="../rates/index.html" style="text-decoration: none">Rates &amp; fees</a>
+<a href="../index.html#start" style="text-decoration: none">How to apply</a>
+<a href="../support/index.html" style="text-decoration: none" aria-current="page">Support</a>
+<a href="../educational-insights/index.html" style="text-decoration: none">Insights</a>
+</nav>
+<div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap">
+<a href="tel:1300307807" style="font-weight: 700; text-decoration: none">1300 307 807</a>
+<a href="https://www.leveragedonline.com.au/" style="min-height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border: 2px solid var(--blue-800); border-radius: 8px; font-weight: 700; text-decoration: none">Log in</a>
+<a class="btn-primary" href="https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4" style="min-height: 44px; display: inline-flex; align-items: center; padding: 0 22px; background: var(--orange-600); color: #FFFFFF; border-radius: 8px; font-weight: 700; text-decoration: none">Apply now</a>
+</div>
+</div>
+</header>
+<section class="hero"><div class="wrap"><nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li aria-current="page">Support</li></ol></nav><h1>Support</h1><p>Access resources, tools and forms. We’ve made it easy for you to find everything you need to help manage and operate your loan account.</p><p style="font-size:16px"><a href="https://forms.marginlending.com.au/#/login" style="color:#FFFFFF;font-weight:700">Retrieve a saved application →</a></p></div></section>
+<main id="main" class="wrap" style="padding-top:48px;padding-bottom:88px">
+<h2 class="sec-h">All in the one place</h2>
+<p class="sec-p">Find the forms, lists, guides and answers you need to manage your loan.</p>
+<div class="grid">
+<section class="card tile" aria-labelledby="t-forms"><h3 id="t-forms">Forms</h3><p>Access all the forms required to manage and transact on your loan account.</p>
+<a class="more" href="../forms.html">See all forms →</a></section>
+<section class="card tile" aria-labelledby="t-ail"><h3 id="t-ail">Acceptable Investments List</h3><p>Discover our diverse and frequently reviewed acceptable investments list, including securities, platforms and managed funds.<sup>#</sup></p>
+<ul><li><a href="https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-margin-loan-acceptable-investments-list.pdf" target="_blank" rel="noopener">Margin Loan (PDF)</a></li>
+<li><a href="https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-investment-funds-multiplier-acceptable-investments-list.pdf" target="_blank" rel="noopener">Investment Funds Multiplier (PDF)</a></li>
+<li><a href="https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-direct-investment-loan-acceptable-investments-list.pdf" target="_blank" rel="noopener">Direct Investment Loan (PDF)</a></li></ul>
+<a class="more" href="../forms.html#investments">See all lists and recent changes →</a></section>
+<section class="card tile" aria-labelledby="t-guides"><h3 id="t-guides">Guides</h3><p>Gain an in-depth understanding of our products and features, and how to navigate our online resources.</p>
+<ul><li><a href="https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-online-user-guide-client.pdf" target="_blank" rel="noopener">Leveraged Online User Guide (PDF)</a></li>
+<li><a href="https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-online-application-id-and-certification-guide.pdf" target="_blank" rel="noopener">Online application ID and certification guide (PDF)</a></li>
+<li><a href="https://www.leveraged.com.au/siteassets/support/guides/lending-ratios-user-guide.pdf" target="_blank" rel="noopener">Lending Ratios User Guide (PDF)</a></li></ul>
+<a class="more" href="guides/index.html">See all guides →</a></section>
+<section class="card tile" aria-labelledby="t-faq"><h3 id="t-faq">Frequently asked questions</h3><p>Search our questions and answers for a quick response.</p>
+<ul><li><a href="faqs/index.html#direct-debits">Bank transfers and direct debits</a></li>
+<li><a href="faqs/index.html#online-statements">Online statements</a></li>
+<li><a href="faqs/index.html#credit-limits">Credit limits</a></li></ul>
+<a class="more" href="faqs/index.html">See all FAQs →</a></section>
+<section class="card tile" aria-labelledby="t-calc"><h3 id="t-calc">Calculators</h3><p>Use these tools to see how your investment value could differ with or without gearing and learn how the buffer works.</p>
+<a class="more" href="../educational-insights/calculating-the-buffer/index.html">Calculating the buffer →</a></section>
+</div>
+
+<h2 class="sec-h" style="margin-top:56px">We’re here to help</h2>
+<p class="sec-p">Providing help and support when you need it. If you’re going through a difficult time, our team will talk you through the next steps.</p>
+<div class="grid">
+<section class="card tile" aria-labelledby="t-de"><h3 id="t-de">Deceased estates</h3><p>If someone close to you has passed away, let us know and we’ll help with their margin loan account.</p><a class="more" href="deceased-estates/index.html">Managing a deceased estate →</a></section>
+<section class="card tile" aria-labelledby="t-fa"><h3 id="t-fa">Financial abuse</h3><p>Support in confidence if you, or someone you care about, is being controlled through money.</p><a class="more" href="financial-abuse/index.html">Financial abuse support →</a></section>
+<section class="card tile" aria-labelledby="t-sc"><h3 id="t-sc">Scam awareness</h3><p>Learn how to recognise scams and protect your account in our Security centre.</p><a class="more" href="https://www.leveraged.com.au/security/">Visit the Security centre →</a></section>
+</div>
+<p class="disclaimer"><sup>#</sup>Direct Investment Loan excludes managed funds as acceptable investments. No warranty or guarantee is given by the Lender, any other party named on this website or any of their respective related bodies corporate for the performance of any investment acquired using money borrowed through the Margin Loan/Investment Funds Multiplier/Direct Investment Loan or any investment on the list of Acceptable Investments.</p>
+</main>
+
+<section id="contact" aria-labelledby="contact-h" style="background: var(--blue-800); color: #FFFFFF">
+<div style="max-width: 1240px; margin: 0 auto; padding: 80px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px"><h2 id="contact-h" style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 36px">Get in touch</h2><p style="margin: 0; color: var(--blue-200); line-height: 1.6">Mon–Fri, 8:30am–5:30pm AEST/AEDT</p></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Phone</h3><a href="tel:1300307807" style="color: #FFFFFF; font-size: 24px; font-weight: 700">1300 307 807</a><span style="color: var(--blue-200)">Overseas: <a href="tel:+61282828282" style="color: #FFFFFF">+61 2 8282 8282</a></span></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Online</h3><a href="mailto:customerservice@leveraged.com.au" style="color: #FFFFFF">customerservice@leveraged.com.au</a><a href="https://www.leveraged.com.au/contact-us/#EnquireNow" style="color: #FFFFFF; font-weight: 700">Send an enquiry →</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Mail</h3><span style="color: var(--blue-200); line-height: 1.6">GPO Box 5388<br>Sydney NSW 2001</span></div>
+</div>
+</section>
+
+<footer style="background: var(--blue-950); border-top: 1px solid var(--blue-700); color: var(--grey-300); font-size: 14px; line-height: 1.65">
+<div style="max-width: 1240px; margin: 0 auto; padding: 56px 24px; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; color: #FFFFFF; font-size: 18px">Things you should know</h2>
+<p style="margin: 0"><strong style="color: #FFFFFF">Gearing involves risk.</strong> It can magnify your returns; however, it may also magnify your losses. The information on this website contains general advice only and does not take into account your personal objectives, financial situation or needs. It does not constitute financial or tax advice. Please consider your personal circumstances, consult a professional financial adviser and read the Product Disclosure Statement and Incorporated Statements (together, the ‘PDS’) and Product Guide, together with the terms and conditions, before making an investment decision. To obtain a copy of the PDS call <a href="tel:1300307807" style="color: #FFFFFF">1300 307 807</a>. Terms, conditions, fees, charges and normal lending criteria apply. Not available for a self-managed superannuation fund.</p>
+<p style="margin: 0">Direct Investment Loan excludes managed funds as acceptable investments. The Leveraged Equities Margin Loan, Investment Funds Multiplier and Direct Investment Loan are issued by Leveraged Equities Limited ABN 26 051 629 282 AFSL 360118 as Lender and as a subsidiary of Bendigo and Adelaide Bank Limited ABN 11 068 049 178 AFSL 237879. Any obligation of the Lender, Sponsor or Nominee or money held in a Loan Account are not deposits with or liabilities of Bendigo and Adelaide Bank Limited.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; border-top: 1px solid var(--blue-700); padding-top: 20px">
+<span style="border: 1px dashed var(--blue-500); padding: 8px 14px; border-radius: 6px">[Bendigo Bank logo]</span>
+<a href="https://www.leveraged.com.au/policies/" style="color: #FFFFFF">Privacy policy</a>
+<a href="https://www.leveraged.com.au/policies/terms-of-use/" style="color: #FFFFFF">Terms of use</a>
+<a href="https://www.leveraged.com.au/policies/disclaimer/" style="color: #FFFFFF">Disclaimer</a>
+<a href="https://www.leveraged.com.au/important-notices/" style="color: #FFFFFF">Important notices</a>
+<a href="https://www.linkedin.com/company/leveraged-equities/" style="color: #FFFFFF">LinkedIn</a>
+</div>
+<p style="margin: 0">We acknowledge the Traditional Owners and Custodians of the land where we live, learn and work. We pay our respects to all First Nations Peoples and acknowledge Elders past and present.</p>
+<span>© 2026 Leveraged Equities Limited</span>
+</div>
+</footer>
+
+</div>
+</body></html>
