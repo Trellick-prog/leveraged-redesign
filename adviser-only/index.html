@@ -262,4 +262,8 @@ n.textContent=s?('Showing '+c+' contacts for '+s+'. Our Key Account Manager and 
 <span>Leveraged Equities Limited ABN 26 051 629 282 AFSL 360118 · © 2026 Leveraged Equities Limited</span>
 </div>
 </footer>
-</div></body></html>
+</div><script>
+(function(){const ds=[...document.querySelectorAll('.bdm details')];let sync=false;
+ds.forEach(d=>d.addEventListener('toggle',()=>{if(sync)return;sync=true;ds.forEach(x=>{if(x!==d)x.open=d.open});sync=false}));})();
+</script>
+</body></html>
