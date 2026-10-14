@@ -1,0 +1,200 @@
+<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>Adviser-only – Leveraged redesign concept</title>
+<meta name="description" content="Our commitment to service excellence and ease of doing business ensures our partners are fully supported with their gearing and investment strategies. As an adviser, you can expect a knowledgeable team to provide assistance from onboarding new customers through to account management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../design/colors.css">
+<style>
+body{margin:0;background:var(--grey-50)}
+a{color:var(--blue-800)}a:hover{color:var(--orange-700)}
+a:focus-visible,button:focus-visible,.table-wrap:focus-visible{outline:3px solid var(--color-focus-ring);outline-offset:2px;border-radius:4px}
+a[style*="--orange-600"]:hover{background:var(--orange-700)!important;color:#FFFFFF!important}
+.skip{position:absolute;left:-9999px;top:0;background:#FFFFFF;padding:12px 16px;z-index:10}.skip:focus{left:16px;top:16px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+.hero{background:var(--blue-800);color:#FFFFFF}
+.hero .wrap{padding:44px 24px 48px;display:grid;gap:14px}
+.crumb ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px;font-size:14px;color:var(--blue-200)}
+.crumb li+li::before{content:"/";margin-right:6px;color:var(--blue-300)}
+.crumb a{color:#FFFFFF}.crumb a:hover{color:var(--orange-300)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--orange-300);margin:0}
+.hero h1{margin:0;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:clamp(32px,4.6vw,50px);line-height:1.1;max-width:22ch;text-wrap:balance}
+.hero .meta{margin:0;color:var(--blue-200);font-size:15px;display:flex;flex-wrap:wrap;gap:6px 14px}
+.hero .meta span+span::before{content:"·";margin-right:14px}
+.hero .intro{margin:0;font-size:19px;line-height:1.55;color:var(--blue-100);max-width:62ch}
+/* article */
+.art{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:56px;padding-top:48px;padding-bottom:64px;align-items:start}
+.prose{max-width:70ch;overflow-wrap:break-word;min-width:0;font-size:18px;line-height:1.7;color:var(--grey-900)}
+.prose>*:first-child{margin-top:0}
+.prose p,.prose ul,.prose ol{margin:0 0 1.1em}
+.prose li{margin:.35em 0}
+.prose li::marker{color:var(--blue-700)}
+.prose h2{font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:28px;line-height:1.25;color:var(--blue-900);margin:1.8em 0 .55em}
+.prose h3{font-size:21px;line-height:1.35;color:var(--blue-900);margin:1.6em 0 .5em}
+.prose h4{font-size:18px;color:var(--blue-900);margin:1.4em 0 .4em}
+.prose strong{color:var(--grey-950)}
+.prose a{text-underline-offset:3px}
+.prose img{max-width:100%;height:auto;display:block;border-radius:8px;border:1px solid var(--grey-200);background:#FFFFFF;margin:8px 0}
+.prose figure{margin:1.6em 0}.prose figcaption{font-size:14px;color:var(--grey-600);margin-top:8px}
+.prose blockquote{margin:1.4em 0;padding:4px 0 4px 22px;border-left:3px solid var(--orange-500);color:var(--grey-800);font-style:italic}
+.lead{font-size:20px;line-height:1.6;color:var(--grey-800)}
+.table-wrap{overflow-x:auto;margin:1.4em 0 1.6em;border:1px solid var(--grey-200);border-radius:12px;background:#FFFFFF}
+.prose table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45;font-variant-numeric:tabular-nums lining-nums}
+.prose th,.prose td{padding:11px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--grey-100)}
+.prose thead th,.prose thead td{background:var(--blue-50);color:var(--blue-900);font-weight:700;border-bottom:1px solid var(--grey-200);font-size:14px}
+.prose tbody th{font-weight:600;color:var(--grey-900)}
+.prose tbody tr:last-child>*{border-bottom:0}
+.prose .num{text-align:right;white-space:nowrap}.prose .ctr{text-align:center}
+.prose td p,.prose th p{margin:0}
+.case{background:#FFFFFF;border:1px solid var(--grey-200);border-left:4px solid var(--blue-800);border-radius:12px;padding:22px 26px;margin:1.8em 0}
+.case>*:last-child{margin-bottom:0}
+.case-label,.case .case-title{font-family:'Manrope',sans-serif;font-size:13px!important;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--orange-700)!important;margin:0 0 .8em!important;line-height:1.4!important}
+.case .table-wrap{border-color:var(--grey-200)}
+.notes{margin-top:44px;background:var(--grey-100);border-radius:12px;padding:24px 26px;font-size:14px;line-height:1.65;color:var(--grey-700);max-width:70ch;box-sizing:border-box}
+.notes h2{margin:0 0 10px;font-size:17px;color:var(--grey-950);font-family:'Manrope',sans-serif}
+.notes p{margin:0 0 .8em}.notes p:last-child{margin:0}
+.side{position:sticky;top:24px;display:grid;gap:18px}
+.card{background:#FFFFFF;border:1px solid var(--grey-200);border-radius:14px;padding:24px}
+.card h2{margin:0 0 8px;font-family:'Source Serif 4',Georgia,serif;font-size:22px;color:var(--blue-900)}
+.card p{margin:0 0 14px;color:var(--grey-700);line-height:1.55;font-size:15px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:8px;font-weight:700;text-decoration:none;box-sizing:border-box}
+.btn-primary{background:var(--orange-600);color:#FFFFFF}.btn-primary:hover{background:var(--orange-700);color:#FFFFFF}
+.btn-ghost{border:2px solid var(--blue-800);color:var(--blue-800)}.btn-ghost:hover{background:var(--blue-800);color:#FFFFFF}
+.card .btns{display:grid;gap:10px}
+.card .phone{font-size:22px;font-weight:800;text-decoration:none;display:inline-block;margin-bottom:4px}
+.card small{display:block;color:var(--grey-600);font-size:13px;margin-bottom:14px}
+.tagline{font-size:14px;color:var(--grey-600)}.tagline a{font-weight:700}
+.more{background:#FFFFFF;border-top:1px solid var(--grey-200)}
+.more .wrap{padding:56px 24px 64px}
+.more h2{margin:0 0 24px;font-family:'Source Serif 4',Georgia,serif;font-size:30px;color:var(--blue-900)}
+/* cards grid */
+.grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.acard{height:100%;box-sizing:border-box;background:#FFFFFF;border:1px solid var(--grey-200);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:10px;position:relative;transition:border-color .15s,box-shadow .15s}
+.acard:hover{border-color:var(--blue-400);box-shadow:0 2px 10px rgba(0,27,54,.07)}
+.acard .cat{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--orange-700)}
+.acard h3{margin:0;font-size:19px;line-height:1.35;color:var(--blue-900)}
+.acard h3 a{text-decoration:none;color:inherit}
+.acard h3 a::after{content:"";position:absolute;inset:0;border-radius:14px}
+.acard h3 a:focus-visible{outline:none}.acard:focus-within{outline:3px solid var(--color-focus-ring);outline-offset:2px}
+.acard p{margin:0;color:var(--grey-700);font-size:15px;line-height:1.55}
+.acard .m{margin-top:auto;padding-top:6px;font-size:13px;color:var(--grey-600)}
+/* index */
+.listing{padding-top:44px;padding-bottom:64px}
+.bar{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;justify-content:space-between;margin-bottom:24px}
+.bar h2{margin:0;font-family:'Source Serif 4',Georgia,serif;font-size:30px;color:var(--blue-900)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;border:0}
+.chips legend{position:absolute;left:-9999px}
+.chips button{font:inherit;font-size:14px;font-weight:700;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--grey-300);background:#FFFFFF;color:var(--blue-900);cursor:pointer}
+.chips button:hover{border-color:var(--blue-800)}
+.chips button[aria-pressed="true"]{background:var(--blue-800);border-color:var(--blue-800);color:#FFFFFF}
+.chips .n{font-weight:600;opacity:.75;margin-left:4px}
+.count{font-size:14px;color:var(--grey-600);margin:0 0 16px}
+.intro-row{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px;margin-bottom:48px}
+.panel{background:#FFFFFF;border:1px solid var(--grey-200);border-radius:14px;padding:28px}
+.panel h2{margin:0 0 10px;font-family:'Source Serif 4',Georgia,serif;font-size:26px;color:var(--blue-900)}
+.panel h3{margin:18px 0 8px;font-size:16px;color:var(--blue-900)}
+.panel p{margin:0 0 12px;line-height:1.65;color:var(--grey-800)}
+.docs{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.docs a{display:flex;justify-content:space-between;gap:12px;align-items:center;min-height:44px;padding:8px 14px;border:1px solid var(--grey-200);border-radius:10px;text-decoration:none;font-weight:600;font-size:15px}
+.docs a:hover{border-color:var(--blue-800);color:var(--blue-800);background:var(--blue-50)}
+.docs .sz{flex:none;font-size:12px;font-weight:700;color:var(--grey-600);text-transform:uppercase;letter-spacing:.04em}
+.warn{font-size:14px;line-height:1.65;color:var(--grey-700);background:var(--grey-100);border-radius:12px;padding:20px 24px;margin-top:40px}
+.warn p{margin:0 0 .7em}.warn p:last-child{margin:0}
+@media (max-width:960px){.art{grid-template-columns:minmax(0,1fr);gap:40px}.side{position:static}.intro-row{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:600px){.prose{font-size:17px}.prose h2{font-size:24px}.case{padding:18px 18px}.hero .wrap{padding:32px 24px 36px}.grid{grid-template-columns:1fr}.prose th,.prose td{padding:9px 10px}}
+</style>
+</head><body><div style="background:var(--warning-50);color:var(--warning-800);text-align:center;padding:10px;font:600 14px system-ui">Design concept only – not the official Leveraged website. Visit <a href="https://www.leveraged.com.au" style="color:var(--warning-800)">leveraged.com.au</a>.</div>
+<a class="skip" href="#main">Skip to content</a>
+<div style="font-family: 'Manrope', 'Segoe UI', system-ui, sans-serif; color: var(--grey-950); background: var(--grey-50)">
+
+<div style="background: var(--blue-800); color: #FFFFFF; font-size: 14px">
+<div style="max-width: 1240px; margin: 0 auto; padding: 10px 24px; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center">
+<span>Gearing can magnify losses as well as gains. Read the PDS before investing.</span>
+<div style="display: flex; gap: 20px; flex-wrap: wrap">
+<a href="#" style="color: #FFFFFF">Security centre</a>
+<a href="#" style="color: #FFFFFF">About us</a>
+<a href="../advisers/index.html" style="color: #FFFFFF">Adviser-only</a>
+<a href="#" style="color: #FFFFFF">Wholesale</a>
+</div>
+</div>
+</div>
+
+<header style="background: #FFFFFF; border-bottom: 1px solid var(--grey-200)">
+<div style="max-width: 1240px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between">
+<a href="../index.html" style="display: inline-flex; align-items: center"><img src="../website-assets/leveraged-logo.webp" alt="Leveraged" width="300" height="111" style="height: 48px; width: auto; display: block"></a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 28px; font-weight: 600; font-size: 16px">
+<a href="../products/index.html" style="text-decoration: none">Products</a>
+<a href="../rates/index.html" style="text-decoration: none">Rates &amp; fees</a>
+<a href="../index.html#start" style="text-decoration: none">How to apply</a>
+<a href="../support/index.html" style="text-decoration: none">Support</a>
+<a href="../educational-insights/index.html" style="text-decoration: none">Insights</a>
+</nav>
+<div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap">
+<a href="tel:1300307807" style="font-weight: 700; text-decoration: none">1300 307 807</a>
+<a href="#" style="min-height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border: 2px solid var(--blue-800); border-radius: 8px; font-weight: 700; text-decoration: none">Log in</a>
+<a href="#" style="min-height: 44px; display: inline-flex; align-items: center; padding: 0 22px; background: var(--orange-600); color: #FFFFFF; border-radius: 8px; font-weight: 700; text-decoration: none">Apply now</a>
+</div>
+</div>
+</header>
+
+<main id="main">
+<section class="hero"><div class="wrap">
+<nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li aria-current="page">Adviser-only</li></ol></nav>
+<p class="eyebrow">For financial advisers</p>
+<h1>Adviser-only</h1>
+<p class="intro">Our commitment to service excellence and ease of doing business ensures our partners are fully supported with their gearing and investment strategies.</p>
+<p class="intro">As an adviser, you can expect a knowledgeable team to provide assistance from onboarding new customers through to account management.</p>
+</div></section>
+<div class="wrap listing">
+<div class="intro-row">
+<section class="panel" aria-labelledby="res-h"><h2 id="res-h">Adviser-only resources</h2><h3>Resources</h3><ul class="docs"></ul></section>
+<section class="panel" aria-labelledby="team-h"><h2 id="team-h">Our team</h2><p>You can expect premium service from our experienced and knowledgeable team. <a href="https://www.leveraged.com.au/siteassets/adviser-only/leveraged-meet-the-team-flyer.pdf">Meet the team flyer</a>.</p>
+<p>Contact details for each business development manager, by state, are on the <a href="https://www.leveraged.com.au/advisers/">live Adviser-only page</a>.</p>
+<p><a class="btn btn-primary" href="tel:1300307807">Call 1300 307 807</a></p></section>
+</div>
+<section aria-labelledby="list-h"><div class="bar"><h2 id="list-h">Adviser articles</h2>
+<fieldset class="chips"><legend>Filter by topic</legend><button type="button" data-t="" aria-pressed="true">All<span class="n">15</span></button><button type="button" data-t="Investor insights" aria-pressed="false">Investor insights<span class="n">7</span></button><button type="button" data-t="Insights" aria-pressed="false">Insights<span class="n">2</span></button><button type="button" data-t="Investment strategies" aria-pressed="false">Investment strategies<span class="n">4</span></button><button type="button" data-t="Adviser categories" aria-pressed="false">Adviser categories<span class="n">2</span></button></fieldset></div>
+<p class="count" id="count" aria-live="polite">15 articles</p>
+<ul class="grid" id="list"><li class="acard-li" data-cat="Investor insights"><article class="acard"><span class="cat">Investor insights</span><h3><a href="investing-trends-2020/index.html">Investing Trends of 2020</a></h3><p>​​​​​​​ Interested to find out the most common shares that were held and traded using a margin loan from Leveraged in 2020? We’ve compiled* lists of…</p><span class="m">11 March 2021 · 2 min read</span></article></li><li class="acard-li" data-cat="Insights"><article class="acard"><span class="cat">Insights</span><h3><a href="investing-trends-2020-investors/index.html">Investing trends 2020</a></h3><p>Interested to find out the most common shares that were held and traded using a margin loan from Leveraged in 2020? We’ve compiled* lists of the…</p><span class="m">11 March 2021 · 2 min read</span></article></li><li class="acard-li" data-cat="Investor insights"><article class="acard"><span class="cat">Investor insights</span><h3><a href="executive-interviews/summer-reading-guide/index.html">Summer reading guide</a></h3><p>Summer Reading guide brought to you by our team…. “ The Deficit Myth ” by Stephanie Kelton “Halliday Wine Companion 2021” by James Halliday “ Speeches…</p><span class="m">14 December 2020 · 1 min read</span></article></li><li class="acard-li" data-cat="Investor insights"><article class="acard"><span class="cat">Investor insights</span><h3><a href="santa-claus-rally--fact-or-fiction-2020/index.html">Santa Claus Rally – Fact or Fiction?</a></h3><p>By Jonathan Agar - Business Assessment &amp; Risk Analyst - Leveraged The concept of a ‘Santa Claus or Christmas rally’ is not new to financial markets…</p><span class="m">10 December 2020 · 2 min read</span></article></li><li class="acard-li" data-cat="Investor insights"><article class="acard"><span class="cat">Investor insights</span><h3><a href="executive-interviews/index.html">Ready for 2021?</a></h3><p>As we draw a close on the end of the year, hear from our executive and leadership team on their reflections on the year that was…</p><span class="m">10 December 2020 · 9 min read</span></article></li><li class="acard-li" data-cat="Investor insights"><article class="acard"><span class="cat">Investor insights</span><h3><a href="cognitive-biases-awareness-can-help-investors-avoid-mistakes/index.html">Cognitive Biases: awareness can help investors avoid mistakes</a></h3><p>Investors are facing complex decisions in response to current market fluctuations. Success won’t come from knowing more – predicting the market can be difficult, even for…</p><span class="m">9 September 2020 · 4 min read</span></article></li><li class="acard-li" data-cat="Investment strategies"><article class="acard"><span class="cat">Investment strategies</span><h3><a href="finding-opportunities-during-this-crucial-reporting-season/index.html">Finding opportunities during this crucial reporting season</a></h3><p>This August reporting season will be the first time investors can see the impact of the pandemic on company profitability. The market may react in surprising…</p><span class="m">10 August 2020 · 4 min read</span></article></li><li class="acard-li" data-cat="Investor insights"><article class="acard"><span class="cat">Investor insights</span><h3><a href="with-dividend-income-falling-whats-the-alternative/index.html">With dividend income falling, what’s the alternative?</a></h3><p>Australian investors are faced with significant reductions in dividends as blue-chip stocks defer or cancel their dividends. The economic impact and ongoing uncertainty presented by COVID-19…</p><span class="m">13 July 2020 · 4 min read</span></article></li><li class="acard-li" data-cat="Investment strategies"><article class="acard"><span class="cat">Investment strategies</span><h3><a href="your-mattress-is-not-an-investment-choice/index.html">Your mattress is not an investment choice</a></h3><p>Investing is not an exact science, but even in times of increased uncertainty, doing nothing still has consequences for your future self. Warren Buffet&#x27;s grandfather gave…</p><span class="m">5 June 2020 · 2 min read</span></article></li><li class="acard-li" data-cat="Investment strategies"><article class="acard"><span class="cat">Investment strategies</span><h3><a href="tactics-for-turbulent-times/index.html">Tactics for turbulent times</a></h3><p>Investors are re-learning old lessons in new market conditions. To say current conditions are unprecedented may be to understate the challenge COVID-19 poses to all aspects…</p><span class="m">8 May 2020 · 3 min read</span></article></li><li class="acard-li" data-cat="Insights"><article class="acard"><span class="cat">Insights</span><h3><a href="making-a-bear-market-more-bearable/index.html">Making a bear market more bearable</a></h3><p>David Robertson, Head of Economic and Market Research, Bendigo and Adelaide Bank COVID-19 has been the sole driver of the markets this year, being the ultimate…</p><span class="m">4 April 2020 · 3 min read</span></article></li><li class="acard-li" data-cat="Investment strategies"><article class="acard"><span class="cat">Investment strategies</span><h3><a href="cross-contagion/index.html">Cross Contagion</a></h3><p>Equity markets react to concerns about COVID-19 pandemic Markets are reacting to news that COVID-19 seems to be spreading outside of China, a precondition for calling…</p><span class="m">9 March 2020 · 1 min read</span></article></li><li class="acard-li" data-cat="Investor insights"><article class="acard"><span class="cat">Investor insights</span><h3><a href="rise-of-fintech/index.html">Rise of FinTech</a></h3><p>Redefining how we bank, pay, borrow and save. A large Australian bank in its 2019 annual report* stated being the best digital bank is a strategic…</p><span class="m">6 February 2020 · 3 min read</span></article></li><li class="acard-li" data-cat="Adviser categories"><article class="acard"><span class="cat">Adviser categories</span><h3><a href="pinball-currency/index.html">Pinball Currency</a></h3><p>Watch the Australian Dollar for more than holiday planning. The Australian Dollar (AU$) is the 1 fifth most traded currency globally and one of the 2…</p><span class="m">7 November 2019 · 4 min read</span></article></li><li class="acard-li" data-cat="Adviser categories"><article class="acard"><span class="cat">Adviser categories</span><h3><a href="is-cannabis-the-next-big-asx-opportunity/index.html">Is cannabis the next big ASX opportunity?</a></h3><p>Cannabis or (marijuana) has become a hot topic across the globe, capturing the attention of companies and investors alike. The Australian Stock Exchange (ASX) has seen…</p><span class="m">27 September 2019 · 3 min read</span></article></li></ul></section>
+<div class="warn" role="note"><p>Gearing involves risk. It can magnify your returns; however, it may also magnify your losses.</p>
+<p>The Leveraged Equities Margin Loan, Investment Funds Multiplier and Direct Investment Loan are issued by Leveraged Equities Limited (ABN 26 051 629 282, AFSL 360118) as Lender and as a subsidiary of Bendigo and Adelaide Bank Limited (ABN 11 068 049 178, AFSL 237879). No warranty or guarantee is given by the Lender, any other party named on this website or any of their respective related bodies corporate for the performance of any investment acquired using money borrowed through the Margin Loan/Investment Funds Multiplier/ Direct Investment Loan or any investment on the list of Acceptable Investments. Any obligation of the Lender, Sponsor or Nominee or money held in a Loan Account are not deposits with or liabilities of Bendigo and Adelaide Bank Limited.</p>
+<p>The information on this website contains general advice only and does not take into account your personal objectives, financial situation or needs. This information does not constitute financial or tax advice. We recommend that you obtain your own independent professional and tax advice on the risks and suitability of this type of investment and to determine whether your interest costs will in fact be fully deductible in the current financial year in your particular circumstance. Terms, conditions, fees, charges and normal lending criteria apply.</p>
+<p>Please consider your personal circumstances, consult a professional financial adviser and read the Product Disclosure Statement and Incorporated Statements (together, the 'PDS') and Product Guide, together with the terms and conditions applying to the product or service, before making an investment decision. To obtain a copy of the PDS and relevant information please call <a href="tel:1300307807">1300 307 807</a>, visit the individual product pages on this website, or contact your financial adviser. Not available for a self-managed superannuation fund.</p></div>
+</div>
+</main>
+<section id="contact" aria-labelledby="contact-h" style="background: var(--blue-800); color: #FFFFFF">
+<div style="max-width: 1240px; margin: 0 auto; padding: 80px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px"><h2 id="contact-h" style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 36px">Talk to a specialist</h2><p style="margin: 0; color: var(--blue-200); line-height: 1.6">Mon–Fri, 8:30am–5:30pm AEST/AEDT</p></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Phone</h3><a href="tel:1300307807" style="color: #FFFFFF; font-size: 24px; font-weight: 700">1300 307 807</a><span style="color: var(--blue-200)">Overseas: <a href="tel:+61282828282" style="color: #FFFFFF">+61 2 8282 8282</a></span></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Online</h3><a href="mailto:customerservice@leveraged.com.au" style="color: #FFFFFF">customerservice@leveraged.com.au</a><a href="../contact-us/index.html#EnquireNow" style="color: #FFFFFF; font-weight: 700">Send an enquiry →</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 18px">Mail</h3><span style="color: var(--blue-200); line-height: 1.6">GPO Box 5388<br>Sydney NSW 2001</span></div>
+</div>
+</section>
+
+<footer style="background: var(--blue-950); color: var(--grey-300); font-size: 14px; line-height: 1.65">
+<div style="max-width: 1240px; margin: 0 auto; padding: 56px 24px; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; color: #FFFFFF; font-size: 18px">Things you should know</h2>
+<p style="margin: 0"><strong style="color: #FFFFFF">Gearing involves risk.</strong> It can magnify returns but may also magnify losses. Information on this site is general advice only and doesn't consider your objectives, financial situation or needs. Consider the PDS, Product Guide and terms before deciding, and seek independent financial and tax advice. Not available for SMSFs.</p>
+<p style="margin: 0">International securities must be held on an approved investment platform. Direct Investment Loan excludes managed funds. Products issued by Leveraged Equities Limited ABN 26 051 629 282 AFSL 360118, a subsidiary of Bendigo and Adelaide Bank Limited ABN 11 068 049 178 AFSL 237879. Loan obligations are not deposits with or liabilities of Bendigo and Adelaide Bank Limited.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; border-top: 1px solid var(--blue-800); padding-top: 20px">
+<span style="border: 1px dashed var(--blue-500); padding: 8px 14px; border-radius: 6px">[Bendigo Bank logo]</span>
+<a href="#" style="color: #FFFFFF">Privacy policy</a>
+<a href="#" style="color: #FFFFFF">Terms of use</a>
+<a href="#" style="color: #FFFFFF">Disclaimer</a>
+<a href="#" style="color: #FFFFFF">Important notices</a>
+<a href="#" style="color: #FFFFFF">LinkedIn</a>
+</div>
+<p style="margin: 0">We acknowledge the Traditional Owners and Custodians of the land where we live, learn and work, and pay our respects to Elders past and present.</p>
+<span>© 2026 Leveraged Equities Limited</span>
+</div>
+</footer>
+
+</div>
+<script>
+(function(){
+var btns=[].slice.call(document.querySelectorAll('.chips button')),items=[].slice.call(document.querySelectorAll('#list .acard-li')),cnt=document.getElementById('count');
+function apply(t){btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.t===t))});var n=0;items.forEach(function(li){var on=!t||li.dataset.cat===t;li.hidden=!on;if(on)n++});cnt.textContent=n+(n===1?' article':' articles')+(t?' in '+t:'');}
+btns.forEach(function(b){b.addEventListener('click',function(){apply(b.dataset.t);try{var u=new URL(location.href);if(b.dataset.t)u.searchParams.set('topic',b.dataset.t);else u.searchParams.delete('topic');history.replaceState(null,'',u)}catch(e){}})});
+var q='';try{q=new URLSearchParams(location.search).get('topic')||''}catch(e){}
+if(!btns.some(function(b){return b.dataset.t===q}))q='';apply(q);
+})();
+</script></body></html>
