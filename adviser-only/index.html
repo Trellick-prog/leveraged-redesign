@@ -126,6 +126,16 @@ details>div p{margin:0 0 10px}details>div ul{margin:0 0 10px;padding-left:20px}
 .arts a:hover{border-color:var(--blue-800)}
 @media (max-width:560px){.bdms{grid-template-columns:1fr}.bdm{grid-template-columns:84px minmax(0,1fr);gap:14px;padding:16px}.bdm img{width:84px;height:84px}}
 </style>
+<style>
+.adv-jump{position:sticky;top:0;z-index:20;background:#FFFFFF;border-bottom:1px solid var(--grey-200);box-shadow:0 2px 10px rgba(0,25,54,.06)}
+.adv-jump .fp{display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;padding-top:0;padding-bottom:0}
+.adv-jump .fp::-webkit-scrollbar{display:none}
+.adv-jump a{flex:none;display:inline-flex;align-items:center;min-height:52px;padding:0 14px;font-weight:600;text-decoration:none;white-space:nowrap;color:var(--blue-800);border-bottom:3px solid transparent}
+.adv-jump a:hover{color:var(--orange-700)}
+nav.jump.adv-jump a.is-active{background:none;box-shadow:none;border-radius:0;border-bottom-color:var(--blue-800);font-weight:700}
+.adv-jump .jump-cta{margin-left:auto;color:var(--orange-700)}
+.adv-body .sec{scroll-margin-top:72px!important}
+</style>
 </head><body><div style="background:var(--warning-50);color:var(--warning-800);text-align:center;padding:10px;font:600 14px system-ui">Design concept only – not the official Leveraged website. Visit <a href="https://www.leveraged.com.au/" style="color:var(--warning-800)">leveraged.com.au</a>.</div>
 <div style="font-family: 'Manrope', 'Segoe UI', system-ui, sans-serif; color: var(--grey-950); background: var(--grey-50)">
 <a href="#main" style="position:absolute;left:-9999px" onfocus="this.style.left='8px'" onblur="this.style.left='-9999px'">Skip to main content</a>
@@ -167,6 +177,7 @@ details>div p{margin:0 0 10px}details>div ul{margin:0 0 10px;padding-left:20px}
 <div class="acts"><a class="btn btn-p" href="https://www.leveragedonline.com.au/" target="_blank" rel="noopener">Leveraged Online login</a><a class="btn btn-o" href="#team">Find your BDM</a><a class="btn btn-o" href="#links">Adviser quick links</a></div>
 <a class="hero-team" href="#team"><ul><li><img src="../website-assets/advisers/elizabeth-perrella.webp" alt="" width="96" height="96"></li><li><img src="../website-assets/advisers/brendan-hendry.webp" alt="" width="96" height="96"></li><li><img src="../website-assets/advisers/michael-mcfarlane.webp" alt="" width="96" height="96"></li><li><img src="../website-assets/advisers/neil-gomersall.webp" alt="" width="96" height="96"></li><li><img src="../website-assets/advisers/darren-messer.webp" alt="" width="96" height="96"></li><li><img src="../website-assets/advisers/young-ngai.webp" alt="" width="96" height="96"></li></ul><span>Meet your adviser team ↓</span></a>
 </div></section>
+<nav class="jump adv-jump" aria-label="On this page"><div class="fp"><a href="#team">Your adviser team</a><a href="#links">Quick links</a><a href="#resources">Resources</a><a href="#insights">Insights</a><a class="jump-cta" href="https://www.leveragedonline.com.au/" target="_blank" rel="noopener">Leveraged Online login ↗</a></div></nav>
 <div class="fp adv-body">
 <section class="sec" id="team" aria-labelledby="team-h">
 <div class="sec-head"><div><h2 id="team-h">Your adviser team</h2><p class="lead">An experienced team supports you from onboarding new customers through to account management. Choose your state to find your Business Development Manager.</p></div>
@@ -266,4 +277,9 @@ n.textContent=s?('Showing '+c+' contacts for '+s+'. Our Key Account Manager and 
 (function(){const ds=[...document.querySelectorAll('.bdm details')];let sync=false;
 ds.forEach(d=>d.addEventListener('toggle',()=>{if(sync)return;sync=true;ds.forEach(x=>{if(x!==d)x.open=d.open});sync=false}));})();
 </script>
+<script>
+(function(){const bar=document.querySelector('.adv-jump .fp');if(!bar)return;let last=null;
+new MutationObserver(()=>{const a=bar.querySelector('a.is-active');if(a&&a!==last){last=a;bar.scrollTo({left:a.offsetLeft-16,behavior:'smooth'})}}).observe(bar,{subtree:true,attributes:true,attributeFilter:['class']});})();
+</script>
+<script src="../design/scrollspy.js" defer></script>
 </body></html>
