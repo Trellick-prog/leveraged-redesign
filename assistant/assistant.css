@@ -1,0 +1,38 @@
+.lva-launch{position:fixed;right:20px;bottom:20px;z-index:1000;display:inline-flex;align-items:center;gap:8px;min-height:52px;padding:0 20px;border:0;border-radius:999px;background:var(--blue-800,#003F72);color:#FFFFFF;font:700 15px/1 'Manrope','Segoe UI',system-ui,sans-serif;cursor:pointer;box-shadow:0 8px 24px rgba(0,25,54,.28)}
+.lva-launch:hover{background:var(--blue-900,#002C52)}
+.lva-launch:focus-visible{outline:3px solid var(--orange-300,#FDA98C);outline-offset:3px}
+.lva-launch.lva-open span{display:none}
+.lva-panel{position:fixed;right:20px;bottom:84px;z-index:1001;width:400px;max-width:calc(100vw - 32px);height:600px;max-height:calc(100vh - 110px);display:flex;flex-direction:column;background:#FFFFFF;border-radius:16px;box-shadow:0 18px 48px rgba(0,25,54,.3);overflow:hidden;font:15px/1.5 'Manrope','Segoe UI',system-ui,sans-serif;color:var(--grey-950,#171B20)}
+.lva-panel[hidden]{display:none}
+.lva-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:16px 18px;background:var(--blue-800,#003F72);color:#FFFFFF}
+.lva-head h2{margin:0;font-size:17px;font-weight:800}
+.lva-head p{margin:2px 0 0;font-size:13px;color:var(--blue-200,#C7DDF6)}
+.lva-x{border:0;background:transparent;color:#FFFFFF;font-size:26px;line-height:1;cursor:pointer;width:36px;height:36px;border-radius:8px}
+.lva-x:hover,.lva-x:focus-visible{background:rgba(255,255,255,.15);outline:none}
+.lva-log{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px;background:var(--grey-50,#F6F7F8)}
+.lva-msg{max-width:92%;padding:12px 14px;border-radius:14px}
+.lva-msg p{margin:0 0 8px}.lva-msg p:last-child{margin-bottom:0}
+.lva-bot{align-self:flex-start;background:#FFFFFF;border:1px solid var(--grey-200,#D7DBDF);border-bottom-left-radius:4px}
+.lva-user{align-self:flex-end;background:var(--blue-800,#003F72);color:#FFFFFF;border-bottom-right-radius:4px}
+.lva-q-title{font-weight:800}
+.lva-msg ol{margin:6px 0 8px;padding-left:20px}.lva-msg li{margin-bottom:4px}
+.lva-notes{margin:6px 0 8px;padding:10px 12px 10px 28px;background:var(--orange-50,#FFF4F1);border-radius:8px;font-size:14px}
+.lva-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.lva-links a{display:inline-flex;align-items:center;min-height:36px;padding:0 12px;border:1.5px solid var(--blue-800,#003F72);border-radius:8px;color:var(--blue-800,#003F72);font-weight:700;font-size:13px;text-decoration:none}
+.lva-links a:hover{background:var(--blue-800,#003F72);color:#FFFFFF}
+.lva-src{font-size:12px;color:var(--grey-600,#5C646D)}
+.lva-related{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px;font-size:13px;color:var(--grey-600,#5C646D)}
+.lva-related button,.lva-chips button,.lva-fb button{font:inherit;font-size:13px;border:1px solid var(--grey-300,#BCC2C8);background:#FFFFFF;border-radius:999px;padding:6px 10px;cursor:pointer;color:var(--blue-800,#003F72);text-align:left}
+.lva-related button:hover,.lva-chips button:hover,.lva-fb button:hover{border-color:var(--blue-800,#003F72)}
+.lva-fb{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px;padding-top:8px;border-top:1px solid var(--grey-100,#EBEDEF);font-size:13px;color:var(--grey-600,#5C646D)}
+.lva-chips{display:flex;flex-wrap:wrap;gap:6px;padding:10px 16px 0;background:var(--grey-50,#F6F7F8)}
+.lva-chips[hidden]{display:none}
+.lva-form{display:flex;gap:8px;padding:12px 16px 6px;border-top:1px solid var(--grey-200,#D7DBDF);background:#FFFFFF}
+.lva-form input{flex:1;min-width:0;min-height:44px;border:1.5px solid var(--grey-300,#BCC2C8);border-radius:10px;padding:0 12px;font:inherit}
+.lva-form input:focus{outline:3px solid var(--blue-400,#73A3D5);outline-offset:1px;border-color:var(--blue-800,#003F72)}
+.lva-form button{min-width:44px;min-height:44px;border:0;border-radius:10px;background:var(--orange-600,#C94502);color:#FFFFFF;font-size:20px;font-weight:800;cursor:pointer}
+.lva-fine{margin:0;padding:0 16px 12px;font-size:11.5px;color:var(--grey-600,#5C646D);background:#FFFFFF}
+.lva-typing{color:var(--grey-600,#5C646D);font-style:italic}
+.lva-sr{position:absolute;left:-9999px}
+@media (max-width:520px){.lva-launch{right:12px;bottom:12px;padding:0 16px}.lva-panel{right:0;left:0;bottom:0;width:100%;max-width:100%;height:85vh;max-height:85vh;border-radius:16px 16px 0 0}}
+@media print{.lva-launch,.lva-panel{display:none!important}}

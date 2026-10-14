@@ -283,4 +283,5 @@ ds.forEach(d=>d.addEventListener('toggle',()=>{if(sync)return;sync=true;ds.forEa
 new MutationObserver(()=>{const a=bar.querySelector('a.is-active');if(a&&a!==last){last=a;bar.scrollTo({left:a.offsetLeft-16,behavior:'smooth'})}}).observe(bar,{subtree:true,attributes:true,attributeFilter:['class']});})();
 </script>
 <script src="../design/scrollspy.js" defer></script>
+<script src="../assistant/assistant.js" defer></script>
 </body></html>

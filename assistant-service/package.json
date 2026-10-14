@@ -1,0 +1,17 @@
+{
+  "name": "leveraged-assistant-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI answers and question logging for the Leveraged site assistant (Cloudflare Worker).",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3"
+  }
+}

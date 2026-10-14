@@ -1,0 +1,342 @@
+[
+  {
+    "id": "lodge-srn",
+    "title": "How do I transfer issuer-sponsored shares (SRN) to my margin loan?",
+    "group": "Transferring shares",
+    "keywords": [
+      "srn",
+      "issuer sponsored",
+      "issuer-sponsored",
+      "transfer shares",
+      "lodge shares",
+      "move shares",
+      "security reference number",
+      "add shares",
+      "security transfer",
+      "share registry",
+      "computershare",
+      "link market"
+    ],
+    "answer": "Use the Security Transfer Form (LE044) to lodge issuer-sponsored shares held under an SRN to your Margin Loan.",
+    "steps": [
+      "Section 1 (Facility Details): enter your Loan Account Name and Loan Account Number.",
+      "Section 2 (Equity Instructions): tick 'Lodge equities (shares) to the Margin Loan'.",
+      "Section 3 (Lodgement Instructions): enter your Margin Loan HIN and registered name, then tick 'Lodge Issuer Sponsored security to the Margin Loan Facility' and list the security code, SRN and number of shares.",
+      "Attach your latest issuer-sponsored holding statement for each security.",
+      "Section 5: every security owner signs and dates the form. Companies and trusts indicate the signing capacity.",
+      "Send it by mail to Leveraged, GPO Box 5388, Sydney NSW 2001, or email customerservice@leveraged.com.au."
+    ],
+    "notes": [
+      "If the shares are not held in the Borrower's or a Guarantor's name, you also need an original Australian Standard Transfer Form to change ownership.",
+      "A fee may be payable when a transfer results in a change of ownership. See the fee schedule."
+    ],
+    "links": [
+      {
+        "label": "Security Transfer Form (PDF)",
+        "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-security-transfer-form.pdf"
+      },
+      {
+        "label": "Australian Standard Transfer Form (PDF)",
+        "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-australian-standard-transfer-form.pdf"
+      },
+      {
+        "label": "Fees",
+        "href": "fees/index.html"
+      }
+    ],
+    "source": "Security Transfer Form LE044 (08/25)"
+  },
+  {
+    "id": "lodge-broker",
+    "title": "How do I transfer broker-sponsored shares (HIN) to my margin loan?",
+    "group": "Transferring shares",
+    "keywords": [
+      "broker sponsored",
+      "broker-sponsored",
+      "hin",
+      "chess",
+      "transfer from broker",
+      "commsec",
+      "lodge hin",
+      "move my hin",
+      "transfer shares"
+    ],
+    "answer": "Use the Security Transfer Form (LE044). You can lodge a whole broker-sponsored HIN, or selected securities from it.",
+    "steps": [
+      "Section 1: enter your Loan Account Name and Loan Account Number.",
+      "Section 2: tick 'Lodge equities (shares) to the Margin Loan'.",
+      "Section 3: enter your Margin Loan HIN and registered name, then choose one option:",
+      "Option A: 'Lodge following broker sponsored HIN'. This moves every holding in that HIN and keeps your existing TFN and dividend instructions. Enter the broker name, broker account number and broker HIN.",
+      "Option B: 'Transfer the following Broker Sponsored security'. List the broker details, security code and number of shares. You may need to re-nominate TFN and dividend instructions.",
+      "Section 5: every security owner signs and dates the form.",
+      "Send it by mail to Leveraged, GPO Box 5388, Sydney NSW 2001, or email customerservice@leveraged.com.au."
+    ],
+    "notes": [
+      "If the shares are not held in the Borrower's or a Guarantor's name, you also need an original Australian Standard Transfer Form."
+    ],
+    "links": [
+      {
+        "label": "Security Transfer Form (PDF)",
+        "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-security-transfer-form.pdf"
+      }
+    ],
+    "source": "Security Transfer Form LE044 (08/25)"
+  },
+  {
+    "id": "release-shares",
+    "title": "How do I release shares from my margin loan?",
+    "group": "Transferring shares",
+    "keywords": [
+      "release shares",
+      "withdraw shares",
+      "remove shares",
+      "transfer out",
+      "move shares out",
+      "release equities",
+      "issuer sponsor"
+    ],
+    "answer": "Use the Security Transfer Form (LE044), section 4 'Release Equity from the Margin Loan'.",
+    "steps": [
+      "Section 1: enter your Loan Account Name and Loan Account Number.",
+      "Section 2: tick 'Release equities from the Margin Loan'.",
+      "Section 4: enter the Margin Loan HIN and registered name, then choose to release the whole broker-sponsored HIN, all holdings to a broker-sponsored account, selected securities to broker-sponsored, or a security to issuer-sponsored (with its SRN).",
+      "Section 5: every security owner signs and dates the form.",
+      "Send it by mail or email to Leveraged."
+    ],
+    "notes": [
+      "Releasing shares reduces the security behind your loan. Check your available funds and loan-to-value position first."
+    ],
+    "links": [
+      {
+        "label": "Security Transfer Form (PDF)",
+        "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-security-transfer-form.pdf"
+      },
+      {
+        "label": "How your margin loan numbers work",
+        "href": "calculations.html"
+      }
+    ],
+    "source": "Security Transfer Form LE044 (08/25)"
+  },
+  {
+    "id": "apply",
+    "title": "How do I apply for a loan?",
+    "group": "Applying",
+    "keywords": [
+      "apply",
+      "application",
+      "open a loan",
+      "new facility",
+      "open an account",
+      "sign up",
+      "get started",
+      "new loan"
+    ],
+    "answer": "Most people apply online in one sitting. Read the PDS for the product first. You can also talk to a Business Development Manager before you start.",
+    "steps": [
+      "Compare the Margin Loan, Investment Funds Multiplier and Direct Investment Loan.",
+      "Read the PDS and Product Guide for the loan you choose.",
+      "Complete the online application."
+    ],
+    "notes": [
+      "The Direct Investment Loan is available to individual and joint borrowers only, not companies or trusts.",
+      "Leveraged loans are not available to self-managed superannuation funds."
+    ],
+    "links": [
+      {
+        "label": "Apply online",
+        "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+      },
+      {
+        "label": "Compare products",
+        "href": "product-comparison.html"
+      },
+      {
+        "label": "Talk to Young (Direct BDM) 03 8633 1236",
+        "href": "tel:+61386331236"
+      }
+    ],
+    "source": "Product pages; product comparison"
+  },
+  {
+    "id": "dil-eligibility",
+    "title": "Who can apply for the Direct Investment Loan?",
+    "group": "Applying",
+    "keywords": [
+      "direct investment loan",
+      "dil",
+      "company",
+      "trust",
+      "joint",
+      "individual",
+      "eligible",
+      "who can apply"
+    ],
+    "answer": "The Direct Investment Loan is available to individual and joint borrowers only. It is not available to companies, trusts or self-managed superannuation funds. Managed funds are not acceptable investments for this loan, and the maximum credit limit is $500,000.",
+    "links": [
+      {
+        "label": "Direct Investment Loan",
+        "href": "products/direct-investment-loan/index.html"
+      },
+      {
+        "label": "Compare products",
+        "href": "product-comparison.html"
+      }
+    ],
+    "source": "Direct Investment Loan page"
+  },
+  {
+    "id": "rates",
+    "title": "What are your current interest rates?",
+    "group": "Rates and fees",
+    "keywords": [
+      "rate",
+      "rates",
+      "interest",
+      "variable",
+      "fixed",
+      "how much",
+      "cost",
+      "pricing",
+      "wholesale"
+    ],
+    "answer": "As at 07/10/2026 the standard variable rates are: Direct Investment Loan 8.59% p.a., Margin Loan 10.95% p.a., Investment Funds Multiplier 10.95% p.a. Fixed rates and Rewards Plus rates are on the rates page. Wholesale rates are available for eligible clients with facilities over $500,000. Contact your Business Development Manager to discuss them.",
+    "notes": [
+      "Rates are indicative and subject to change. The rate on your loan may be different."
+    ],
+    "links": [
+      {
+        "label": "Interest rates",
+        "href": "rates/index.html"
+      },
+      {
+        "label": "Fees",
+        "href": "fees/index.html"
+      },
+      {
+        "label": "Find your BDM",
+        "href": "adviser-only/index.html#team"
+      }
+    ],
+    "source": "Rates page (as at 07/10/2026)"
+  },
+  {
+    "id": "contact-bdm",
+    "title": "Who can I talk to about opening a new facility?",
+    "group": "Contact",
+    "keywords": [
+      "bdm",
+      "business development",
+      "talk to someone",
+      "speak",
+      "call",
+      "phone",
+      "contact",
+      "adviser",
+      "broker",
+      "young",
+      "new business",
+      "human",
+      "person"
+    ],
+    "answer": "For new direct clients, talk to Young Ngai, Business Development Manager for direct clients, on 03 8633 1236. Financial advisers can find their regional BDM on the Adviser-only page. For existing accounts, call 1300 307 807, Monday to Friday, 8:30am to 5:30pm AEST/AEDT.",
+    "links": [
+      {
+        "label": "Call Young 03 8633 1236",
+        "href": "tel:+61386331236"
+      },
+      {
+        "label": "Find your BDM",
+        "href": "adviser-only/index.html#team"
+      },
+      {
+        "label": "Contact us",
+        "href": "contact-us/index.html"
+      }
+    ],
+    "source": "Adviser-only and Contact us pages"
+  },
+  {
+    "id": "acceptable-investments",
+    "title": "What can I borrow against?",
+    "group": "Lending",
+    "keywords": [
+      "acceptable investments",
+      "approved",
+      "lending ratio",
+      "lvr",
+      "which shares",
+      "etf",
+      "borrow against",
+      "eligible securities",
+      "ail"
+    ],
+    "answer": "Each loan has its own acceptable investments list showing the eligible securities and their lending ratios. Check the recent changes list too. Lists can change at any time.",
+    "links": [
+      {
+        "label": "Acceptable investments lists",
+        "href": "forms.html#investments"
+      }
+    ],
+    "source": "Acceptable investments lists"
+  },
+  {
+    "id": "margin-call",
+    "title": "What is a margin call and what do I need to do?",
+    "group": "Lending",
+    "keywords": [
+      "margin call",
+      "buffer",
+      "24 hours",
+      "shortfall",
+      "market fall",
+      "sell",
+      "top up"
+    ],
+    "answer": "A margin call is made when your loan balance goes above your lending value plus the buffer. This usually happens when the market value of your investments falls, which lowers your lending value.",
+    "steps": [
+      "If you get a margin call you'll usually need to act within 24 hours.",
+      "Reduce the shortfall by repaying some of the loan, adding cash or acceptable investments, or selling investments.",
+      "If you don't act, Leveraged can sell investments for you."
+    ],
+    "notes": [
+      "Between your lending value and the buffer limit you can't draw more funds, but no margin call is made.",
+      "Keep your margin call contact details up to date so we can reach you quickly."
+    ],
+    "links": [
+      {
+        "label": "How it works: margin calls",
+        "href": "calculations.html#mc-h"
+      },
+      {
+        "label": "Update margin call contact details (PDF)",
+        "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-change-of-address-contact-and-margin-call-notification-details.pdf"
+      }
+    ],
+    "source": "How it works (calculations) page"
+  },
+  {
+    "id": "margin-calc",
+    "title": "How are lending value, available funds and margin calls worked out?",
+    "group": "Lending",
+    "keywords": [
+      "margin call",
+      "buffer",
+      "lending value",
+      "available funds",
+      "gearing",
+      "calculate",
+      "how it works",
+      "lvr",
+      "loan to value"
+    ],
+    "answer": "Lending value is each holding's market value multiplied by its lending ratio, added up. Available funds are the lower of your lending value and credit limit, minus your loan balance. The 'How it works' page has worked examples and a calculator.",
+    "links": [
+      {
+        "label": "How it works",
+        "href": "calculations.html"
+      }
+    ],
+    "source": "How it works (calculations) page"
+  }
+]

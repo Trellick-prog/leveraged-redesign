@@ -215,4 +215,5 @@ btns.forEach(function(b){b.addEventListener('click',function(){apply(b.dataset.t
 var q='';try{q=new URLSearchParams(location.search).get('topic')||''}catch(e){}
 if(!btns.some(function(b){return b.dataset.t===q}))q='';apply(q);
 })();
-</script></body></html>
+</script><script src="../assistant/assistant.js" defer></script>
+</body></html>

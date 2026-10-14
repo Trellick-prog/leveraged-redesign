@@ -1,0 +1,1442 @@
+{
+ "version": 1,
+ "entries": [
+  {
+   "id": "lodge-srn",
+   "title": "How do I transfer issuer-sponsored shares (SRN) to my margin loan?",
+   "group": "Transferring shares",
+   "keywords": [
+    "srn",
+    "issuer sponsored",
+    "issuer-sponsored",
+    "transfer shares",
+    "lodge shares",
+    "move shares",
+    "security reference number",
+    "add shares",
+    "security transfer",
+    "share registry",
+    "computershare",
+    "link market"
+   ],
+   "answer": "Use the Security Transfer Form (LE044) to lodge issuer-sponsored shares held under an SRN to your Margin Loan.",
+   "steps": [
+    "Section 1 (Facility Details): enter your Loan Account Name and Loan Account Number.",
+    "Section 2 (Equity Instructions): tick 'Lodge equities (shares) to the Margin Loan'.",
+    "Section 3 (Lodgement Instructions): enter your Margin Loan HIN and registered name, then tick 'Lodge Issuer Sponsored security to the Margin Loan Facility' and list the security code, SRN and number of shares.",
+    "Attach your latest issuer-sponsored holding statement for each security.",
+    "Section 5: every security owner signs and dates the form. Companies and trusts indicate the signing capacity.",
+    "Send it by mail to Leveraged, GPO Box 5388, Sydney NSW 2001, or email customerservice@leveraged.com.au."
+   ],
+   "notes": [
+    "If the shares are not held in the Borrower's or a Guarantor's name, you also need an original Australian Standard Transfer Form to change ownership.",
+    "A fee may be payable when a transfer results in a change of ownership. See the fee schedule."
+   ],
+   "links": [
+    {
+     "label": "Security Transfer Form (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-security-transfer-form.pdf"
+    },
+    {
+     "label": "Australian Standard Transfer Form (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-australian-standard-transfer-form.pdf"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    }
+   ],
+   "source": "Security Transfer Form LE044 (08/25)"
+  },
+  {
+   "id": "lodge-broker",
+   "title": "How do I transfer broker-sponsored shares (HIN) to my margin loan?",
+   "group": "Transferring shares",
+   "keywords": [
+    "broker sponsored",
+    "broker-sponsored",
+    "hin",
+    "chess",
+    "transfer from broker",
+    "commsec",
+    "lodge hin",
+    "move my hin",
+    "transfer shares"
+   ],
+   "answer": "Use the Security Transfer Form (LE044). You can lodge a whole broker-sponsored HIN, or selected securities from it.",
+   "steps": [
+    "Section 1: enter your Loan Account Name and Loan Account Number.",
+    "Section 2: tick 'Lodge equities (shares) to the Margin Loan'.",
+    "Section 3: enter your Margin Loan HIN and registered name, then choose one option:",
+    "Option A: 'Lodge following broker sponsored HIN'. This moves every holding in that HIN and keeps your existing TFN and dividend instructions. Enter the broker name, broker account number and broker HIN.",
+    "Option B: 'Transfer the following Broker Sponsored security'. List the broker details, security code and number of shares. You may need to re-nominate TFN and dividend instructions.",
+    "Section 5: every security owner signs and dates the form.",
+    "Send it by mail to Leveraged, GPO Box 5388, Sydney NSW 2001, or email customerservice@leveraged.com.au."
+   ],
+   "notes": [
+    "If the shares are not held in the Borrower's or a Guarantor's name, you also need an original Australian Standard Transfer Form."
+   ],
+   "links": [
+    {
+     "label": "Security Transfer Form (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-security-transfer-form.pdf"
+    }
+   ],
+   "source": "Security Transfer Form LE044 (08/25)"
+  },
+  {
+   "id": "release-shares",
+   "title": "How do I release shares from my margin loan?",
+   "group": "Transferring shares",
+   "keywords": [
+    "release shares",
+    "withdraw shares",
+    "remove shares",
+    "transfer out",
+    "move shares out",
+    "release equities",
+    "issuer sponsor"
+   ],
+   "answer": "Use the Security Transfer Form (LE044), section 4 'Release Equity from the Margin Loan'.",
+   "steps": [
+    "Section 1: enter your Loan Account Name and Loan Account Number.",
+    "Section 2: tick 'Release equities from the Margin Loan'.",
+    "Section 4: enter the Margin Loan HIN and registered name, then choose to release the whole broker-sponsored HIN, all holdings to a broker-sponsored account, selected securities to broker-sponsored, or a security to issuer-sponsored (with its SRN).",
+    "Section 5: every security owner signs and dates the form.",
+    "Send it by mail or email to Leveraged."
+   ],
+   "notes": [
+    "Releasing shares reduces the security behind your loan. Check your available funds and loan-to-value position first."
+   ],
+   "links": [
+    {
+     "label": "Security Transfer Form (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-security-transfer-form.pdf"
+    },
+    {
+     "label": "How your margin loan numbers work",
+     "href": "calculations.html"
+    }
+   ],
+   "source": "Security Transfer Form LE044 (08/25)"
+  },
+  {
+   "id": "apply",
+   "title": "How do I apply for a loan?",
+   "group": "Applying",
+   "keywords": [
+    "apply",
+    "application",
+    "open a loan",
+    "new facility",
+    "open an account",
+    "sign up",
+    "get started",
+    "new loan"
+   ],
+   "answer": "Most people apply online in one sitting. Read the PDS for the product first. You can also talk to a Business Development Manager before you start.",
+   "steps": [
+    "Compare the Margin Loan, Investment Funds Multiplier and Direct Investment Loan.",
+    "Read the PDS and Product Guide for the loan you choose.",
+    "Complete the online application."
+   ],
+   "notes": [
+    "The Direct Investment Loan is available to individual and joint borrowers only, not companies or trusts.",
+    "Leveraged loans are not available to self-managed superannuation funds."
+   ],
+   "links": [
+    {
+     "label": "Apply online",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+    },
+    {
+     "label": "Compare products",
+     "href": "product-comparison.html"
+    },
+    {
+     "label": "Talk to Young (Direct BDM) 03 8633 1236",
+     "href": "tel:+61386331236"
+    }
+   ],
+   "source": "Product pages; product comparison"
+  },
+  {
+   "id": "dil-eligibility",
+   "title": "Who can apply for the Direct Investment Loan?",
+   "group": "Applying",
+   "keywords": [
+    "direct investment loan",
+    "dil",
+    "company",
+    "trust",
+    "joint",
+    "individual",
+    "eligible",
+    "who can apply"
+   ],
+   "answer": "The Direct Investment Loan is available to individual and joint borrowers only. It is not available to companies, trusts or self-managed superannuation funds. Managed funds are not acceptable investments for this loan, and the maximum credit limit is $500,000.",
+   "links": [
+    {
+     "label": "Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html"
+    },
+    {
+     "label": "Compare products",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "rates",
+   "title": "What are your current interest rates?",
+   "group": "Rates and fees",
+   "keywords": [
+    "rate",
+    "rates",
+    "interest",
+    "variable",
+    "fixed",
+    "how much",
+    "cost",
+    "pricing",
+    "wholesale"
+   ],
+   "answer": "As at 07/10/2026 the standard variable rates are: Direct Investment Loan 8.59% p.a., Margin Loan 10.95% p.a., Investment Funds Multiplier 10.95% p.a. Fixed rates and Rewards Plus rates are on the rates page. Wholesale rates are available for eligible clients with facilities over $500,000. Contact your Business Development Manager to discuss them.",
+   "notes": [
+    "Rates are indicative and subject to change. The rate on your loan may be different."
+   ],
+   "links": [
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Find your BDM",
+     "href": "adviser-only/index.html#team"
+    }
+   ],
+   "source": "Rates page (as at 07/10/2026)"
+  },
+  {
+   "id": "contact-bdm",
+   "title": "Who can I talk to about opening a new facility?",
+   "group": "Contact",
+   "keywords": [
+    "bdm",
+    "business development",
+    "talk to someone",
+    "speak",
+    "call",
+    "phone",
+    "contact",
+    "adviser",
+    "broker",
+    "young",
+    "new business",
+    "human",
+    "person"
+   ],
+   "answer": "For new direct clients, talk to Young Ngai, Business Development Manager for direct clients, on 03 8633 1236. Financial advisers can find their regional BDM on the Adviser-only page. For existing accounts, call 1300 307 807, Monday to Friday, 8:30am to 5:30pm AEST/AEDT.",
+   "links": [
+    {
+     "label": "Call Young 03 8633 1236",
+     "href": "tel:+61386331236"
+    },
+    {
+     "label": "Find your BDM",
+     "href": "adviser-only/index.html#team"
+    },
+    {
+     "label": "Contact us",
+     "href": "contact-us/index.html"
+    }
+   ],
+   "source": "Adviser-only and Contact us pages"
+  },
+  {
+   "id": "acceptable-investments",
+   "title": "What can I borrow against?",
+   "group": "Lending",
+   "keywords": [
+    "acceptable investments",
+    "approved",
+    "lending ratio",
+    "lvr",
+    "which shares",
+    "etf",
+    "borrow against",
+    "eligible securities",
+    "ail"
+   ],
+   "answer": "Each loan has its own acceptable investments list showing the eligible securities and their lending ratios. Check the recent changes list too. Lists can change at any time.",
+   "links": [
+    {
+     "label": "Acceptable investments lists",
+     "href": "forms.html#investments"
+    }
+   ],
+   "source": "Acceptable investments lists"
+  },
+  {
+   "id": "margin-call",
+   "title": "What is a margin call and what do I need to do?",
+   "group": "Lending",
+   "keywords": [
+    "margin call",
+    "buffer",
+    "24 hours",
+    "shortfall",
+    "market fall",
+    "sell",
+    "top up"
+   ],
+   "answer": "A margin call is made when your loan balance goes above your lending value plus the buffer. This usually happens when the market value of your investments falls, which lowers your lending value.",
+   "steps": [
+    "If you get a margin call you'll usually need to act within 24 hours.",
+    "Reduce the shortfall by repaying some of the loan, adding cash or acceptable investments, or selling investments.",
+    "If you don't act, Leveraged can sell investments for you."
+   ],
+   "notes": [
+    "Between your lending value and the buffer limit you can't draw more funds, but no margin call is made.",
+    "Keep your margin call contact details up to date so we can reach you quickly."
+   ],
+   "links": [
+    {
+     "label": "How it works: margin calls",
+     "href": "calculations.html#mc-h"
+    },
+    {
+     "label": "Update margin call contact details (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-change-of-address-contact-and-margin-call-notification-details.pdf"
+    }
+   ],
+   "source": "How it works (calculations) page"
+  },
+  {
+   "id": "margin-calc",
+   "title": "How are lending value, available funds and margin calls worked out?",
+   "group": "Lending",
+   "keywords": [
+    "margin call",
+    "buffer",
+    "lending value",
+    "available funds",
+    "gearing",
+    "calculate",
+    "how it works",
+    "lvr",
+    "loan to value"
+   ],
+   "answer": "Lending value is each holding's market value multiplied by its lending ratio, added up. Available funds are the lower of your lending value and credit limit, minus your loan balance. The 'How it works' page has worked examples and a calculator.",
+   "links": [
+    {
+     "label": "How it works",
+     "href": "calculations.html"
+    }
+   ],
+   "source": "How it works (calculations) page"
+  },
+  {
+   "id": "faq-how-do-i-obtain-a-copy-of-my-statement",
+   "title": "How do I obtain a copy of my statement?",
+   "group": "FAQ: Popular questions",
+   "answer": "You can access your statements online anytime via Leveraged Online. For assistance contact your Relationship Manager, call us on 1300 307 807, email us at customerservice@leveraged.com.au or visit our Contact us page to submit an enquiry.",
+   "links": [
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    },
+    {
+     "label": "Contact us",
+     "href": "contact-us/index.html"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-reset-my-leverage-online-password",
+   "title": "How do I reset my Leverage Online password?",
+   "group": "FAQ: Popular questions",
+   "answer": "To reset your password, please contact your Relationship Manager, call us on 1300 307 807, email us at customerservice@leveraged.com.au or visit our Contact us page to submit an enquiry.",
+   "links": [
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    },
+    {
+     "label": "Contact us",
+     "href": "contact-us/index.html"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-update-or-change-my-bank-account-details",
+   "title": "How do I update or change my bank account details?",
+   "group": "FAQ: Popular questions",
+   "answer": "Download and complete the Change Bank Account Details form for the relevant product, available under the “Manage facility details” section of the forms page.",
+   "links": [
+    {
+     "label": "forms page",
+     "href": "forms.html#details"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-i-ve-transferred-money-to-my-nominated-bank-account-when-wil",
+   "title": "I’ve transferred money to my nominated bank account, when will I receive the funds?",
+   "group": "FAQ: Bank transfers and direct debits",
+   "answer": "If your transfer request is received prior to 2pm on a business day, the funds will be in your nominated account the next day.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-i-have-direct-debited-money-from-my-nominated-bank-account-w",
+   "title": "I have direct debited money from my nominated bank account, when will those funds clear?",
+   "group": "FAQ: Bank transfers and direct debits",
+   "answer": "Direct debits take three business days to clear. For example, if your direct debit was processed on Monday, funds will be available Thursday morning.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-i-deposited-money-into-my-margin-loan-how-do-i-know-if-those",
+   "title": "I deposited money into my margin loan, how do I know if those funds have been received?",
+   "group": "FAQ: Bank transfers and direct debits",
+   "answer": "You can view details of your margin loan, including deposits by logging in to Leveraged Online. If you don’t have a username and password, call us on 1300 307 807 or email customerservice@leveraged.com.au.",
+   "links": [
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-transfer-funds-from-my-margin-loan-to-a-bank-accoun",
+   "title": "How do I transfer funds from my margin loan to a bank account?",
+   "group": "FAQ: Bank transfers and direct debits",
+   "answer": "Funds transfers of $100,000 or less to a nominated bank account can be processed online via Leveraged Online. For funds transfers over this limit, please call us on 1300 307 807 or email customerservice@leveraged.com.au.",
+   "links": [
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-cancel-a-direct-debit",
+   "title": "How do I cancel a direct debit?",
+   "group": "FAQ: Bank transfers and direct debits",
+   "answer": "You can cancel a direct debit by contacting us on 1300 307 807 or by emailing customerservice@leveraged.com.au and quoting your loan account number.",
+   "links": [
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-change-my-address-or-contact-details",
+   "title": "How do I change my address or contact details?",
+   "group": "FAQ: Account details",
+   "answer": "To update your contact details, including your address and margin call notification details, download and complete the Change Address, Contact & Margin Call notification form for the relevant product, available under the “Manage facility details” section of the forms page.",
+   "links": [
+    {
+     "label": "forms page",
+     "href": "forms.html#details"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-change-or-add-an-adviser-on-my-account",
+   "title": "How do I change or add an adviser on my account?",
+   "group": "FAQ: Account details",
+   "answer": "Download and complete the Nominate broker/financial adviser form for the relevant product, available under the “Manage facility details” section of the forms page.",
+   "links": [
+    {
+     "label": "forms page",
+     "href": "forms.html#details"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-where-can-i-access-my-important-notices-such-as-a-margin-cal",
+   "title": "Where can I access my important notices such as a Margin Call?",
+   "group": "FAQ: Account details",
+   "answer": "In the event that you are notified of a Margin Call, you will be directed to login to Leveraged Online to view your notice, including details on how and when to rectify the shortfall.\nTo find this, and any other important notices, click on Accounts then Important Notices from the left hand side menu and select the Notice Type from the drop-down list.",
+   "links": [
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-does-leveraged-send-statements-by-email",
+   "title": "Does Leveraged send statements by email?",
+   "group": "FAQ: Online statements",
+   "answer": "To ensure the security of your account, statements are not sent via email. Statements can be retrieved online anytime via Leveraged Online.\nIf you have elected to receive online statements only, you will receive an email notification when your latest statement is available to download.\nIf you do not have online access, call us on 1300 307 807 or email customerservice@leveraged.com.au.",
+   "links": [
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-obtain-a-copy-of-my-chess-holdings-statement",
+   "title": "How do I obtain a copy of my CHESS Holdings statement?",
+   "group": "FAQ: Online statements",
+   "answer": "CHESS Holdings statements are issued at the end of the month when any movement occurs as a result of trading (i.e. buy/sell). You can login to the share registry website with your HIN and address details at any time to view your shareholdings.\nShould you still need to obtain a copy of your CHESS Holdings statement, please call us on 1300 307 807 or email customerservice@leveraged.com.au.",
+   "links": [
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-where-can-i-see-my-loan-balance-available-funds-and-buffer",
+   "title": "Where can I see my Loan Balance, Available Funds and Buffer?",
+   "group": "FAQ: Loan details",
+   "answer": "All of this information (and more), can be accessed online via Leveraged Online once you login.\nIf you do not have online access, call us on 1300 307 807 or email customerservice@leveraged.com.au.",
+   "links": [
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-where-can-i-view-the-current-leveraged-headline-interest-rat",
+   "title": "Where can I view the current Leveraged headline interest rates?",
+   "group": "FAQ: Loan details",
+   "answer": "Current interest rates are available in our Interest rate schedule.",
+   "links": [
+    {
+     "label": "Interest rate schedule",
+     "href": "rates/index.html"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-increase-my-credit-limit",
+   "title": "How do I increase my credit limit?",
+   "group": "FAQ: Credit limits",
+   "answer": "Complete the Credit limit increase form for the relevant product, available under the “Transactions” section of the forms page.\nA request to increase your credit limit may be subject to a Responsible Lending Assessment, including a request for further information.",
+   "links": [
+    {
+     "label": "forms page",
+     "href": "forms.html#loan"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-decrease-my-credit-limit",
+   "title": "How do I decrease my credit limit?",
+   "group": "FAQ: Credit limits",
+   "answer": "Call us on 1300 307 807 or email customerservice@leveraged.com.au to inform us of your new preferred credit limit.\nAny request to increase your credit limit after your credit limit has been decreased may be subject to a Responsible Lending Assessment, including a request for further information.",
+   "links": [
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-what-is-my-hin",
+   "title": "What is my HIN?",
+   "group": "FAQ: Stock LVRs and HIN",
+   "answer": "Your HIN is your Holder Identification Number that your shares are registered on. You are able to find this number under the Investments menu on Leveraged Online.",
+   "links": [
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-do-i-determine-the-lvr-and-price-of-a-particular-stock",
+   "title": "How do I determine the LVR and price of a particular stock?",
+   "group": "FAQ: Stock LVRs and HIN",
+   "answer": "The LVR you are receiving on a particular stock can be found under the Investments menu once you are logged into your facility on Leveraged Online. It appears in the Lending Ratio column.\nIf you do not hold the stock, you can determine the LVR by referencing our Acceptable Investments Lists.\nYou can also access the Acceptable Investments List via Leveraged Online by clicking on Lending Ratio Search towards the bottom of the menu on the left hand side, and then selecting Acceptable Investment List.\nYou can also enter the ASX code in the search field under Lending Ratio Search to view the LVR as well as the current price.",
+   "links": [
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au"
+    },
+    {
+     "label": "Acceptable Investments Lists",
+     "href": "forms.html#investments"
+    },
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-what-is-a-target-facility-balance",
+   "title": "What is a Target Facility Balance?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "A Target Facility Balance is the minimum Loan Balance requested by the Borrower and approved by the Lender that applies to the facility.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-who-can-apply-for-a-target-facility-balance",
+   "title": "Who can apply for a Target Facility Balance?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "Margin Loan and Direct Investment Loan Borrowers can apply for a Target Facility Balance to apply to their facility. The option is not available on Investments Funds Multiplier facilities.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-what-is-a-linked-investment-account",
+   "title": "What is a Linked Investment Account?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "A Linked Investment Account is a bank account opened in our name (or in our nominee’s name) for, and at the request of, the Borrower, that is linked to the facility.\nIn limited cases we may accept a Cash Management Trust account opened in the name of the Borrower or Guarantor as Linked Investment Account.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-what-is-a-sweep",
+   "title": "What is a sweep?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "A sweep is an automated process via which the Linked Investment Account will be credited or debited with funds from or to the Loan Account depending on the Target Facility Balance on the margin loan facility.\nA sweep from the Linked Investment Account will be dependent on funds availability and minimum balance requirement of the Linked Investment Account.\nA sweep is an overnight process and can only take place on a Business Day. Transactions are reflected on the Loan Account and the Linked Investment Account the following Business Day.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-what-happens-if-the-loan-balance-is-below-the-target-facilit",
+   "title": "What happens if the loan balance is below the Target Facility Balance?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "While a Target Facility Balance applies to the facility and the Loan Balance is below the Target Facility Balance, an automated process operates so that the Borrower is taken to have:\ngiven us a borrowing request for an amount that would result in the Loan Balance being the same as (or as close as reasonably practicable to) the Target Facility Balance; and\ndirected us to advance such amount to the relevant Linked Investment Account\nThe automated process will sweep funds from the Loan Account to the Linked Investment Account when this happens.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-what-happens-if-the-loan-balance-is-above-the-target-facilit",
+   "title": "What happens if the Loan Balance is above the Target Facility Balance?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "While a Target Facility Balance applies to the facility and the Loan Balance is above the Target Facility Balance, an automated process operates so that the Borrower is taken to have:\nasked to direct debit the relevant Linked Investment Account for an amount that results the loan balance being substantially the same as (or as close as reasonably practicable to) the Target Facility Balance.\nDirected us to deposit such an amount into the Loan Account.\nThe automated process will sweep funds from the Linked Investment Account to the Loan Account.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-what-are-the-different-target-facility-balances-i-can-have",
+   "title": "What are the different Target Facility Balances I can have?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "a) Target Facility Balance of $0.00\nIf the Target Facility Balance is $0.00 then any credit balance in the Loan Account will be swept to the Linked Investment Account to bring the Loan Balance to $0.00\nIf the Loan Balance is greater than $0.00 (Target Facility Balance), any available balance in the Linked Investment Account will be swept to the Loan Account to reduce the Loan Balance to $0.00 or as close to $0.00 as achievable.\nA Target Facility Balance of $0.00 is not available if the Borrower has a fixed rate loan.\nb) Target Facility Balance equal to fixed rate loan\nIf the Target Facility Balance is equal to a fixed rate loan amount, then:\nAny undrawn portion of the fixed rate loan will be swept to the Linked Investment Account so that the Loan Balance is equal to the fixed rate loan (Target Facility Balance).\nAny available balance in the Linked Investment Account will be swept to the Loan Account to reduce the Loan Balance to an amount equal to the fixed rate loan (or as close to that amount as achievable).\nc) Target Facility Balance above $0.00\nA Target Facility Balance above $0.00 is set up at a specified amount requested by the Borrower and approved by the Lender. If the Loan Balance is:\nLess than the agreed Target Facility Balance, then the difference will be swept from the Loan Account to the Linked Investment Account to make the Loan Balance the same as Target Facility Balance.\nIf the Loan Balance is greater than the Target Facility Balance, any available balance in the Linked Investment Account will be swept to the Loan Account to reduce the Loan balance to the agreed Target Facility Balance (or as close to it as achievable).",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-i-am-a-borrower-who-has-a-loan-balance-which-comprises-both-",
+   "title": "I am a Borrower who has a Loan Balance which comprises both fixed rate and variable rate amounts. Can I sweep both the fixed and variable rate amounts?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "Borrowers can only sweep either a variable rate or a fixed rate Loan Balance, they cannot sweep both.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-do-borrowers-have-access-to-funds-in-the-linked-investment-a",
+   "title": "Do Borrowers have access to funds in the Linked Investment Account?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "Borrowers will not have direct access to funds in the Linked Investment Account as it is restricted. Features such as setting up direct debits and ATM cards are not available on Linked Investment Accounts. This is because the Linked Investment Account comprises security for the loan.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-can-borrowers-withdraw-funds-from-the-linked-investment-acco",
+   "title": "Can Borrowers withdraw funds from the Linked Investment Account?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "The Linked Investment Account forms part of the security for the Loan Balance. Borrowers will need to contact us to withdraw funds from the Linked Investment Account.",
+   "links": [],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-is-there-a-minimum-balance-required-to-be-maintained-in-the-",
+   "title": "Is there a minimum balance required to be maintained in the Linked Investment Account?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "Linked Investment Accounts require a certain minimum balance to be maintained in the account. Please contact us on 1300 307 807 or email customerservice@leveraged.com.au for further details.",
+   "links": [
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-what-interest-rate-is-paid-on-a-linked-investment-account",
+   "title": "What interest rate is paid on a Linked Investment Account?",
+   "group": "FAQ: Target Facility Balance and Linked Investment Accounts",
+   "answer": "The interest rate will be determined by the account provider from time to time. If you would like further information on the rates, please contact us on 1300 307 807 or email customerservice@leveraged.com.au.",
+   "links": [
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "faq-how-can-i-close-my-account",
+   "title": "How can I close my account?",
+   "group": "FAQ: Account closure",
+   "answer": "Please contact your Relationship Manager to close your margin loan. Your Relationship Manager will send you the relevant Account Closure form.\nAlternatively, call us on 1300 307 807 or email customerservice@leveraged.com.au.",
+   "links": [
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Support FAQs"
+  },
+  {
+   "id": "form-apply-online-60cfc4716135b855c8b4",
+   "title": "Apply online",
+   "group": "Forms and documents",
+   "answer": "Start a new Margin Loan, Investment Funds Multiplier or Direct Investment Loan. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Apply online",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-online-application-quick-reference-guide-reference-guide-pdf",
+   "title": "Online application quick reference guide",
+   "group": "Forms and documents",
+   "answer": "Step-by-step help with the online application. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Online application quick reference guide",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productandfeaturesfactsheets/adviseruseforms/leveraged-online-application-quick-reference-guide.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-accountant-s-declaration-ants-declaration-pdf",
+   "title": "Accountant's declaration",
+   "group": "Forms and documents",
+   "answer": "Certifies wholesale investor status. Completed by a qualified accountant. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Accountant's declaration",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-accountants-declaration.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-solicitor-s-trust-opinion-rs-trust-opinion-pdf",
+   "title": "Solicitor's trust opinion",
+   "group": "Forms and documents",
+   "answer": "Legal opinion required when borrowing through a trust. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Solicitor's trust opinion",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-solicitors-trust-opinion.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-change-of-address-contact-margin-call-notification-details-fication-de",
+   "title": "Change of address, contact & margin call notification details",
+   "group": "Forms and documents",
+   "answer": "Update your address, phone, email and who we contact for margin calls. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Change of address, contact & margin call notification details",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-change-of-address-contact-and-margin-call-notification-details.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-change-of-name-d-change-of-name-pdf",
+   "title": "Change of name",
+   "group": "Forms and documents",
+   "answer": "Update the name on your facility. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Change of name",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-change-of-name.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-change-bank-account-details-account-details-pdf",
+   "title": "Change bank account details",
+   "group": "Forms and documents",
+   "answer": "Update your nominated account or direct debit. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Change bank account details – Margin Loan / Investment Funds Multiplier",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/le-047-change-bank-account-details.pdf"
+    },
+    {
+     "label": "Change bank account details – Direct Investment Loan",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-change-bank-account-details.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-notification-of-tax-file-number-tax-file-number-pdf",
+   "title": "Notification of tax file number",
+   "group": "Forms and documents",
+   "answer": "Provide or update your TFN. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Notification of tax file number – Margin Loan / Investment Funds Multiplier",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-notification-of-tax-file-number.pdf"
+    },
+    {
+     "label": "Notification of tax file number – Direct Investment Loan",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-notification-of-tax-file-number.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-direct-credit-of-dividends-and-distributions-nd-distributions-pdf",
+   "title": "Direct credit of dividends and distributions",
+   "group": "Forms and documents",
+   "answer": "Have dividends paid into your nominated account. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Direct credit of dividends and distributions – Margin Loan / Investment Funds Multiplier",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-direct-credit-of-dividends-and-distributions.pdf"
+    },
+    {
+     "label": "Direct credit of dividends and distributions – Direct Investment Loan",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-direct-credit-of-dividends-and-distributions.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-nominate-broker-or-financial-adviser-inancial-adviser-pdf",
+   "title": "Nominate broker or financial adviser",
+   "group": "Forms and documents",
+   "answer": "Give your broker or adviser access to your facility. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Nominate broker or financial adviser – Margin Loan / Investment Funds Multiplier",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-nominate-broker-or-financial-adviser.pdf"
+    },
+    {
+     "label": "Nominate broker or financial adviser – Direct Investment Loan",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-nominate-broker.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-nominate-and-revoke-authorised-person-uthorised-person-pdf",
+   "title": "Nominate and revoke authorised person",
+   "group": "Forms and documents",
+   "answer": "Add or remove someone who can instruct us on your behalf. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Nominate and revoke authorised person",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-nominate-and-revoke-authorised-person.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-nominate-or-maintain-a-platform-ntain-a-platform-pdf",
+   "title": "Nominate or maintain a platform",
+   "group": "Forms and documents",
+   "answer": "Link or change the investment platform connected to your loan. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Nominate or maintain a platform",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-nominate-or-maintain-a-platform.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-removal-of-guarantor-val-of-guarantor-pdf",
+   "title": "Removal of guarantor",
+   "group": "Forms and documents",
+   "answer": "Request that a guarantor is released from your facility. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Removal of guarantor",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-removal-of-guarantor.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-increase-credit-limit-request-uest-margin-loan-pdf",
+   "title": "Increase credit limit request",
+   "group": "Forms and documents",
+   "answer": "Ask to borrow more. A responsible lending assessment may apply. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Increase credit limit request – Margin Loan",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/increase-credit-limit-request-margin-loan.pdf"
+    },
+    {
+     "label": "Increase credit limit request – Investment Funds Multiplier",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/increase-credit-limit-request-investment-funds-multiplier.pdf"
+    },
+    {
+     "label": "Increase credit limit request – Direct Investment Loan",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-credit-limit-increase-request2.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-fixed-interest-rate-request-est-rate-request-pdf",
+   "title": "Fixed interest rate request",
+   "group": "Forms and documents",
+   "answer": "Fix the rate on all or part of your loan. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Fixed interest rate request",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-fixed-interest-rate-request.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-refinance-in-request-nance-in-request-pdf",
+   "title": "Refinance in request",
+   "group": "Forms and documents",
+   "answer": "Move an existing margin loan from another lender to Leveraged. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Refinance in request",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-refinance-in-request.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-sweep-account-request-account-request-pdf",
+   "title": "Sweep account request",
+   "group": "Forms and documents",
+   "answer": "Set up or change a sweep account linked to your loan. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Sweep account request",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-sweep-account-request.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-nominated-bank-account-funds-transfer-request-transfer-request-pdf",
+   "title": "Nominated bank account funds transfer request",
+   "group": "Forms and documents",
+   "answer": "Transfer funds from your loan to your nominated bank account. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Nominated bank account funds transfer request",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/nominated-bank-account-funds-transfer-request.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-australian-standard-transfer-form-rd-transfer-form-pdf",
+   "title": "Australian Standard Transfer Form",
+   "group": "Forms and documents",
+   "answer": "Needed with the Security Transfer Form when shares aren’t held in the borrower’s or guarantor’s name. Stamp duty may apply. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Australian Standard Transfer Form",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-australian-standard-transfer-form.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-security-transfer-form-ty-transfer-form-pdf",
+   "title": "Security transfer form",
+   "group": "Forms and documents",
+   "answer": "Lodge or release shares, including issuer-sponsored (SRN) and broker-sponsored (HIN) holdings. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Security transfer form – Margin Loan / Investment Funds Multiplier",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-security-transfer-form.pdf"
+    },
+    {
+     "label": "Security transfer form – Direct Investment Loan",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitytransactionforms/leveraged-security-transfer-form.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-managed-fund-pledge-aged-fund-pledge-pdf",
+   "title": "Managed fund pledge",
+   "group": "Forms and documents",
+   "answer": "Pledge an existing managed fund holding as security. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Managed fund pledge",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-managed-fund-pledge.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-managed-fund-redemption-switch-or-release-instructions-ase-instruction",
+   "title": "Managed fund redemption, switch or release instructions",
+   "group": "Forms and documents",
+   "answer": "Redeem, switch or release a managed fund held as security. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Managed fund redemption, switch or release instructions",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-managed-fund-redemption-switch-or-release-instructions.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-request-to-exercise-executive-company-options-company-options-pdf",
+   "title": "Request to exercise executive company options",
+   "group": "Forms and documents",
+   "answer": "Exercise employee or executive options using your loan. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Request to exercise executive company options",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-request-to-exercise-executive-company-options.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-rewards-plus-application-plus-application-pdf",
+   "title": "Rewards Plus application",
+   "group": "Forms and documents",
+   "answer": "Earn Qantas Points on your loan. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Rewards Plus application – Margin Loan / Investment Funds Multiplier",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-rewards-plus-application.pdf"
+    },
+    {
+     "label": "Rewards Plus application – Direct Investment Loan",
+     "href": "https://www.leveraged.com.au/siteassets/documents/dilfacilitymaintenanceforms/leveraged-rewards-plus-application.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-instalment-plus-application-and-maintenance-and-maintenance-pdf",
+   "title": "Instalment Plus application and maintenance",
+   "group": "Forms and documents",
+   "answer": "Apply for or change Instalment Plus. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Instalment Plus application and maintenance",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-instalment-plus-application-and-maintenance.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-exchange-options-plus-product-guide-and-application-us-product-guide-p",
+   "title": "Exchange Options Plus product guide and application",
+   "group": "Forms and documents",
+   "answer": "Trade exchange-traded options against your portfolio. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Exchange Options Plus product guide and application",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-exchange-options-plus-product-guide.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-margin-loan-acceptable-investments-list-investments-list-pdf",
+   "title": "Margin Loan acceptable investments list",
+   "group": "Forms and documents",
+   "answer": "Australian shares, ETFs and managed funds. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Margin Loan acceptable investments list",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-margin-loan-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-recent-changes-margin-loan-list-investments-list-pdf",
+   "title": "Recent changes – Margin Loan list",
+   "group": "Forms and documents",
+   "answer": "Additions, removals and lending ratio changes. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Recent changes – Margin Loan list",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-recent-changes-to-margin-loan-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-margin-loan-international-acceptable-investments-list-investments-list",
+   "title": "Margin Loan international acceptable investments list",
+   "group": "Forms and documents",
+   "answer": "US and other overseas-listed securities. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Margin Loan international acceptable investments list",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-margin-loan-international-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-recent-changes-margin-loan-international-list-investments-list-pdf",
+   "title": "Recent changes – Margin Loan international list",
+   "group": "Forms and documents",
+   "answer": "Additions, removals and lending ratio changes. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Recent changes – Margin Loan international list",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-recent-changes-to-margin-loan-international-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-investment-funds-multiplier-acceptable-investments-list-investments-li",
+   "title": "Investment Funds Multiplier acceptable investments list",
+   "group": "Forms and documents",
+   "answer": "Managed funds and ETFs. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Investment Funds Multiplier acceptable investments list",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-investment-funds-multiplier-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-recent-changes-investment-funds-multiplier-list-investments-list-pdf",
+   "title": "Recent changes – Investment Funds Multiplier list",
+   "group": "Forms and documents",
+   "answer": "Additions, removals and lending ratio changes. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Recent changes – Investment Funds Multiplier list",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-recent-changes-to-investment-funds-multiplier-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-direct-investment-loan-acceptable-investments-list-investments-list-pd",
+   "title": "Direct Investment Loan acceptable investments list",
+   "group": "Forms and documents",
+   "answer": "Direct shares and ETFs. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Direct Investment Loan acceptable investments list",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-direct-investment-loan-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-recent-changes-direct-investment-loan-list-investments-list-pdf",
+   "title": "Recent changes – Direct Investment Loan list",
+   "group": "Forms and documents",
+   "answer": "Additions, removals and lending ratio changes. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Recent changes – Direct Investment Loan list",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-recent-changes-to-direct-investment-loan-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-margin-loan-product-disclosure-statement-margin-loan-pds-pdf",
+   "title": "Margin Loan Product Disclosure Statement",
+   "group": "Forms and documents",
+   "answer": "The PDS for the Leveraged Equities Margin Loan. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Margin Loan Product Disclosure Statement",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-margin-loan-pds.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-margin-loan-product-guide-an-product-guide-pdf",
+   "title": "Margin Loan Product Guide",
+   "group": "Forms and documents",
+   "answer": "How the Margin Loan works, fees and features. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Margin Loan Product Guide",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-margin-loan-product-guide.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  },
+  {
+   "id": "form-terms-and-conditions-s-and-conditions-pdf",
+   "title": "Terms and Conditions",
+   "group": "Forms and documents",
+   "answer": "Dated 8 August 2025. Download it from the forms page or the link below.",
+   "links": [
+    {
+     "label": "Terms and Conditions",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-terms-and-conditions.pdf"
+    },
+    {
+     "label": "All forms",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Forms and documents page"
+  }
+ ]
+}
