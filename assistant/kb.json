@@ -551,6 +551,84 @@
    "source": "Instalment Plus page"
   },
   {
+   "id": "instalment-plus",
+   "title": "What is Instalment Plus?",
+   "group": "Products",
+   "keywords": [
+    "instalment plus",
+    "instalment",
+    "installment",
+    "regular investing",
+    "regular contributions",
+    "monthly investing",
+    "dollar cost averaging",
+    "invest monthly"
+   ],
+   "answer": "Instalment Plus is a free add-on for the Margin Loan and Investment Funds Multiplier. Each month it invests some of your own money plus a matching loan drawdown, so you progressively build a managed funds portfolio.",
+   "steps": [
+    "Minimums to start: $1,000 of your own money and a $2,000 loan drawdown.",
+    "Then each month: at least $250 of your own money and $250 borrowed ($500 a month added to your portfolio).",
+    "New customers: choose it in your margin loan application. Existing customers: use the Instalment Plus Application and Maintenance form."
+   ],
+   "notes": [
+    "Not available for self-managed superannuation funds.",
+    "Borrowing to invest magnifies gains and losses. Read the fact sheet and PDS before applying."
+   ],
+   "links": [
+    {
+     "label": "Instalment Plus",
+     "href": "products/instalment-plus/index.html"
+    },
+    {
+     "label": "Instalment Plus application and maintenance (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-instalment-plus-application-and-maintenance.pdf"
+    }
+   ],
+   "source": "Instalment Plus product page"
+  },
+  {
+   "id": "no-property",
+   "title": "Can I borrow against property or REITs?",
+   "group": "Eligibility",
+   "keywords": [
+    "property",
+    "house",
+    "home",
+    "real estate",
+    "investment property",
+    "home equity",
+    "mortgage",
+    "land",
+    "apartment",
+    "buy a house",
+    "house as security",
+    "home as security",
+    "property as security",
+    "collateral",
+    "reit",
+    "reits",
+    "a-reit",
+    "property trust",
+    "listed property",
+    "property fund"
+   ],
+   "answer": "We don't lend against direct property, such as a house, apartment or land, and our loans can't be used to buy one. You can borrow to invest in listed property trusts (REITs) that are on our acceptable investments lists, alongside shares, ETFs and managed funds.",
+   "links": [
+    {
+     "label": "Acceptable investments",
+     "href": "forms.html#investments"
+    },
+    {
+     "label": "Compare our loans",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Confirmed by the Leveraged team (15/10/2026)",
+   "notes": [
+    "Each REIT has its own lending ratio. Check the latest acceptable investments list for your product."
+   ]
+  },
+  {
    "id": "faq-how-do-i-obtain-a-copy-of-my-statement",
    "title": "How do I obtain a copy of my statement?",
    "group": "FAQ: Popular questions",
