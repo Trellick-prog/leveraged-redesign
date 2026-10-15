@@ -4,6 +4,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../design/colors.css">
+<link rel="stylesheet" href="../design/header.css">
+<script src="../design/header.js" defer></script>
 <style>
 body{margin:0;background:var(--grey-50)}
 a{color:var(--blue-800)}a:hover{color:var(--orange-700)}
@@ -118,10 +120,11 @@ a[style*="--orange-600"]:hover{background:var(--orange-700)!important;color:#FFF
 </div>
 </div>
 
-<header style="background: #FFFFFF; border-bottom: 1px solid var(--grey-200)">
-<div style="max-width: 1240px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between">
-<a href="../index.html" style="display: inline-flex; align-items: center"><img src="../website-assets/leveraged-logo.webp" alt="Leveraged" width="300" height="111" style="height: 48px; width: auto; display: block"></a>
-<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 28px; font-weight: 600; font-size: 16px">
+<header class="site-header" style="background: #FFFFFF; border-bottom: 1px solid var(--grey-200)">
+<div class="sh-in" style="max-width: 1240px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between">
+<a class="sh-logo" href="../index.html" style="display: inline-flex; align-items: center"><img src="../website-assets/leveraged-logo.webp" alt="Leveraged" width="300" height="111" style="height: 48px; width: auto; display: block"></a>
+<button type="button" class="sh-menu" aria-expanded="false" aria-controls="site-nav"><span class="sh-bars" aria-hidden="true"></span><span class="sh-mt">Menu</span></button>
+<nav id="site-nav" class="sh-nav" aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 28px; font-weight: 600; font-size: 16px">
 <a href="../products/index.html" style="text-decoration: none">Products</a>
 <a href="../rates/index.html" style="text-decoration: none">Rates &amp; fees</a>
 <a href="../index.html#start" style="text-decoration: none">How to apply</a>
@@ -130,8 +133,8 @@ a[style*="--orange-600"]:hover{background:var(--orange-700)!important;color:#FFF
 <a href="../educational-insights/index.html" style="text-decoration: none">Insights</a>
 <a href="../adviser-only/index.html" style="text-decoration: none">Advisers</a>
 </nav>
-<div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap">
-<a href="tel:1300307807" style="font-weight: 700; text-decoration: none">1300 307 807</a>
+<div class="sh-act" style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap">
+<a class="sh-tel" href="tel:1300307807" style="font-weight: 700; text-decoration: none">1300 307 807</a>
 <a href="https://www.leveragedonline.com.au/" style="min-height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border: 2px solid var(--blue-800); border-radius: 8px; font-weight: 700; text-decoration: none" target="_blank" rel="noopener">Log in</a>
 <a href="https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4" style="min-height: 44px; display: inline-flex; align-items: center; padding: 0 22px; background: var(--orange-600); color: #FFFFFF; border-radius: 8px; font-weight: 700; text-decoration: none">Apply now</a>
 </div>
