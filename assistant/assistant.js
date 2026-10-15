@@ -12,7 +12,6 @@
   var script = document.currentScript || document.querySelector('script[src$="assistant/assistant.js"]');
   var ROOT = script.getAttribute('src').replace(/assistant\/assistant\.js(\?.*)?$/, '');
   var LOG_KEY = 'levAssistantLog';
-  var MAX_LOG = 500;
   var kb = null, config = { endpoint: '' }, history = [];
 
   var STOP = 'a an the and or of to in on for my i me is are do does how can what when where which who with it its be by from at as we you your our this that there if am was will would should could please about into have has get'.split(' ');
@@ -72,27 +71,24 @@
   }
 
   /* ---------- logging ---------- */
-  function readLog() { try { return JSON.parse(localStorage.getItem(LOG_KEY) || '[]'); } catch (e) { return []; } }
-  function writeLog(list) { try { localStorage.setItem(LOG_KEY, JSON.stringify(list.slice(-MAX_LOG))); } catch (e) {} }
+  // Questions are never kept in the visitor's browser; they go only to the
+  // assistant service (when configured), so a visitor can't read them back.
+  try { localStorage.removeItem(LOG_KEY); } catch (e) {}
+  function send(body) {
+    if (!config.endpoint) return;
+    try {
+      fetch(config.endpoint.replace(/\/$/, '') + '/log', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), keepalive: true });
+    } catch (e) {}
+  }
   function log(entry) {
     entry.ts = new Date().toISOString();
     entry.page = location.pathname.replace(/^.*?leveraged-redesign/, '') || '/';
     var serverLogged = entry.serverLogged; delete entry.serverLogged;
-    var list = readLog(); list.push(entry); writeLog(list);
-    if (config.endpoint && !serverLogged) {
-      try {
-        fetch(config.endpoint.replace(/\/$/, '') + '/log', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(entry), keepalive: true });
-      } catch (e) {}
-    }
+    if (!serverLogged) send(entry);
     return entry;
   }
   function rate(id, value) {
-    var list = readLog();
-    for (var i = list.length - 1; i >= 0; i--) if (list[i].id === id) { list[i].rating = value; break; }
-    writeLog(list);
-    if (config.endpoint) {
-      try { fetch(config.endpoint.replace(/\/$/, '') + '/log', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id: id, rating: value, ts: new Date().toISOString() }), keepalive: true }); } catch (e) {}
-    }
+    send({ id: id, rating: value, ts: new Date().toISOString() });
   }
 
   /* ---------- UI ---------- */

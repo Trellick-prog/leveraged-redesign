@@ -84,8 +84,7 @@ a[style*="--orange-600"]:hover{background:var(--orange-700)!important;color:#FFF
 <button type="button" class="p" id="copy">Copy Markdown table</button>
 <button type="button" id="dlmd">Download .md</button>
 <button type="button" id="dlcsv">Download .csv</button>
-<button type="button" id="server" hidden>Load from server</button>
-<button type="button" class="d" id="clear">Clear this browser’s log</button>
+<button type="button" id="server">Load from server</button>
 </div>
 <div class="rv-tw"><table><thead><tr><th scope="col">When</th><th scope="col">Question</th><th scope="col">Status</th><th scope="col">Matched answer</th><th scope="col">Page</th></tr></thead><tbody id="rows"></tbody></table></div>
 <details><summary style="cursor:pointer;font-weight:700">Markdown preview</summary><pre id="md"></pre></details>
@@ -93,12 +92,12 @@ a[style*="--orange-600"]:hover{background:var(--orange-700)!important;color:#FFF
 <li>Export the table and confirm the correct answer with the relevant team (and the PDS, form or policy it comes from).</li>
 <li>Add an entry to <code>tools/kb-curated.json</code> with the question, answer, steps, links and source, or update the FAQ or forms page.</li>
 <li>Run <code>python3 tools/build_kb.py</code> and push. The assistant uses the new knowledge straight away.</li></ol>
-<p style="margin:10px 0 0">Without the AI service switched on, this page shows questions asked in <strong>this browser</strong> only. Once the service in <code>assistant-service/</code> is deployed, use <em>Load from server</em> to review questions from every visitor.</p></div>
+<p style="margin:10px 0 0">Questions are only stored by the assistant service, never in visitors’ browsers. Use <em>Load from server</em> and the review password to see them.</p></div>
 </main>
 <script>
 (function(){
 var KEY='levAssistantLog',rows=document.getElementById('rows'),md=document.getElementById('md'),f=document.getElementById('filter'),data=[];
-function load(){try{data=JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){data=[]}render()}
+function load(){try{localStorage.removeItem(KEY)}catch(e){}data=[];render()}
 function status(r){return r.status==='unanswered'?'unanswered':(r.rating==='not-helpful'?'not-helpful':(r.rating==='helpful'?'helpful':'answered'))}
 function pick(){var v=f.value;return data.filter(function(r){var s=status(r);return v==='all'||(v==='gaps'?(s==='unanswered'||s==='not-helpful'):s===v)}).slice().reverse()}
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
@@ -109,15 +108,14 @@ function toCsv(list){var q=function(s){return '"'+String(s==null?'':s).replace(/
 function render(){var list=pick();
 var un=data.filter(function(r){return r.status==='unanswered'}).length,nh=data.filter(function(r){return r.rating==='not-helpful'}).length,ok=data.filter(function(r){return r.status==='answered'}).length;
 document.getElementById('stats').innerHTML=[['Questions asked',data.length],['Answered',ok],['Unanswered',un],['Marked not helpful',nh]].map(function(s){return '<div class="rv-stat"><b>'+s[1]+'</b><span>'+s[0]+'</span></div>'}).join('');
-rows.innerHTML=list.length?list.map(function(r){var s=status(r);return '<tr><td>'+esc(r.ts?new Date(r.ts).toLocaleString('en-AU'):'')+'</td><td class="q">'+esc(r.question)+'</td><td><span class="tag '+s+'">'+s.replace('-',' ')+'</span></td><td>'+esc(r.matched||'—')+'</td><td>'+esc(r.page)+'</td></tr>'}).join(''):'<tr><td colspan="5" class="empty">Nothing to review yet. Questions asked through the assistant will appear here.</td></tr>';
+rows.innerHTML=list.length?list.map(function(r){var s=status(r);return '<tr><td>'+esc(r.ts?new Date(r.ts).toLocaleString('en-AU'):'')+'</td><td class="q">'+esc(r.question)+'</td><td><span class="tag '+s+'">'+s.replace('-',' ')+'</span></td><td>'+esc(r.matched||'—')+'</td><td>'+esc(r.page)+'</td></tr>'}).join(''):'<tr><td colspan="5" class="empty">Click Load from server and enter the review password to see questions.</td></tr>';
 md.textContent=toMd(list)}
 function dl(name,type,text){var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type:type}));a.download=name;a.click();setTimeout(function(){URL.revokeObjectURL(a.href)},500)}
 f.addEventListener('change',render);
 document.getElementById('copy').addEventListener('click',function(e){var t=toMd(pick());(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){e.target.textContent='Copied';setTimeout(function(){e.target.textContent='Copy Markdown table'},1500)},function(){md.parentNode.open=true})});
 document.getElementById('dlmd').addEventListener('click',function(){dl('assistant-review-'+new Date().toISOString().slice(0,10)+'.md','text/markdown','# Assistant review\n\n'+toMd(pick())+'\n')});
 document.getElementById('dlcsv').addEventListener('click',function(){dl('assistant-review-'+new Date().toISOString().slice(0,10)+'.csv','text/csv',toCsv(pick()))});
-document.getElementById('clear').addEventListener('click',function(){if(confirm('Clear the assistant log stored in this browser?')){localStorage.removeItem(KEY);load()}});
-fetch('config.json').then(function(r){return r.json()}).then(function(c){if(!c.endpoint)return;var b=document.getElementById('server');b.hidden=false;
+fetch('config.json').then(function(r){return r.json()}).then(function(c){var b=document.getElementById('server');if(!c.endpoint){b.disabled=true;return}
 b.addEventListener('click',function(){var t=prompt('Review token');if(!t)return;fetch(c.endpoint.replace(/\/$/,'')+'/log',{headers:{Authorization:'Bearer '+t}}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()}).then(function(d){data=d.entries||[];render()}).catch(function(e){alert('Could not load the server log ('+e.message+')')})})}).catch(function(){});
 load()})();
 </script>
