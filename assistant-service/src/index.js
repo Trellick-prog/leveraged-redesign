@@ -92,6 +92,9 @@ async function saveLog(env, entry) {
 }
 
 async function chat(request, env) {
+  // Without an API key the service is log-only: the widget falls back to
+  // knowledge-base answers in the browser and still sends its log here.
+  if (!env.ANTHROPIC_API_KEY) return json(env, { error: "ai disabled" }, 503);
   const body = await request.json().catch(() => ({}));
   const question = String(body.question || "").trim().slice(0, 500);
   if (!question) return json(env, { error: "question required" }, 400);
