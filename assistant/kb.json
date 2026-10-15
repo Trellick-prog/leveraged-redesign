@@ -49,6 +49,59 @@
    "source": "Security Transfer Form LE044 (08/25)"
   },
   {
+   "id": "deposit-funds",
+   "title": "How do I transfer money into my margin loan?",
+   "group": "Payments and repayments",
+   "keywords": [
+    "transfer funds",
+    "transfer money",
+    "deposit",
+    "deposit funds",
+    "pay into",
+    "payment",
+    "repay",
+    "repayment",
+    "reduce loan",
+    "pay down",
+    "bpay",
+    "eft",
+    "bank transfer",
+    "direct debit",
+    "bsb",
+    "account number",
+    "add cash",
+    "margin call payment",
+    "funds"
+   ],
+   "answer": "You can put money into your Loan Account by bank transfer (EFT), BPAY or direct debit from your nominated bank account. Money you deposit reduces your loan balance.",
+   "steps": [
+    "EFT: transfer to the BSB and account number you were given when your margin loan was set up. This is an Adelaide Bank account used only for payments into your Loan Account.",
+    "BPAY: pay using the BPAY details for your Loan Account.",
+    "Direct debit: ask us to debit your nominated bank account. Direct debits take three business days to clear, so a debit processed on Monday is available Thursday morning.",
+    "Check the deposit has arrived by logging in to Leveraged Online."
+   ],
+   "notes": [
+    "Use EFT or BPAY rather than posting a cheque, to avoid delays.",
+    "Can't find your BSB, account number or BPAY details? Call 1300 307 807 (Mon–Fri, 8:30am–5:30pm AEST/AEDT) or email customerservice@leveraged.com.au. Never send money to account details received in an unexpected email or call.",
+    "To nominate or change a bank account for direct debits, we need confirmation of the BSB, account number and account name from your bank, usually a bank statement."
+   ],
+   "links": [
+    {
+     "label": "Bank transfers and direct debits FAQs",
+     "href": "support/faqs/index.html#direct-debits"
+    },
+    {
+     "label": "Change bank account details (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/le-047-change-bank-account-details.pdf"
+    },
+    {
+     "label": "Contact us",
+     "href": "contact-us/index.html"
+    }
+   ],
+   "source": "Leveraged FAQs (bank transfers and direct debits) and Important notices"
+  },
+  {
    "id": "lodge-broker",
    "title": "How do I transfer broker-sponsored shares (HIN) to my margin loan?",
    "group": "Transferring shares",
