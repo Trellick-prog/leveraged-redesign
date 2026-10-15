@@ -50,7 +50,9 @@ the local knowledge base automatically.
 1. Review gaps at `<service URL>/review` and download them as a Markdown table.
 2. Confirm the right answer against the PDS, form or policy it comes from.
 3. Add or update entries in `tools/kb-curated.json` (or the FAQ or forms pages).
-4. Run `python3 tools/build_kb.py` and push. The service picks up the change within 10 minutes.
+4. Run `python3 tools/build_kb.py`, then `node tools/test_kb.js` to check every question in
+   `tools/kb-tests.json` still gets the right answer. Add the new question to that file too.
+5. Push. The service picks up the change within 10 minutes.
 
 ## Before going live
 

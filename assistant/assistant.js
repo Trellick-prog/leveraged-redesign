@@ -169,9 +169,17 @@
     return entry;
   }
 
+  // The confident match for a question, or null if there isn't one.
+  function bestMatch(r) {
+    var top = r.ranked[0];
+    return (!r.query.length || !top || top.score < 4 || top.coverage < 0.34) ? null : top;
+  }
+  // Used by tools/test_kb.js to check which entry each test question gets.
+  window.__levAssistantMatch = function (q) { if (!kb) return undefined; var m = bestMatch(search(q)); return m ? m.e.id : null; };
+
   function answerLocal(q) {
-    var r = search(q), top = r.ranked[0];
-    if (!r.query.length || !top || top.score < 4 || top.coverage < 0.34) return unknown(q);
+    var r = search(q), top = bestMatch(r);
+    if (!top) return unknown(q);
     var entry = log({ id: 'q' + Date.now(), question: q, status: 'answered', matched: top.e.id, score: Math.round(top.score * 10) / 10 });
     var m = say(renderEntry(top.e), 'bot');
     var related = r.ranked.slice(1, 4).filter(function (x) { return x.score > top.score * 0.6 && x.score >= 4; });

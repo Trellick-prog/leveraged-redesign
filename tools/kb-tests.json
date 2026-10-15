@@ -1,0 +1,134 @@
+[
+ {
+  "question": "Am I a wholesale investor?",
+  "expect": "page-wholesale-eligibility-criteria-and-considerations"
+ },
+ {
+  "question": "Can I borrow to buy REITs?",
+  "expect": "no-property"
+ },
+ {
+  "question": "Can I borrow to buy an investment property?",
+  "expect": "no-property"
+ },
+ {
+  "question": "Can I borrow to buy international shares?",
+  "expect": "acceptable-investments"
+ },
+ {
+  "question": "Can I earn Qantas points?",
+  "expect": "page-products-rewards-plus-qantas-boost-your-investment-capacity-and-your-points-bala"
+ },
+ {
+  "question": "Can I prepay interest?",
+  "expect": "page-educational-insights-fix-and-prepay-interest-intro"
+ },
+ {
+  "question": "Can I use my house as security?",
+  "expect": "no-property"
+ },
+ {
+  "question": "Can an SMSF get a loan?",
+  "expect": "smsf"
+ },
+ {
+  "question": "Can you send me my capital gains report?",
+  "expect": "tax-reporting"
+ },
+ {
+  "question": "Do you lend against property?",
+  "expect": "no-property"
+ },
+ {
+  "question": "Do you report on my trades?",
+  "expect": "tax-reporting"
+ },
+ {
+  "question": "How do I apply for Instalment Plus?",
+  "expect": "page-products-instalment-plus-how-to-apply"
+ },
+ {
+  "question": "How do I apply?",
+  "expect": "apply"
+ },
+ {
+  "question": "How do I change my address?",
+  "expect": "faq-how-do-i-change-my-address-or-contact-details"
+ },
+ {
+  "question": "How do I make a complaint?",
+  "expect": "page-contact-us-make-a-complaint-we-re-listening"
+ },
+ {
+  "question": "How do I obtain a copy of my statement?",
+  "expect": "faq-how-do-i-obtain-a-copy-of-my-statement"
+ },
+ {
+  "question": "How do I transfer my SRN shares?",
+  "expect": "lodge-srn"
+ },
+ {
+  "question": "How is the buffer calculated?",
+  "expect": "margin-calc"
+ },
+ {
+  "question": "How much interest did I pay this financial year?",
+  "expect": "tax-reporting"
+ },
+ {
+  "question": "How to transfer funds into my margin loan?",
+  "expect": "deposit-funds"
+ },
+ {
+  "question": "My father passed away, what do I do with his loan?",
+  "expect": "deceased-estate"
+ },
+ {
+  "question": "Someone sent me a suspicious SMS",
+  "expect": "page-security-received-a-suspicious-sms"
+ },
+ {
+  "question": "What are your interest rates?",
+  "expect": "rates"
+ },
+ {
+  "question": "What can I borrow against?",
+  "expect": "acceptable-investments"
+ },
+ {
+  "question": "What do I need for my tax return?",
+  "expect": "tax-reporting"
+ },
+ {
+  "question": "What fees do you charge?",
+  "expect": "fees"
+ },
+ {
+  "question": "What happens if I get a margin call?",
+  "expect": "margin-call"
+ },
+ {
+  "question": "What is Instalment Plus?",
+  "expect": "instalment-plus"
+ },
+ {
+  "question": "What is the difference between margin loan and direct investment loan?",
+  "expect": "compare-products"
+ },
+ {
+  "question": "What is the minimum loan amount?",
+  "expect": "minimum-amounts"
+ },
+ {
+  "question": "Where do I find my interest for tax?",
+  "expect": "tax-reporting"
+ },
+ {
+  "question": "Can I borrow against my car?",
+  "expect": "acceptable-investments"
+ },
+ {
+  "question": "Do you sell travel insurance?",
+  "expect": null
+ }
+]
