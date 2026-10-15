@@ -5,6 +5,7 @@
 //   POST /chat  { question, history?, page? } -> { id, answered, answer, steps, sources }
 //   POST /log   { ...entry }                   -> 204 (the widget reports feedback here)
 //   GET  /log   Authorization: Bearer <REVIEW_TOKEN> -> { entries: [...] }
+//   GET  /review (+ /review.md, /review.csv)  password-protected review page (password = REVIEW_TOKEN)
 import Anthropic from "@anthropic-ai/sdk";
 
 const MODEL = "claude-opus-5-5";
@@ -167,6 +168,10 @@ async function chat(request, env) {
 async function listLog(request, env) {
   const auth = request.headers.get("Authorization") || "";
   if (!env.REVIEW_TOKEN || auth !== `Bearer ${env.REVIEW_TOKEN}`) return json(env, { error: "unauthorised" }, 401);
+  return json(env, { entries: await getEntries(env) });
+}
+
+async function getEntries(env) {
   const entries = [];
   let cursor;
   do {
@@ -183,7 +188,102 @@ async function listLog(request, env) {
     if (e.question) byId.set(e.id, { ...byId.get(e.id), ...e });
     else if (e.rating) byId.set(e.id, { ...byId.get(e.id), rating: e.rating });
   }
-  return json(env, { entries: [...byId.values()].filter((e) => e.question).sort((a, b) => (a.ts < b.ts ? -1 : 1)) });
+  return [...byId.values()].filter((e) => e.question).sort((a, b) => (a.ts < b.ts ? -1 : 1));
+}
+
+// ---------- Review page (password protected) ----------
+// The browser shows its own login box. Any username; the password is REVIEW_TOKEN.
+function reviewAuthorised(request, env) {
+  const m = (request.headers.get("Authorization") || "").match(/^Basic (.+)$/);
+  if (!m || !env.REVIEW_TOKEN) return false;
+  let decoded = "";
+  try { decoded = atob(m[1]); } catch { return false; }
+  return decoded.slice(decoded.indexOf(":") + 1) === env.REVIEW_TOKEN;
+}
+
+const PRIVATE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex, nofollow", "Referrer-Policy": "no-referrer" };
+
+function reviewStatus(e) {
+  if (e.status === "unanswered") return "unanswered";
+  if (e.rating === "not-helpful" || e.rating === "down") return "not helpful";
+  if (e.rating === "helpful" || e.rating === "up") return "helpful";
+  return "answered";
+}
+
+function pickEntries(entries, show) {
+  const list = entries.filter((e) => {
+    const st = reviewStatus(e);
+    return show === "all" || (show === "unanswered" ? st === "unanswered" : st === "unanswered" || st === "not helpful");
+  });
+  return list.reverse();
+}
+
+const esc = (v) => String(v ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const mdCell = (v) => String(v ?? "").replace(/\|/g, "\\|").replace(/\n/g, " ");
+const csvCell = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
+
+async function review(request, env, url) {
+  if (!reviewAuthorised(request, env)) {
+    return new Response("Password required.", {
+      status: 401,
+      headers: { "WWW-Authenticate": 'Basic realm="Leveraged assistant review", charset="UTF-8"', ...PRIVATE },
+    });
+  }
+  const entries = await getEntries(env);
+  const show = ["all", "unanswered"].includes(url.searchParams.get("show")) ? url.searchParams.get("show") : "gaps";
+  const list = pickEntries(entries, show);
+  const stamp = new Date().toISOString().slice(0, 10);
+
+  if (url.pathname === "/review.md") {
+    const md = "| When | Question | Status | Matched answer | Page | Correct answer (to fill in) | Source |\n|---|---|---|---|---|---|---|\n" +
+      list.map((e) => "| " + [(e.ts || "").slice(0, 16).replace("T", " "), e.question, reviewStatus(e), e.matched || "-", e.page, "", ""].map(mdCell).join(" | ") + " |").join("\n");
+    return new Response(`# Assistant review\n\n${md}\n`, {
+      headers: { "Content-Type": "text/markdown; charset=utf-8", "Content-Disposition": `attachment; filename="assistant-review-${stamp}.md"`, ...PRIVATE },
+    });
+  }
+  if (url.pathname === "/review.csv") {
+    const csv = "when,question,status,matched,page\n" + list.map((e) => [e.ts, e.question, reviewStatus(e), e.matched, e.page].map(csvCell).join(",")).join("\n");
+    return new Response(csv, {
+      headers: { "Content-Type": "text/csv; charset=utf-8", "Content-Disposition": `attachment; filename="assistant-review-${stamp}.csv"`, ...PRIVATE },
+    });
+  }
+
+  const count = (f) => entries.filter(f).length;
+  const stats = [
+    ["Questions asked", entries.length],
+    ["Answered", count((e) => e.status === "answered")],
+    ["Unanswered", count((e) => e.status === "unanswered")],
+    ["Marked not helpful", count((e) => reviewStatus(e) === "not helpful")],
+  ];
+  const tab = (key, label) => `<a href="?show=${key}"${show === key ? ' aria-current="page"' : ""}>${label}</a>`;
+  const rows = list.length
+    ? list.map((e) => `<tr><td>${esc(e.ts ? new Date(e.ts).toLocaleString("en-AU", { timeZone: "Australia/Sydney" }) : "")}</td><td class="q">${esc(e.question)}</td><td><span class="tag">${esc(reviewStatus(e))}</span></td><td>${esc(e.matched || "-")}</td><td>${esc(e.page)}</td></tr>`).join("")
+    : '<tr><td colspan="5" class="empty">Nothing to review.</td></tr>';
+  const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>Assistant review – Leveraged</title>
+<style>
+body{margin:0;font-family:Manrope,"Segoe UI",system-ui,sans-serif;background:#F6F7F9;color:#0B1B2B}
+header{background:#003F72;color:#fff;padding:32px 20px}header div,main{max-width:1100px;margin:0 auto}
+h1{margin:0 0 6px;font-family:Georgia,serif;font-size:34px}header p{margin:0;color:#CFE0F2}
+main{padding:28px 20px 60px;display:flex;flex-direction:column;gap:20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.stat{background:#fff;border:1px solid #DDE3EA;border-radius:12px;padding:14px 16px}.stat b{display:block;font-size:26px}.stat span{color:#55606C;font-size:14px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.bar a{min-height:40px;display:inline-flex;align-items:center;padding:0 14px;border:2px solid #003F72;border-radius:8px;color:#003F72;font-weight:700;text-decoration:none}
+.bar a[aria-current]{background:#003F72;color:#fff}.bar .dl{border-color:#C2410C;color:#C2410C}
+.tw{overflow-x:auto;background:#fff;border:1px solid #DDE3EA;border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:15px}th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid #EEF1F4}
+th{background:#F0F3F6;font-size:13px}td.q{font-weight:600}.tag{font-size:12px;font-weight:700;text-transform:uppercase;background:#FFF1E8;color:#9A3412;padding:4px 8px;border-radius:6px;white-space:nowrap}
+.empty{text-align:center;color:#55606C;padding:28px}.howto{font-size:15px;line-height:1.6;color:#33404D}
+</style></head><body>
+<header><div><h1>Assistant review</h1><p>Questions visitors asked the site assistant. Private: this page needs the review password.</p></div></header>
+<main>
+<div class="stats">${stats.map(([l, n]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("")}</div>
+<nav class="bar" aria-label="Filter">${tab("gaps", "Needs attention")}${tab("unanswered", "Unanswered only")}${tab("all", "All questions")}
+<a class="dl" href="/review.md?show=${show}">Download .md</a><a class="dl" href="/review.csv?show=${show}">Download .csv</a></nav>
+<div class="tw"><table><thead><tr><th>When (Sydney)</th><th>Question</th><th>Status</th><th>Matched answer</th><th>Page</th></tr></thead><tbody>${rows}</tbody></table></div>
+<div class="howto"><strong>To close a gap:</strong> download the .md file, confirm each answer against the PDS, form or policy, add it to <code>tools/kb-curated.json</code>, run <code>python3 tools/build_kb.py</code> and push.</div>
+</main></body></html>`;
+  return new Response(html, { headers: { "Content-Type": "text/html; charset=utf-8", ...PRIVATE } });
 }
 
 export default {
@@ -192,6 +292,7 @@ export default {
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors(env) });
     if (url.pathname === "/chat" && request.method === "POST") return chat(request, env);
     if (url.pathname === "/log" && request.method === "GET") return listLog(request, env);
+    if (["/review", "/review.md", "/review.csv"].includes(url.pathname) && request.method === "GET") return review(request, env, url);
     if (url.pathname === "/log" && request.method === "POST") {
       const e = await request.json().catch(() => null);
       if (e && (e.question || e.rating)) {

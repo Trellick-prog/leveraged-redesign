@@ -2,7 +2,7 @@
  * Answers questions from assistant/kb.json (built by tools/build_kb.py).
  * If assistant/config.json sets an "endpoint", questions go to the AI service in
  * /assistant-service instead, falling back to the local knowledge base if it is unavailable.
- * Unanswered questions and feedback are logged for review at assistant/review.html.
+ * Unanswered questions and feedback are logged for review on the assistant service (https://leveraged-assistant.leveraged.workers.dev/review, password protected).
  */
 (function () {
   'use strict';

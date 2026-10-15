@@ -8,7 +8,8 @@ this service adds two things:
    base. The model is told to answer only from it, never to give personal advice,
    and to report when it can't answer (`answered: false`).
 2. **A central question log** for every visitor, which you review at
-   `assistant/review.html` using **Load from server**.
+   `<service URL>/review`. Your browser asks for a login: leave the username
+   blank (or type anything) and enter the `REVIEW_TOKEN` as the password.
 
 The Anthropic API key lives only in this service. It is never sent to the browser.
 
@@ -46,7 +47,7 @@ the local knowledge base automatically.
 
 ## Keeping the knowledge correct
 
-1. Review gaps at `assistant/review.html` and export them as a Markdown table.
+1. Review gaps at `<service URL>/review` and download them as a Markdown table.
 2. Confirm the right answer against the PDS, form or policy it comes from.
 3. Add or update entries in `tools/kb-curated.json` (or the FAQ or forms pages).
 4. Run `python3 tools/build_kb.py` and push. The service picks up the change within 10 minutes.
