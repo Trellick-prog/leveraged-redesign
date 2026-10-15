@@ -327,7 +327,14 @@
       "etf",
       "borrow against",
       "eligible securities",
-      "ail"
+      "ail",
+      "international shares",
+      "overseas shares",
+      "us shares",
+      "global shares",
+      "buy shares",
+      "etfs",
+      "managed funds"
     ],
     "answer": "Each loan has its own acceptable investments list showing the eligible securities and their lending ratios. Check the recent changes list too. Lists can change at any time.",
     "links": [
@@ -598,7 +605,6 @@
       "mortgage",
       "land",
       "apartment",
-      "buy a house",
       "house as security",
       "home as security",
       "property as security",
@@ -625,5 +631,53 @@
     "notes": [
       "Each REIT has its own lending ratio. Check the latest acceptable investments list for your product."
     ]
+  },
+  {
+    "id": "tax-reporting",
+    "title": "What do I need for my tax return? Where is my end of financial year interest?",
+    "group": "Statements and tax",
+    "keywords": [
+      "tax",
+      "tax return",
+      "tax time",
+      "tax statement",
+      "annual tax statement",
+      "end of financial year",
+      "eofy",
+      "financial year",
+      "interest paid",
+      "interest charged",
+      "total interest",
+      "deductible",
+      "deduction",
+      "june statement",
+      "reporting",
+      "capital gains",
+      "cgt",
+      "profit and loss",
+      "trades",
+      "trade history",
+      "accountant"
+    ],
+    "answer": "Your end of financial year interest is on page 2 of your June statement. We report the interest on your loan only. We don't report on trades, capital gains or profit and loss, so get those from your broker.",
+    "steps": [
+      "Open your June statement in Leveraged Online, or ask us for a copy.",
+      "Go to page 2 for the interest for the financial year.",
+      "For trades, capital gains and profit and loss, ask your broker or platform for their tax report."
+    ],
+    "notes": [
+      "We can't give tax advice. Talk to your accountant or tax adviser about what you can claim."
+    ],
+    "links": [
+      {
+        "label": "Statements FAQs",
+        "href": "support/faqs/index.html"
+      },
+      {
+        "label": "Contact us",
+        "href": "contact-us/index.html"
+      }
+    ],
+    "source": "Confirmed by the Leveraged team (15/10/2026)"
   }
 ]

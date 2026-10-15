@@ -65,7 +65,9 @@
         s += w * h;
       });
       var coverage = qt.length ? hits / qt.length : 0;
-      return { e: e, score: s * (0.5 + coverage), coverage: coverage };
+      // An entry whose title is the question itself beats one that just shares its words.
+      var exact = qt.length && e._t.length === qt.length && qt.every(function (t) { return e._t.indexOf(t) > -1; });
+      return { e: e, score: s * (0.5 + coverage) * (exact ? 1.5 : 1), coverage: coverage };
     }).sort(function (a, b) { return b.score - a.score; });
     return { query: qt, ranked: ranked };
   }
