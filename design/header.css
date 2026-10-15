@@ -1,0 +1,22 @@
+/* Site header: one row on desktop, hamburger below 1100px */
+.site-header .sh-in{flex-wrap:nowrap!important;gap:24px!important;padding-top:14px!important;padding-bottom:14px!important}
+.site-header .sh-logo{flex:0 0 auto}
+.site-header .sh-nav{flex:1 1 auto;flex-wrap:nowrap!important;justify-content:center;gap:22px!important;font-size:15px!important;white-space:nowrap}
+.site-header .sh-act{flex:0 0 auto;flex-wrap:nowrap!important;white-space:nowrap}
+.site-header .sh-menu{display:none;min-height:44px;min-width:44px;align-items:center;justify-content:center;gap:8px;padding:0 12px;border:2px solid var(--grey-200);border-radius:8px;background:#FFFFFF;color:var(--blue-800);font:inherit;font-weight:700;cursor:pointer}
+.site-header .sh-menu:focus-visible{outline:3px solid var(--color-focus-ring,#2563EB);outline-offset:2px}
+.site-header .sh-bars,.site-header .sh-bars::before,.site-header .sh-bars::after{display:block;width:18px;height:2px;background:currentColor;border-radius:1px;position:relative}
+.site-header .sh-bars::before,.site-header .sh-bars::after{content:"";position:absolute;left:0}
+.site-header .sh-bars::before{top:-6px}.site-header .sh-bars::after{top:6px}
+@media (max-width:1399px){.site-header .sh-tel{display:none!important}}
+@media (max-width:1099px){
+.site-header{position:relative}
+.site-header .sh-in{flex-wrap:wrap!important}
+.site-header .sh-menu{display:inline-flex;order:3}
+.site-header .sh-act{margin-left:auto;order:2}
+.site-header .sh-nav{display:none!important;order:4;flex:1 0 100%;flex-direction:column;gap:0!important;font-size:16px!important}
+.site-header.open .sh-nav{display:flex!important}
+.site-header .sh-nav a{padding:12px 4px;border-top:1px solid var(--grey-200)}
+}
+@media (max-width:520px){.site-header .sh-in{gap:8px!important;padding-left:16px!important;padding-right:16px!important}.site-header .sh-act{gap:8px!important}.site-header .sh-act a{padding:0 12px!important;font-size:15px}.site-header .sh-logo img{height:36px!important}.site-header .sh-mt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.site-header .sh-menu{padding:0}}
+@media (max-width:400px){.site-header .sh-in{gap:6px!important;padding-left:12px!important;padding-right:12px!important}.site-header .sh-act{gap:6px!important}.site-header .sh-act a{padding:0 10px!important;font-size:14px}.site-header .sh-logo img{height:30px!important}}
