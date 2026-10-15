@@ -5,6 +5,7 @@ Sources (re-run this script whenever any of them change):
   - tools/kb-curated.json   hand-written guided answers (each cites its source)
   - support/faqs/index.html every FAQ question and answer
   - forms.html              every form, list and document with its download links
+  - the site's content pages (PAGES below), one entry per section heading
 
 Usage:  python3 tools/build_kb.py
 """
@@ -73,9 +74,73 @@ def forms():
     return entries
 
 
+# Content pages indexed section by section. News, adviser articles and old
+# revised-agreement notices are left out: they're dated or not for customers.
+PAGES = [
+    "products", "products/margin-loan", "products/investment-funds-multiplier", "products/direct-investment-loan",
+    "products/instalment-plus", "products/exchange-options-plus", "products/rewards-plus-qantas",
+    "fees", "rates", "wholesale", "security", "transition-to-leveraged", "important-notices/upcoming-changes",
+    "support/deceased-estates", "support/financial-abuse", "support/financial-abuse/types-of-financial-abuse",
+    "support/financial-abuse/additional-assistance", "support/guides",
+    "contact-us", "contact-us/customer-advocate", "contact-us/make-a-complaint",
+    "contact-us/make-a-complaint/frequently-asked-questions", "policies/privacy-policy",
+    "calculations.html", "product-comparison.html",
+    "educational-insights/What-is-a-margin-lending-facility", "educational-insights/calculating-the-buffer",
+    "educational-insights/fix-and-prepay-interest", "educational-insights/managing-volatility-and-your-margin-loan",
+    "educational-insights/gear-into-international-shares", "educational-insights/boost-your-investment-capacity",
+    "educational-insights/negative-gearing-is-changing-but-not-for-margin-lending",
+]
+SKIP_HEADINGS = {"try it with your numbers", "things you should know", "talk to a specialist", "talk to us", "related articles", "get in touch",
+                 "get help from the right person", "need help?", "need a copy sent to you?"}
+MAX_ANSWER = 700
+
+
+def page_sections(rel):
+    path = os.path.join(ROOT, rel if rel.endswith(".html") else rel + "/index.html")
+    s = open(path, encoding="utf-8").read()
+    base_dir = os.path.dirname(rel) if rel.endswith(".html") else rel
+    href = rel if rel.endswith(".html") else rel + "/index.html"
+    title = text(re.search(r"<h1[^>]*>(.*?)</h1>", s, re.S).group(1))
+    m = re.search(r"<main[^>]*>(.*?)</main>", s, re.S)
+    body = m.group(1) if m else s[s.find("</header>"):s.find('<section id="contact"')]
+    body = re.sub(r"<(script|style|nav|button|form)\b.*?</\1>", " ", body, flags=re.S)
+    body = re.sub(r"<h1[^>]*>.*?</h1>", " ", body, flags=re.S)
+    parts = re.split(r"(<h2[^>]*>.*?</h2>)", body, flags=re.S)
+    entries = []
+    heading, anchor = None, ""
+    for part in parts:
+        h = re.match(r"<h2([^>]*)>(.*?)</h2>", part, re.S)
+        if h:
+            heading = text(h.group(2))
+            a = re.search(r'id="([^"]+)"', h.group(1))
+            anchor = "#" + a.group(1) if a else ""
+            continue
+        body_text = re.sub(r"\s*\n\s*", " ", text(part)).strip()
+        if len(body_text) < 60 or (heading or "").lower() in SKIP_HEADINGS:
+            continue
+        if len(body_text) > MAX_ANSWER:
+            body_text = body_text[:MAX_ANSWER].rsplit(" ", 1)[0] + "…"
+        name = f"{title}: {heading}" if heading else title
+        entries.append({
+            "id": "page-" + re.sub(r"[^a-z0-9]+", "-", (rel + "-" + (heading or "intro")).lower()).strip("-")[:80],
+            "title": name, "group": title,
+            "answer": body_text,
+            "links": [{"label": f"Read more: {title}", "href": href + anchor}] + links(part, base_dir)[:3],
+            "source": f"{title} page",
+        })
+    return entries
+
+
+def pages():
+    out = []
+    for rel in PAGES:
+        out += page_sections(rel)
+    return out
+
+
 def main():
     curated = json.load(open(os.path.join(ROOT, "tools/kb-curated.json"), encoding="utf-8"))
-    kb = {"version": 1, "entries": curated + faqs() + forms()}
+    kb = {"version": 1, "entries": curated + faqs() + forms() + pages()}
     out = os.path.join(ROOT, "assistant/kb.json")
     os.makedirs(os.path.dirname(out), exist_ok=True)
     json.dump(kb, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

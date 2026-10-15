@@ -386,7 +386,10 @@
       "calculate",
       "how it works",
       "lvr",
-      "loan to value"
+      "loan to value",
+      "how is the buffer calculated",
+      "calculate buffer",
+      "buffer calculation"
     ],
     "answer": "Lending value is each holding's market value multiplied by its lending ratio, added up. Available funds are the lower of your lending value and credit limit, minus your loan balance. The 'How it works' page has worked examples and a calculator.",
     "links": [
@@ -396,5 +399,153 @@
       }
     ],
     "source": "How it works (calculations) page"
+  },
+  {
+    "id": "fees",
+    "title": "What fees do you charge?",
+    "group": "Fees",
+    "keywords": [
+      "fee",
+      "fees",
+      "charges",
+      "cost",
+      "establishment fee",
+      "annual fee",
+      "ongoing fee",
+      "transaction fee",
+      "dishonour",
+      "break cost",
+      "how much does it cost"
+    ],
+    "answer": "There's no establishment fee for individual Margin Loan borrowers, and no fee for adding Exchange Options Plus, Instalment Plus or Rewards Plus. Paying money into your loan is free. Some fees apply in specific situations.",
+    "steps": [
+      "Companies: $150 establishment fee. Trusts: $250 to review the trust deed if you don't provide a solicitor's trust opinion (refunded if the application is declined).",
+      "Same-day (TT/RTGS) payment out of your loan: $26. Standard payments out: free.",
+      "Dishonours: $35 for a failed direct debit, $9 for a failed transfer from your loan account.",
+      "Breaking a fixed rate: break costs apply, minimum $250.",
+      "Other fees, such as off-market transfers ($25 per security) and late settlement ($30 per contract note), are in the fee schedule."
+    ],
+    "notes": [
+      "Fees differ between products. Check the fee schedule for the Investment Funds Multiplier and Direct Investment Loan."
+    ],
+    "links": [
+      {
+        "label": "Fee schedule",
+        "href": "fees/index.html"
+      },
+      {
+        "label": "Interest rates",
+        "href": "rates/index.html"
+      }
+    ],
+    "source": "Fee schedule page"
+  },
+  {
+    "id": "deceased-estate",
+    "title": "What happens to a margin loan when someone dies?",
+    "group": "Support",
+    "keywords": [
+      "deceased",
+      "died",
+      "death",
+      "passed away",
+      "passing",
+      "estate",
+      "executor",
+      "probate",
+      "bereavement",
+      "funeral",
+      "late husband",
+      "late wife"
+    ],
+    "answer": "We're sorry for your loss. Please let us know as soon as you can, so we can suspend the account and stop any further debits or fees.",
+    "steps": [
+      "Call 1300 307 807 (Mon–Fri, 8:30am–5:30pm AEST/AEDT, or +61 2 8282 8282 from overseas) or email customerservice@leveraged.com.au.",
+      "Give us their full name, loan account number (if known), residential and mailing address, date of birth and date of passing.",
+      "We'll check all their accounts with us, suspend the facility and write to the personal representatives or solicitor with what's needed to settle the estate.",
+      "You may be asked for certified copies of the death certificate and grant of probate or letters of administration, ID for the executor, and signed instructions for the loan."
+    ],
+    "links": [
+      {
+        "label": "Deceased estates",
+        "href": "support/deceased-estates/index.html"
+      }
+    ],
+    "source": "Deceased estates page"
+  },
+  {
+    "id": "smsf",
+    "title": "Can an SMSF get a margin loan?",
+    "group": "Eligibility",
+    "keywords": [
+      "smsf",
+      "self managed super",
+      "self-managed super",
+      "superannuation fund",
+      "super fund",
+      "super"
+    ],
+    "answer": "No. Our margin loans, the Direct Investment Loan and the add-on features aren't available to self-managed superannuation funds (SMSFs).",
+    "links": [
+      {
+        "label": "Compare our loans",
+        "href": "product-comparison.html"
+      }
+    ],
+    "source": "Product pages"
+  },
+  {
+    "id": "compare-products",
+    "title": "What's the difference between your loans?",
+    "group": "Products",
+    "keywords": [
+      "difference",
+      "compare",
+      "comparison",
+      "which loan",
+      "which product",
+      "best for me",
+      "margin loan vs",
+      "direct investment loan vs",
+      "versus"
+    ],
+    "answer": "We offer three loans. The Margin Loan is the most flexible: borrow against shares, ETFs and managed funds. The Investment Funds Multiplier is for building a managed-fund portfolio with regular contributions. The Direct Investment Loan is a structured loan for direct shares and ETFs with no margin calls; it's for individuals and joint borrowers only.",
+    "links": [
+      {
+        "label": "Compare our loans",
+        "href": "product-comparison.html"
+      },
+      {
+        "label": "All products",
+        "href": "products/index.html"
+      }
+    ],
+    "source": "Product comparison page"
+  },
+  {
+    "id": "minimum-amounts",
+    "title": "Is there a minimum loan amount?",
+    "group": "Products",
+    "keywords": [
+      "minimum",
+      "minimum loan",
+      "smallest loan",
+      "how little",
+      "minimum amount",
+      "minimum investment",
+      "minimum contribution"
+    ],
+    "answer": "We don't publish a minimum loan amount for the Margin Loan, Investment Funds Multiplier or Direct Investment Loan, so please call us to check. If you use Instalment Plus for regular investing, the minimums are $1,000 of your own money and a $2,000 loan drawdown to start, then $250 a month from you and $250 a month borrowed.",
+    "links": [
+      {
+        "label": "Instalment Plus",
+        "href": "products/instalment-plus/index.html"
+      },
+      {
+        "label": "Contact us",
+        "href": "contact-us/index.html"
+      }
+    ],
+    "source": "Instalment Plus page"
   }
 ]

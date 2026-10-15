@@ -388,7 +388,10 @@
     "calculate",
     "how it works",
     "lvr",
-    "loan to value"
+    "loan to value",
+    "how is the buffer calculated",
+    "calculate buffer",
+    "buffer calculation"
    ],
    "answer": "Lending value is each holding's market value multiplied by its lending ratio, added up. Available funds are the lower of your lending value and credit limit, minus your loan balance. The 'How it works' page has worked examples and a calculator.",
    "links": [
@@ -398,6 +401,154 @@
     }
    ],
    "source": "How it works (calculations) page"
+  },
+  {
+   "id": "fees",
+   "title": "What fees do you charge?",
+   "group": "Fees",
+   "keywords": [
+    "fee",
+    "fees",
+    "charges",
+    "cost",
+    "establishment fee",
+    "annual fee",
+    "ongoing fee",
+    "transaction fee",
+    "dishonour",
+    "break cost",
+    "how much does it cost"
+   ],
+   "answer": "There's no establishment fee for individual Margin Loan borrowers, and no fee for adding Exchange Options Plus, Instalment Plus or Rewards Plus. Paying money into your loan is free. Some fees apply in specific situations.",
+   "steps": [
+    "Companies: $150 establishment fee. Trusts: $250 to review the trust deed if you don't provide a solicitor's trust opinion (refunded if the application is declined).",
+    "Same-day (TT/RTGS) payment out of your loan: $26. Standard payments out: free.",
+    "Dishonours: $35 for a failed direct debit, $9 for a failed transfer from your loan account.",
+    "Breaking a fixed rate: break costs apply, minimum $250.",
+    "Other fees, such as off-market transfers ($25 per security) and late settlement ($30 per contract note), are in the fee schedule."
+   ],
+   "notes": [
+    "Fees differ between products. Check the fee schedule for the Investment Funds Multiplier and Direct Investment Loan."
+   ],
+   "links": [
+    {
+     "label": "Fee schedule",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    }
+   ],
+   "source": "Fee schedule page"
+  },
+  {
+   "id": "deceased-estate",
+   "title": "What happens to a margin loan when someone dies?",
+   "group": "Support",
+   "keywords": [
+    "deceased",
+    "died",
+    "death",
+    "passed away",
+    "passing",
+    "estate",
+    "executor",
+    "probate",
+    "bereavement",
+    "funeral",
+    "late husband",
+    "late wife"
+   ],
+   "answer": "We're sorry for your loss. Please let us know as soon as you can, so we can suspend the account and stop any further debits or fees.",
+   "steps": [
+    "Call 1300 307 807 (Mon–Fri, 8:30am–5:30pm AEST/AEDT, or +61 2 8282 8282 from overseas) or email customerservice@leveraged.com.au.",
+    "Give us their full name, loan account number (if known), residential and mailing address, date of birth and date of passing.",
+    "We'll check all their accounts with us, suspend the facility and write to the personal representatives or solicitor with what's needed to settle the estate.",
+    "You may be asked for certified copies of the death certificate and grant of probate or letters of administration, ID for the executor, and signed instructions for the loan."
+   ],
+   "links": [
+    {
+     "label": "Deceased estates",
+     "href": "support/deceased-estates/index.html"
+    }
+   ],
+   "source": "Deceased estates page"
+  },
+  {
+   "id": "smsf",
+   "title": "Can an SMSF get a margin loan?",
+   "group": "Eligibility",
+   "keywords": [
+    "smsf",
+    "self managed super",
+    "self-managed super",
+    "superannuation fund",
+    "super fund",
+    "super"
+   ],
+   "answer": "No. Our margin loans, the Direct Investment Loan and the add-on features aren't available to self-managed superannuation funds (SMSFs).",
+   "links": [
+    {
+     "label": "Compare our loans",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Product pages"
+  },
+  {
+   "id": "compare-products",
+   "title": "What's the difference between your loans?",
+   "group": "Products",
+   "keywords": [
+    "difference",
+    "compare",
+    "comparison",
+    "which loan",
+    "which product",
+    "best for me",
+    "margin loan vs",
+    "direct investment loan vs",
+    "versus"
+   ],
+   "answer": "We offer three loans. The Margin Loan is the most flexible: borrow against shares, ETFs and managed funds. The Investment Funds Multiplier is for building a managed-fund portfolio with regular contributions. The Direct Investment Loan is a structured loan for direct shares and ETFs with no margin calls; it's for individuals and joint borrowers only.",
+   "links": [
+    {
+     "label": "Compare our loans",
+     "href": "product-comparison.html"
+    },
+    {
+     "label": "All products",
+     "href": "products/index.html"
+    }
+   ],
+   "source": "Product comparison page"
+  },
+  {
+   "id": "minimum-amounts",
+   "title": "Is there a minimum loan amount?",
+   "group": "Products",
+   "keywords": [
+    "minimum",
+    "minimum loan",
+    "smallest loan",
+    "how little",
+    "minimum amount",
+    "minimum investment",
+    "minimum contribution"
+   ],
+   "answer": "We don't publish a minimum loan amount for the Margin Loan, Investment Funds Multiplier or Direct Investment Loan, so please call us to check. If you use Instalment Plus for regular investing, the minimums are $1,000 of your own money and a $2,000 loan drawdown to start, then $250 a month from you and $250 a month borrowed.",
+   "links": [
+    {
+     "label": "Instalment Plus",
+     "href": "products/instalment-plus/index.html"
+    },
+    {
+     "label": "Contact us",
+     "href": "contact-us/index.html"
+    }
+   ],
+   "source": "Instalment Plus page"
   },
   {
    "id": "faq-how-do-i-obtain-a-copy-of-my-statement",
@@ -1495,6 +1646,3143 @@
     }
    ],
    "source": "Forms and documents page"
+  },
+  {
+   "id": "page-products-margin-lending-solutions",
+   "title": "Margin lending products: Margin lending solutions",
+   "group": "Margin lending products",
+   "answer": "We have a variety of solutions that will help you in borrowing to invest. Most comprehensiveMargin Loan Our most comprehensive margin loan product. Flexible loan account offering several interest rate options 2,000+ acceptable investments Apply to manage the loan directly or through a selected stockbroker or financial adviser Explore Margin LoanExclusive to LeveragedInvestment Funds Multiplier A margin loan with a repayment plan. A margin loan solution exclusive to Leveraged Manage your loan with a repayment plan in the event of a significant fall in portfolio value Explore Investment Funds MultiplierLowest variable rateDirect Investment Loan Designed for the self-directed investor.…",
+   "links": [
+    {
+     "label": "Read more: Margin lending products",
+     "href": "products/index.html#loans-h"
+    },
+    {
+     "label": "Explore Margin Loan",
+     "href": "products/margin-loan/index.html"
+    },
+    {
+     "label": "Explore Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html"
+    },
+    {
+     "label": "Explore Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html"
+    }
+   ],
+   "source": "Margin lending products page"
+  },
+  {
+   "id": "page-products-add-on-features",
+   "title": "Margin lending products: Add-on features",
+   "group": "Margin lending products",
+   "answer": "Optional features you can add to an eligible loan. Margin LoanExchange Options Plus Combine exchange traded options strategies with your margin loan. Use put options to limit potential loss Sell or write covered calls on acceptable securities held Explore Exchange Options PlusMargin Loan and IFMInstalment Plus Plan to progressively build an investment portfolio using gearing. Contribute from $250 a month and borrow $250 a month Progressively build a managed funds portfolio Explore Instalment PlusAll three loansRewards Plus (Qantas) Earn Qantas Points on the amount you borrow. Up to 60,000 Qantas Points per $100,000 borrowed p.a.^ Points calculated daily and paid monthly Explore Rewards Plus…",
+   "links": [
+    {
+     "label": "Read more: Margin lending products",
+     "href": "products/index.html#addons-h"
+    },
+    {
+     "label": "Explore Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html"
+    },
+    {
+     "label": "Explore Instalment Plus",
+     "href": "products/instalment-plus/index.html"
+    },
+    {
+     "label": "Explore Rewards Plus (Qantas)",
+     "href": "products/rewards-plus-qantas/index.html"
+    }
+   ],
+   "source": "Margin lending products page"
+  },
+  {
+   "id": "page-products-compare-products",
+   "title": "Margin lending products: Compare products",
+   "group": "Margin lending products",
+   "answer": "See the Margin Loan, Investment Funds Multiplier and Direct Investment Loan side by side. View product comparison",
+   "links": [
+    {
+     "label": "Read more: Margin lending products",
+     "href": "products/index.html#compare-h"
+    },
+    {
+     "label": "View product comparison",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Margin lending products page"
+  },
+  {
+   "id": "page-products-rates-fees-and-forms",
+   "title": "Margin lending products: Rates, fees and forms",
+   "group": "Margin lending products",
+   "answer": "Interest ratesFeesForms and documentsAcceptable investmentsEducational insights",
+   "links": [
+    {
+     "label": "Read more: Margin lending products",
+     "href": "products/index.html#res-h"
+    },
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Forms and documents",
+     "href": "forms.html"
+    }
+   ],
+   "source": "Margin lending products page"
+  },
+  {
+   "id": "page-products-risks",
+   "title": "Margin lending products: Risks",
+   "group": "Margin lending products",
+   "answer": "Gearing involves risk. It can magnify your returns; however, it may also magnify your losses. If the net return on your investments is less than your borrowing costs, then you may earn a lower return or incur a larger loss than not borrowing to invest or not investing at all. A fall in the value of your investments may trigger a margin call. There may also be interest rate changes. For example, an increase in the variable interest rate will increase your borrowing costs. ^ You must be a Qantas Frequent Flyer member to earn Qantas points. A joining fee may apply. A higher variable rate may apply to your margin loan facility. For more information, refer to the ‘Rewards Plus’ section of the…",
+   "links": [
+    {
+     "label": "Read more: Margin lending products",
+     "href": "products/index.html#risks-h"
+    },
+    {
+     "label": "Leveraged Terms & Conditions",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-terms-and-conditions.pdf"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Margin lending products page"
+  },
+  {
+   "id": "page-products-margin-loan-our-most-comprehensive-margin-loan-product",
+   "title": "Margin Loan: Our most comprehensive margin loan product",
+   "group": "Margin Loan",
+   "answer": "The Leveraged Margin Loan is a revolving line of credit, offering a range of interest rate options and payment methods, a large acceptable investment list, exclusive add-on features that may work with your investment strategy plus an online application process. Add-on features for this loan Exchange Options PlusInstalment PlusRewards Plus (Qantas)",
+   "links": [
+    {
+     "label": "Read more: Margin Loan",
+     "href": "products/margin-loan/index.html#overview-h"
+    },
+    {
+     "label": "Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html"
+    },
+    {
+     "label": "Instalment Plus",
+     "href": "products/instalment-plus/index.html"
+    },
+    {
+     "label": "Rewards Plus (Qantas)",
+     "href": "products/rewards-plus-qantas/index.html"
+    }
+   ],
+   "source": "Margin Loan page"
+  },
+  {
+   "id": "page-products-margin-loan-key-features",
+   "title": "Margin Loan: Key features",
+   "group": "Margin Loan",
+   "answer": "Connect with most major online platforms and selected brokers A diverse and frequently reviewed acceptable investment list Offering a range of interest rate options, terms and payment methods Benefits Increase your investment capacity Borrow against an existing portfolio or create a new investment portfolio to boost your investment capacity and diversify your assets. Diversification Access more funds to diversify your investments into different asset classes, industries and companies. Liquidity Additional liquidity without selling assets so you can take advantage of investment opportunities when they arise. Flexibility A number of ways to pay interest and operate your margin loan facility.…",
+   "links": [
+    {
+     "label": "Read more: Margin Loan",
+     "href": "products/margin-loan/index.html#features-h"
+    }
+   ],
+   "source": "Margin Loan page"
+  },
+  {
+   "id": "page-products-margin-loan-who-it-suits",
+   "title": "Margin Loan: Who it suits",
+   "group": "Margin Loan",
+   "answer": "This product may suit: Investors who want a choice of interest rate options, terms and payment methods Investors who want to borrow against a broad range of acceptable investments, including domestic and international shares2, ETFs and managed funds Investors who manage the loan directly, or through a selected stockbroker or financial adviser Investors who want to use add-on features such as Exchange Options Plus, Instalment Plus or Rewards Plus Not available for self-managed superannuation funds. Not sure which loan fits? Compare our products.",
+   "links": [
+    {
+     "label": "Read more: Margin Loan",
+     "href": "products/margin-loan/index.html#suits-h"
+    },
+    {
+     "label": "Compare our products",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Margin Loan page"
+  },
+  {
+   "id": "page-products-margin-loan-how-it-works",
+   "title": "Margin Loan: How it works",
+   "group": "Margin Loan",
+   "answer": "Applications are completed online. This is what happens after you start. Start your application As part of the application, we will complete a credit assessment to determine suitability of the product and credit limit requested. You may be asked to provide details of your assets, income, expenses, liabilities and provide relevant supporting documentation. Application assessment Once submitted, our team will review your application and may contact you if any additional information or documents are required. Loan approval and activation If your application is approved and your facility activated, your new facility will be ready for transfer or lodgement of approved securities or your HIN…",
+   "links": [
+    {
+     "label": "Read more: Margin Loan",
+     "href": "products/margin-loan/index.html#how-h"
+    },
+    {
+     "label": "Apply online",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+    },
+    {
+     "label": "Enquire now",
+     "href": "contact-us/enquiry/index.html"
+    }
+   ],
+   "source": "Margin Loan page"
+  },
+  {
+   "id": "page-products-margin-loan-eligible-investments",
+   "title": "Margin Loan: Eligible investments",
+   "group": "Margin Loan",
+   "answer": "Borrow against a wide range of acceptable investments, including domestic and international shares2, ETFs and managed funds. The lists below set out each eligible security and its lending ratio. Margin Loan Acceptable Investments ListPDF · 436 KB ↓ Margin Loan International Acceptable Investments ListPDF · 265 KB ↓ Recent Changes to Margin Loan Acceptable Investments ListPDF · 137 KB ↓ Recent Changes to Margin Loan International Acceptable Investments ListPDF · 110 KB ↓ All acceptable investments lists",
+   "links": [
+    {
+     "label": "Read more: Margin Loan",
+     "href": "products/margin-loan/index.html#inv-h"
+    },
+    {
+     "label": "PDF · 436 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-margin-loan-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "PDF · 265 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-margin-loan-international-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "PDF · 137 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-recent-changes-to-margin-loan-acceptable-investments-list.pdf"
+    }
+   ],
+   "source": "Margin Loan page"
+  },
+  {
+   "id": "page-products-margin-loan-rates-and-fees",
+   "title": "Margin Loan: Rates and fees",
+   "group": "Margin Loan",
+   "answer": "Interest rates and fees are set out on our rates and fees pages and in the PDS. Rates can change, so check the current rates before you apply. Interest ratesFeesProduct comparison",
+   "links": [
+    {
+     "label": "Read more: Margin Loan",
+     "href": "products/margin-loan/index.html#rates-h"
+    },
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Product comparison",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Margin Loan page"
+  },
+  {
+   "id": "page-products-margin-loan-documents",
+   "title": "Margin Loan: Documents",
+   "group": "Margin Loan",
+   "answer": "Read these before you apply. Forms to manage an existing facility are on the forms and documents page. Margin Loan fact sheetPDF ↓ Leveraged Margin Loan PDSPDF · 109 KB ↓ Leveraged Margin Loan PDS UpdatesPDF · 66 KB ↓ Leveraged Margin Loan Incorporated StatementsPDF · 142 KB ↓ Leveraged Margin Loan Product GuidePDF · 405 KB ↓ Leveraged Terms and ConditionsPDF · 925 KB ↓",
+   "links": [
+    {
+     "label": "Read more: Margin Loan",
+     "href": "products/margin-loan/index.html#docs-h"
+    },
+    {
+     "label": "forms and documents page",
+     "href": "forms.html"
+    },
+    {
+     "label": "PDF ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productandfeaturesfactsheets/leveraged-margin-loan-fact-sheet.pdf"
+    },
+    {
+     "label": "PDF · 109 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-margin-loan-pds.pdf"
+    }
+   ],
+   "source": "Margin Loan page"
+  },
+  {
+   "id": "page-products-margin-loan-risks",
+   "title": "Margin Loan: Risks",
+   "group": "Margin Loan",
+   "answer": "Borrowing to invest is not right for everyone. Make sure you understand these risks before you apply. Changes in portfolio values and interest rates If the net return on your investments is less than your borrowing costs, then you may earn a lower return or incur a larger loss than not borrowing to invest or not investing at all. A fall in the value of your investments may trigger a margin call. There may also be interest rate changes. For example, an increase in the variable interest rate will increase your borrowing costs. Events triggering early repayment and loan repayment Events such as Margin Calls, market disruptions, credit limit exceeds, default events or termination can result in…",
+   "links": [
+    {
+     "label": "Read more: Margin Loan",
+     "href": "products/margin-loan/index.html#risks-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Margin Loan page"
+  },
+  {
+   "id": "page-products-investment-funds-multiplier-a-margin-loan-with-a-repayment-plan",
+   "title": "Investment Funds Multiplier: A margin loan with a repayment plan",
+   "group": "Investment Funds Multiplier",
+   "answer": "With the Investment Funds Multiplier (IFM) you can borrow to invest with the added benefit of managing your loan through a repayment plan. For example, in the event of a significant and sustained fall in portfolio value, your IFM facility may be subject to a repayment plan, and you could progressively reduce the loan by repaying 1% of the total amount owing each month – until the gearing level is restored to an acceptable level. This provides you with greater certainty about the amount you have to pay to reduce the loan borrowed over time, rather than receiving a single margin call. Add-on features for this loan Instalment PlusRewards Plus (Qantas)",
+   "links": [
+    {
+     "label": "Read more: Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html#overview-h"
+    },
+    {
+     "label": "Instalment Plus",
+     "href": "products/instalment-plus/index.html"
+    },
+    {
+     "label": "Rewards Plus (Qantas)",
+     "href": "products/rewards-plus-qantas/index.html"
+    }
+   ],
+   "source": "Investment Funds Multiplier page"
+  },
+  {
+   "id": "page-products-investment-funds-multiplier-key-features",
+   "title": "Investment Funds Multiplier: Key features",
+   "group": "Investment Funds Multiplier",
+   "answer": "Connect with most major online platforms and selected brokers A diverse and frequently reviewed acceptable investment list Manage your loan through a repayment plan Benefits Increase your investment capacity Borrow against an existing portfolio or create a new investment portfolio to boost your investment capacity and diversify your assets. Diversification Access more funds to diversify your investments into different asset classes, industries and companies. Liquidity Additional liquidity without selling assets so you can take advantage of investment opportunities when they arise. Flexibility A number of ways to pay interest and operate your margin loan facility. Tax effectiveness You may…",
+   "links": [
+    {
+     "label": "Read more: Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html#features-h"
+    }
+   ],
+   "source": "Investment Funds Multiplier page"
+  },
+  {
+   "id": "page-products-investment-funds-multiplier-who-it-suits",
+   "title": "Investment Funds Multiplier: Who it suits",
+   "group": "Investment Funds Multiplier",
+   "answer": "This product may suit: Investors who would prefer a repayment plan to a single margin call if their portfolio value falls significantly Investors who want to connect with most major online platforms and selected brokers Investors who want to build a portfolio progressively with Instalment Plus Not available for self-managed superannuation funds. Not sure which loan fits? Compare our products.",
+   "links": [
+    {
+     "label": "Read more: Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html#suits-h"
+    },
+    {
+     "label": "Compare our products",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Investment Funds Multiplier page"
+  },
+  {
+   "id": "page-products-investment-funds-multiplier-how-it-works",
+   "title": "Investment Funds Multiplier: How it works",
+   "group": "Investment Funds Multiplier",
+   "answer": "Applications are completed online. This is what happens after you start. Start your application As part of the application, we will complete a credit assessment to determine suitability of the product and credit limit requested. You may be asked to provide details of your assets, income, expenses, liabilities and provide relevant supporting documentation. Application assessment Once submitted, our team will review your application and may contact you if any additional information or documents are required. Loan approval and activation If your application is approved and your facility activated, your new facility will be ready for transfer or lodgement of approved securities or your HIN…",
+   "links": [
+    {
+     "label": "Read more: Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html#how-h"
+    },
+    {
+     "label": "Apply online",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+    },
+    {
+     "label": "Enquire now",
+     "href": "contact-us/enquiry/index.html"
+    }
+   ],
+   "source": "Investment Funds Multiplier page"
+  },
+  {
+   "id": "page-products-investment-funds-multiplier-eligible-investments",
+   "title": "Investment Funds Multiplier: Eligible investments",
+   "group": "Investment Funds Multiplier",
+   "answer": "Borrow against a diverse and frequently reviewed list of acceptable investments. The lists below set out each eligible security and its lending ratio. Investment Funds Multiplier Acceptable Investments ListPDF · 234 KB ↓ Recent Changes to Investment Funds Multiplier Acceptable Investments ListPDF · 118 KB ↓ All acceptable investments lists",
+   "links": [
+    {
+     "label": "Read more: Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html#inv-h"
+    },
+    {
+     "label": "PDF · 234 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-investment-funds-multiplier-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "PDF · 118 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-recent-changes-to-investment-funds-multiplier-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All acceptable investments lists",
+     "href": "forms.html#investments"
+    }
+   ],
+   "source": "Investment Funds Multiplier page"
+  },
+  {
+   "id": "page-products-investment-funds-multiplier-rates-and-fees",
+   "title": "Investment Funds Multiplier: Rates and fees",
+   "group": "Investment Funds Multiplier",
+   "answer": "Interest rates and fees are set out on our rates and fees pages and in the PDS. Rates can change, so check the current rates before you apply. Interest ratesFeesProduct comparison",
+   "links": [
+    {
+     "label": "Read more: Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html#rates-h"
+    },
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Product comparison",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Investment Funds Multiplier page"
+  },
+  {
+   "id": "page-products-investment-funds-multiplier-documents",
+   "title": "Investment Funds Multiplier: Documents",
+   "group": "Investment Funds Multiplier",
+   "answer": "Read these before you apply. Forms to manage an existing facility are on the forms and documents page. Investment Funds Multiplier fact sheetPDF ↓ Leveraged Investment Funds Multiplier PDSPDF · 111 KB ↓ Leveraged Investment Funds Multiplier PDS UpdatesPDF · 67 KB ↓ Leveraged Investment Funds Multiplier Incorporated StatementsPDF · 141 KB ↓ Leveraged Investment Funds Multiplier Product GuidePDF · 404 KB ↓ Leveraged Terms and ConditionsPDF · 925 KB ↓",
+   "links": [
+    {
+     "label": "Read more: Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html#docs-h"
+    },
+    {
+     "label": "forms and documents page",
+     "href": "forms.html"
+    },
+    {
+     "label": "PDF ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productandfeaturesfactsheets/leveraged-investment-funds-multiplier-fact-sheet.pdf"
+    },
+    {
+     "label": "PDF · 111 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-investment-funds-multiplier-pds.pdf"
+    }
+   ],
+   "source": "Investment Funds Multiplier page"
+  },
+  {
+   "id": "page-products-investment-funds-multiplier-risks",
+   "title": "Investment Funds Multiplier: Risks",
+   "group": "Investment Funds Multiplier",
+   "answer": "Borrowing to invest is not right for everyone. Make sure you understand these risks before you apply. Changes in portfolio values and interest rates If the net return on your investments is less than your borrowing costs, then you may earn a lower return or incur a larger loss than not borrowing to invest or not investing at all. A fall in the value of your investments may trigger a margin call. There may also be interest rate changes. For example, an increase in the variable interest rate will increase your borrowing costs. Events triggering early repayment and loan repayment Events such as Margin Calls, market disruptions, credit limit exceeds, default events or termination can result in…",
+   "links": [
+    {
+     "label": "Read more: Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html#risks-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Investment Funds Multiplier page"
+  },
+  {
+   "id": "page-products-direct-investment-loan-our-lowest-variable-rate-margin-lending-solution",
+   "title": "Direct Investment Loan: Our lowest variable rate margin lending solution",
+   "group": "Direct Investment Loan",
+   "answer": "The Direct Investment Loan is our lowest variable rate margin loan. Specifically designed for the self-directed investor with the ability to integrate with selected online brokers. The Direct Investment Loan has an online application, a maximum credit limit of $500,000, and a number of ways to pay interest. Add-on features for this loan Rewards Plus (Qantas)",
+   "links": [
+    {
+     "label": "Read more: Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html#overview-h"
+    },
+    {
+     "label": "Rewards Plus (Qantas)",
+     "href": "products/rewards-plus-qantas/index.html"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "page-products-direct-investment-loan-key-features",
+   "title": "Direct Investment Loan: Key features",
+   "group": "Direct Investment Loan",
+   "answer": "Specifically designed for the self-directed investor Ability to integrate with select online brokers Our lowest variable rate margin lending solution Benefits Increase your investment capacity Borrow against an existing portfolio or create a new investment portfolio to boost your investment capacity and diversify your assets. Diversification Access more funds to diversify your investments into different asset classes, industries and companies. Liquidity Additional liquidity without selling assets so you can take advantage of investment opportunities when they arise. Flexibility A number of ways to pay interest and operate your margin loan facility. Tax effectiveness You may be entitled to…",
+   "links": [
+    {
+     "label": "Read more: Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html#features-h"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "page-products-direct-investment-loan-who-it-suits",
+   "title": "Direct Investment Loan: Who it suits",
+   "group": "Direct Investment Loan",
+   "answer": "This product may suit: Individuals and joint borrowers (not available to companies or trusts) Self-directed investors who manage their own trading Investors who want to settle trades through a selected online broker, such as Bendigo Invest Direct Investors borrowing up to the maximum credit limit of $500,000 Investors in ASX listed securities and ETFs (managed funds are not acceptable investments for this loan) Available to individual and joint borrowers only. Not available to companies, trusts or self-managed superannuation funds. Not sure which loan fits? Compare our products.",
+   "links": [
+    {
+     "label": "Read more: Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html#suits-h"
+    },
+    {
+     "label": "Compare our products",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "page-products-direct-investment-loan-how-it-works",
+   "title": "Direct Investment Loan: How it works",
+   "group": "Direct Investment Loan",
+   "answer": "Applications are completed online. This is what happens after you start. Start your application As part of the application, we will complete a credit assessment to determine suitability of the product and credit limit requested. You may be asked to provide details of your assets, income, expenses, liabilities and provide relevant supporting documentation. Application assessment Once submitted, our team will review your application and may contact you if any additional information or documents are required. Loan approval and activation If your application is approved and your facility activated, your new facility will be ready for transfer or lodgement of approved securities or your HIN…",
+   "links": [
+    {
+     "label": "Read more: Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html#how-h"
+    },
+    {
+     "label": "Apply online",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+    },
+    {
+     "label": "Enquire now",
+     "href": "contact-us/enquiry/index.html"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "page-products-direct-investment-loan-eligible-investments",
+   "title": "Direct Investment Loan: Eligible investments",
+   "group": "Direct Investment Loan",
+   "answer": "Borrow against a wide range of ASX listed securities and ETFs. Managed funds are not acceptable investments for the Direct Investment Loan. Direct Investment Loan Acceptable Investments ListPDF · 259 KB ↓ Recent Changes to Direct Investment Loan Acceptable Investments ListPDF · 130 KB ↓ All acceptable investments lists",
+   "links": [
+    {
+     "label": "Read more: Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html#inv-h"
+    },
+    {
+     "label": "PDF · 259 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-direct-investment-loan-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "PDF · 130 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-recent-changes-to-direct-investment-loan-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "All acceptable investments lists",
+     "href": "forms.html#investments"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "page-products-direct-investment-loan-rates-and-fees",
+   "title": "Direct Investment Loan: Rates and fees",
+   "group": "Direct Investment Loan",
+   "answer": "Interest rates and fees are set out on our rates and fees pages and in the PDS. Rates can change, so check the current rates before you apply. Interest ratesFeesProduct comparison",
+   "links": [
+    {
+     "label": "Read more: Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html#rates-h"
+    },
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Product comparison",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "page-products-direct-investment-loan-documents",
+   "title": "Direct Investment Loan: Documents",
+   "group": "Direct Investment Loan",
+   "answer": "Read these before you apply. Forms to manage an existing facility are on the forms and documents page. Direct Investment Loan fact sheetPDF ↓ Leveraged Direct Investment Loan PDSPDF · 108 KB ↓ Leveraged Direct Investment Loan PDS UpdatesPDF · 66 KB ↓ Leveraged Direct Investment Loan Incorporated StatementsPDF · 141 KB ↓ Leveraged Direct Investment Loan Product GuidePDF · 361 KB ↓ Leveraged Terms and ConditionsPDF · 925 KB ↓",
+   "links": [
+    {
+     "label": "Read more: Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html#docs-h"
+    },
+    {
+     "label": "forms and documents page",
+     "href": "forms.html"
+    },
+    {
+     "label": "PDF ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productandfeaturesfactsheets/leveraged-direct-investment-loan-fact-sheet.pdf"
+    },
+    {
+     "label": "PDF · 108 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-direct-investment-loan-pds.pdf"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "page-products-direct-investment-loan-risks",
+   "title": "Direct Investment Loan: Risks",
+   "group": "Direct Investment Loan",
+   "answer": "Borrowing to invest is not right for everyone. Make sure you understand these risks before you apply. Changes in portfolio values and interest rates If the net return on your investments is less than your borrowing costs, then you may earn a lower return or incur a larger loss than not borrowing to invest or not investing at all. A fall in the value of your investments may trigger a margin call. There may also be interest rate changes. For example, an increase in the variable interest rate will increase your borrowing costs. Events triggering early repayment and loan repayment Events such as Margin Calls, market disruptions, credit limit exceeds, default events or termination can result in…",
+   "links": [
+    {
+     "label": "Read more: Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html#risks-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Direct Investment Loan page"
+  },
+  {
+   "id": "page-products-instalment-plus-explore-instalment-plus",
+   "title": "Instalment Plus: Explore Instalment Plus",
+   "group": "Instalment Plus",
+   "answer": "Instalment Plus combines two investment strategies: borrowing to invest, and regular investing; this combination may help you reach your medium to long-term financial goals. Instalment Plus is a way for you to make regular contributions using your own contributions as well as drawdowns on the loan in order to progressively build an investment portfolio. Instalment Plus minimum amountsAmountMinimumInitial contribution (your own funds)$1,000Initial loan drawdown$2,000Monthly contribution (your own funds)$250Monthly loan drawdown$250Minimum monthly addition to your portfolio$500Available with Margin LoanInvestment Funds Multiplier",
+   "links": [
+    {
+     "label": "Read more: Instalment Plus",
+     "href": "products/instalment-plus/index.html#overview-h"
+    },
+    {
+     "label": "Margin Loan",
+     "href": "products/margin-loan/index.html"
+    },
+    {
+     "label": "Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html"
+    }
+   ],
+   "source": "Instalment Plus page"
+  },
+  {
+   "id": "page-products-instalment-plus-key-features",
+   "title": "Instalment Plus: Key features",
+   "group": "Instalment Plus",
+   "answer": "Plan to regularly invest some of your savings or income Regularly borrow to invest Progressively build your managed funds investment portfolio",
+   "links": [
+    {
+     "label": "Read more: Instalment Plus",
+     "href": "products/instalment-plus/index.html#features-h"
+    }
+   ],
+   "source": "Instalment Plus page"
+  },
+  {
+   "id": "page-products-instalment-plus-who-it-suits",
+   "title": "Instalment Plus: Who it suits",
+   "group": "Instalment Plus",
+   "answer": "This product may suit: Margin Loan and Investment Funds Multiplier customers Investors who plan to regularly invest some of their savings or income Investors building a managed funds portfolio over the medium to long term Not available for self-managed superannuation funds. Not sure which loan fits? Compare our products.",
+   "links": [
+    {
+     "label": "Read more: Instalment Plus",
+     "href": "products/instalment-plus/index.html#suits-h"
+    },
+    {
+     "label": "Compare our products",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Instalment Plus page"
+  },
+  {
+   "id": "page-products-instalment-plus-how-to-apply",
+   "title": "Instalment Plus: How to apply",
+   "group": "Instalment Plus",
+   "answer": "New customers New customers may apply for Instalment Plus as part of their margin loan application. Existing customers Existing customers may add Instalment Plus to their margin loan using the Instalment Plus Application and Maintenance form. Apply onlineEnquire now",
+   "links": [
+    {
+     "label": "Read more: Instalment Plus",
+     "href": "products/instalment-plus/index.html#how-h"
+    },
+    {
+     "label": "Apply online",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+    },
+    {
+     "label": "Enquire now",
+     "href": "contact-us/enquiry/index.html"
+    }
+   ],
+   "source": "Instalment Plus page"
+  },
+  {
+   "id": "page-products-instalment-plus-eligible-investments",
+   "title": "Instalment Plus: Eligible investments",
+   "group": "Instalment Plus",
+   "answer": "Instalment Plus is used to build a managed funds portfolio. Check the acceptable investments lists for the Margin Loan or Investment Funds Multiplier for eligible funds. All acceptable investments lists",
+   "links": [
+    {
+     "label": "Read more: Instalment Plus",
+     "href": "products/instalment-plus/index.html#inv-h"
+    },
+    {
+     "label": "All acceptable investments lists",
+     "href": "forms.html#investments"
+    }
+   ],
+   "source": "Instalment Plus page"
+  },
+  {
+   "id": "page-products-instalment-plus-rates-and-fees",
+   "title": "Instalment Plus: Rates and fees",
+   "group": "Instalment Plus",
+   "answer": "Interest rates and fees are set out on our rates and fees pages and in the PDS. Rates can change, so check the current rates before you apply. Interest ratesFeesProduct comparison",
+   "links": [
+    {
+     "label": "Read more: Instalment Plus",
+     "href": "products/instalment-plus/index.html#rates-h"
+    },
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Product comparison",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Instalment Plus page"
+  },
+  {
+   "id": "page-products-instalment-plus-documents",
+   "title": "Instalment Plus: Documents",
+   "group": "Instalment Plus",
+   "answer": "Read these before you apply. Forms to manage an existing facility are on the forms and documents page. Instalment Plus fact sheetPDF ↓ Leveraged Instalment Plus Application and MaintenancePDF · 582 KB ↓ Leveraged Terms and ConditionsPDF · 925 KB ↓",
+   "links": [
+    {
+     "label": "Read more: Instalment Plus",
+     "href": "products/instalment-plus/index.html#docs-h"
+    },
+    {
+     "label": "forms and documents page",
+     "href": "forms.html"
+    },
+    {
+     "label": "PDF ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productandfeaturesfactsheets/leveraged-instalment-plus-fact-sheet.pdf"
+    },
+    {
+     "label": "PDF · 582 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-instalment-plus-application-and-maintenance.pdf"
+    }
+   ],
+   "source": "Instalment Plus page"
+  },
+  {
+   "id": "page-products-instalment-plus-risks",
+   "title": "Instalment Plus: Risks",
+   "group": "Instalment Plus",
+   "answer": "Borrowing to invest is not right for everyone. Make sure you understand these risks before you apply. Changes in portfolio values and interest rates If the net return on your investments is less than your borrowing costs, then you may earn a lower return or incur a larger loss than not borrowing to invest or not investing at all. A fall in the value of your investments may trigger a margin call. There may also be interest rate changes. For example, an increase in the variable interest rate will increase your borrowing costs. Events triggering early repayment and loan repayment Events such as Margin Calls, market disruptions, credit limit exceeds, default events or termination can result in…",
+   "links": [
+    {
+     "label": "Read more: Instalment Plus",
+     "href": "products/instalment-plus/index.html#risks-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Instalment Plus page"
+  },
+  {
+   "id": "page-products-exchange-options-plus-explore-exchange-options-plus",
+   "title": "Exchange Options Plus: Explore Exchange Options Plus",
+   "group": "Exchange Options Plus",
+   "answer": "Exchange Options Plus (EOP) is a feature that enables you to combine options strategies using Exchange Traded Options (ETOs) with your margin loan. Depending on your circumstances, ETOs can be used to complement and expand your investment strategy. Options are complex derivatives. It is recommended to seek financial and tax advice before using this product. Available with Margin Loan",
+   "links": [
+    {
+     "label": "Read more: Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html#overview-h"
+    },
+    {
+     "label": "Margin Loan",
+     "href": "products/margin-loan/index.html"
+    }
+   ],
+   "source": "Exchange Options Plus page"
+  },
+  {
+   "id": "page-products-exchange-options-plus-key-features",
+   "title": "Exchange Options Plus: Key features",
+   "group": "Exchange Options Plus",
+   "answer": "Utilise put options to limit potential loss if the share price of your shares falls Sell or write covered calls on acceptable securities held Diversify your portfolio by borrowing up to 95% of the exercise price of a put option",
+   "links": [
+    {
+     "label": "Read more: Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html#features-h"
+    }
+   ],
+   "source": "Exchange Options Plus page"
+  },
+  {
+   "id": "page-products-exchange-options-plus-who-it-suits",
+   "title": "Exchange Options Plus: Who it suits",
+   "group": "Exchange Options Plus",
+   "answer": "This product may suit: Margin Loan customers (this feature is available with the Margin Loan only) Investors who understand exchange traded options and have sought financial and tax advice Not available for self-managed superannuation funds. Not sure which loan fits? Compare our products.",
+   "links": [
+    {
+     "label": "Read more: Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html#suits-h"
+    },
+    {
+     "label": "Compare our products",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Exchange Options Plus page"
+  },
+  {
+   "id": "page-products-exchange-options-plus-how-to-apply",
+   "title": "Exchange Options Plus: How to apply",
+   "group": "Exchange Options Plus",
+   "answer": "New customers New customers may apply for Exchange Options Plus as part of their margin loan application. Existing customers Existing customers may add Exchange Options Plus to their margin loan using the Product Guide and Application form, or apply online. Apply onlineEnquire now",
+   "links": [
+    {
+     "label": "Read more: Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html#how-h"
+    },
+    {
+     "label": "Apply online",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+    },
+    {
+     "label": "Enquire now",
+     "href": "contact-us/enquiry/index.html"
+    }
+   ],
+   "source": "Exchange Options Plus page"
+  },
+  {
+   "id": "page-products-exchange-options-plus-eligible-investments",
+   "title": "Exchange Options Plus: Eligible investments",
+   "group": "Exchange Options Plus",
+   "answer": "Covered calls can be written over acceptable securities held in your Margin Loan. Check the Margin Loan acceptable investments lists for eligible securities. All acceptable investments lists",
+   "links": [
+    {
+     "label": "Read more: Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html#inv-h"
+    },
+    {
+     "label": "All acceptable investments lists",
+     "href": "forms.html#investments"
+    }
+   ],
+   "source": "Exchange Options Plus page"
+  },
+  {
+   "id": "page-products-exchange-options-plus-rates-and-fees",
+   "title": "Exchange Options Plus: Rates and fees",
+   "group": "Exchange Options Plus",
+   "answer": "Interest rates and fees are set out on our rates and fees pages and in the PDS. Rates can change, so check the current rates before you apply. Interest ratesFeesProduct comparison",
+   "links": [
+    {
+     "label": "Read more: Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html#rates-h"
+    },
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Product comparison",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Exchange Options Plus page"
+  },
+  {
+   "id": "page-products-exchange-options-plus-documents",
+   "title": "Exchange Options Plus: Documents",
+   "group": "Exchange Options Plus",
+   "answer": "Read these before you apply. Forms to manage an existing facility are on the forms and documents page. Exchange Options Plus fact sheetPDF ↓ Leveraged Exchange Options Plus Product Guide and ApplicationPDF · 786 KB ↓ Leveraged Master Deed of PriorityPDF · 63 KB ↓ Leveraged Terms and ConditionsPDF · 925 KB ↓",
+   "links": [
+    {
+     "label": "Read more: Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html#docs-h"
+    },
+    {
+     "label": "forms and documents page",
+     "href": "forms.html"
+    },
+    {
+     "label": "PDF ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productandfeaturesfactsheets/leveraged-exchange-options-plus-fact-sheet.pdf"
+    },
+    {
+     "label": "PDF · 786 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-exchange-options-plus-product-guide.pdf"
+    }
+   ],
+   "source": "Exchange Options Plus page"
+  },
+  {
+   "id": "page-products-exchange-options-plus-risks",
+   "title": "Exchange Options Plus: Risks",
+   "group": "Exchange Options Plus",
+   "answer": "Borrowing to invest is not right for everyone. Make sure you understand these risks before you apply. Changes in portfolio values and interest rates If the net return on your investments is less than your borrowing costs, then you may earn a lower return or incur a larger loss than not borrowing to invest or not investing at all. A fall in the value of your investments may trigger a margin call. There may also be interest rate changes. For example, an increase in the variable interest rate will increase your borrowing costs. Events triggering early repayment and loan repayment Events such as Margin Calls, market disruptions, credit limit exceeds, default events or termination can result in…",
+   "links": [
+    {
+     "label": "Read more: Exchange Options Plus",
+     "href": "products/exchange-options-plus/index.html#risks-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Exchange Options Plus page"
+  },
+  {
+   "id": "page-products-rewards-plus-qantas-boost-your-investment-capacity-and-your-points-bala",
+   "title": "Earn Qantas Points with Rewards Plus: Boost your investment capacity and your points balance",
+   "group": "Earn Qantas Points with Rewards Plus",
+   "answer": "Whether you’re currently investing in the share market or looking to do so, you can boost your investment capacity faster with the help of a Leveraged Margin Loan, Investment Funds Multiplier or Direct Investment Loan. Add the Rewards Plus feature to the loan and you will also boost your points balance along the way.^ The Rewards Plus feature enables you to earn Qantas Points on the amount you borrow. Available with Margin LoanInvestment Funds MultiplierDirect Investment Loan",
+   "links": [
+    {
+     "label": "Read more: Earn Qantas Points with Rewards Plus",
+     "href": "products/rewards-plus-qantas/index.html#overview-h"
+    },
+    {
+     "label": "Margin Loan",
+     "href": "products/margin-loan/index.html"
+    },
+    {
+     "label": "Investment Funds Multiplier",
+     "href": "products/investment-funds-multiplier/index.html"
+    },
+    {
+     "label": "Direct Investment Loan",
+     "href": "products/direct-investment-loan/index.html"
+    }
+   ],
+   "source": "Earn Qantas Points with Rewards Plus page"
+  },
+  {
+   "id": "page-products-rewards-plus-qantas-key-features",
+   "title": "Earn Qantas Points with Rewards Plus: Key features",
+   "group": "Earn Qantas Points with Rewards Plus",
+   "answer": "Maximise. Access more funds to invest in a wide variety of domestic and international acceptable investments including shares, ETFs, listed investment companies and managed funds.2 Diversify. Use additional funds to diversify your investments into different asset classes, industries and companies. Earn Qantas Points. Be rewarded with uncapped Qantas Points based on your loan balance. Qantas Points you could earn^ Points are calculated daily, paid monthly and based on your loan balance. Margin Loan / Investment Funds MultiplierLoan balanceQantas PointsLess than $150,000Up to 30,000 points per $100,000 p.a. pro-rata$150,000 to $499,999Up to 40,000 points per $100,000 p.a. pro-rata$500,000 to…",
+   "links": [
+    {
+     "label": "Read more: Earn Qantas Points with Rewards Plus",
+     "href": "products/rewards-plus-qantas/index.html#features-h"
+    }
+   ],
+   "source": "Earn Qantas Points with Rewards Plus page"
+  },
+  {
+   "id": "page-products-rewards-plus-qantas-who-it-suits",
+   "title": "Earn Qantas Points with Rewards Plus: Who it suits",
+   "group": "Earn Qantas Points with Rewards Plus",
+   "answer": "This product may suit: Margin Loan, Investment Funds Multiplier and Direct Investment Loan customers Qantas Frequent Flyer members^ Not available for self-managed superannuation funds. Not sure which loan fits? Compare our products.",
+   "links": [
+    {
+     "label": "Read more: Earn Qantas Points with Rewards Plus",
+     "href": "products/rewards-plus-qantas/index.html#suits-h"
+    },
+    {
+     "label": "Compare our products",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Earn Qantas Points with Rewards Plus page"
+  },
+  {
+   "id": "page-products-rewards-plus-qantas-how-to-apply",
+   "title": "Earn Qantas Points with Rewards Plus: How to apply",
+   "group": "Earn Qantas Points with Rewards Plus",
+   "answer": "New customers Apply for Rewards Plus as part of your loan application. Existing customers To add Rewards Plus to your existing loan account, call our team on 1300 307 807, send an enquiry, or complete the Rewards Plus Application form. Apply onlineEnquire now",
+   "links": [
+    {
+     "label": "Read more: Earn Qantas Points with Rewards Plus",
+     "href": "products/rewards-plus-qantas/index.html#how-h"
+    },
+    {
+     "label": "Apply online",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4"
+    },
+    {
+     "label": "Enquire now",
+     "href": "contact-us/enquiry/index.html"
+    }
+   ],
+   "source": "Earn Qantas Points with Rewards Plus page"
+  },
+  {
+   "id": "page-products-rewards-plus-qantas-eligible-investments",
+   "title": "Earn Qantas Points with Rewards Plus: Eligible investments",
+   "group": "Earn Qantas Points with Rewards Plus",
+   "answer": "Rewards Plus is a feature of your loan, so your loan’s own acceptable investments list applies. All acceptable investments lists",
+   "links": [
+    {
+     "label": "Read more: Earn Qantas Points with Rewards Plus",
+     "href": "products/rewards-plus-qantas/index.html#inv-h"
+    },
+    {
+     "label": "All acceptable investments lists",
+     "href": "forms.html#investments"
+    }
+   ],
+   "source": "Earn Qantas Points with Rewards Plus page"
+  },
+  {
+   "id": "page-products-rewards-plus-qantas-rates-and-fees",
+   "title": "Earn Qantas Points with Rewards Plus: Rates and fees",
+   "group": "Earn Qantas Points with Rewards Plus",
+   "answer": "Interest rates and fees are set out on our rates and fees pages and in the PDS. A higher variable rate may apply to your loan when Rewards Plus is added. Interest ratesFeesProduct comparison",
+   "links": [
+    {
+     "label": "Read more: Earn Qantas Points with Rewards Plus",
+     "href": "products/rewards-plus-qantas/index.html#rates-h"
+    },
+    {
+     "label": "Interest rates",
+     "href": "rates/index.html"
+    },
+    {
+     "label": "Fees",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "Product comparison",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Earn Qantas Points with Rewards Plus page"
+  },
+  {
+   "id": "page-products-rewards-plus-qantas-documents",
+   "title": "Earn Qantas Points with Rewards Plus: Documents",
+   "group": "Earn Qantas Points with Rewards Plus",
+   "answer": "Read these before you apply. Forms to manage an existing facility are on the forms and documents page. Rewards Plus fact sheetPDF ↓ Leveraged Rewards Plus ApplicationPDF · 102 KB ↓ Leveraged Terms and ConditionsPDF · 925 KB ↓",
+   "links": [
+    {
+     "label": "Read more: Earn Qantas Points with Rewards Plus",
+     "href": "products/rewards-plus-qantas/index.html#docs-h"
+    },
+    {
+     "label": "forms and documents page",
+     "href": "forms.html"
+    },
+    {
+     "label": "PDF ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productandfeaturesfactsheets/leveraged-rewards-plus-fact-sheet.pdf"
+    },
+    {
+     "label": "PDF · 102 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-rewards-plus-application.pdf"
+    }
+   ],
+   "source": "Earn Qantas Points with Rewards Plus page"
+  },
+  {
+   "id": "page-products-rewards-plus-qantas-risks",
+   "title": "Earn Qantas Points with Rewards Plus: Risks",
+   "group": "Earn Qantas Points with Rewards Plus",
+   "answer": "Borrowing to invest is not right for everyone. Make sure you understand these risks before you apply. Changes in portfolio values and interest rates If the net return on your investments is less than your borrowing costs, then you may earn a lower return or incur a larger loss than not borrowing to invest or not investing at all. A fall in the value of your investments may trigger a margin call. There may also be interest rate changes. For example, an increase in the variable interest rate will increase your borrowing costs. Events triggering early repayment and loan repayment Events such as Margin Calls, market disruptions, credit limit exceeds, default events or termination can result in…",
+   "links": [
+    {
+     "label": "Read more: Earn Qantas Points with Rewards Plus",
+     "href": "products/rewards-plus-qantas/index.html#risks-h"
+    },
+    {
+     "label": "Leveraged Terms & Conditions",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-terms-and-conditions.pdf"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Earn Qantas Points with Rewards Plus page"
+  },
+  {
+   "id": "page-fees-margin-loan",
+   "title": "Fee schedule: Margin Loan",
+   "group": "Fee schedule",
+   "answer": "Establishment fee Paid by direct debit from your Nominated Account. If you do not pay any applicable establishment fee you will not be able to operate your Margin Loan Facility. Establishment fees are not refundable if you don’t proceed with your application. Margin Loan establishment feesTypeFeeIndividual borrowerNilCompany borrower or guarantorCompany establishment fee$150.00Release another security interest$69.00Trust borrower or guarantorThe lender's fee to vet the Trust Deed. Applicable if a Solicitor's Trust Opinion is not provided (refer to the Application Form for details)$250.00(refundable if application declined)Additional product features fee Paid by direct debit from your…",
+   "links": [
+    {
+     "label": "Read more: Fee schedule",
+     "href": "fees/index.html#margin-loan-h"
+    },
+    {
+     "label": "Download the Margin Loan PDS (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-margin-loan-pds.pdf"
+    }
+   ],
+   "source": "Fee schedule page"
+  },
+  {
+   "id": "page-fees-investment-funds-multiplier",
+   "title": "Fee schedule: Investment Funds Multiplier",
+   "group": "Fee schedule",
+   "answer": "Establishment fee Paid by direct debit from your Nominated Account. If you do not pay any applicable establishment fee you will not be able to operate your Investment Funds Multiplier Facility. Establishment fees are not refundable if you don’t proceed with your application. Investment Funds Multiplier establishment feesTypeFeeIndividual borrowerNilCompany borrower or guarantorCompany establishment fee$150.00Release another security interest$69.00Trust borrower or guarantorThe lender's fee to vet the Trust Deed. Applicable if a Solicitor's Trust Opinion is not provided (refer to the Application Form for details)$250.00(refundable if application declined)Additional product features fee Paid…",
+   "links": [
+    {
+     "label": "Read more: Fee schedule",
+     "href": "fees/index.html#investment-funds-multiplier-h"
+    },
+    {
+     "label": "Download the Investment Funds Multiplier PDS (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-investment-funds-multiplier-pds.pdf"
+    }
+   ],
+   "source": "Fee schedule page"
+  },
+  {
+   "id": "page-fees-direct-investment-loan",
+   "title": "Fee schedule: Direct Investment Loan",
+   "group": "Fee schedule",
+   "answer": "Establishment fee Paid by direct debit from your Nominated Account. If you do not pay any applicable establishment fee you will not be able to operate your Direct Investment Loan Facility. Establishment fees are not refundable if you don’t proceed with your application. Direct Investment Loan establishment feesTypeFeeIndividual or Joint applicantsNilAdditional product features fee Paid by direct debit from your Nominated Account. Direct Investment Loan additional product features feesTypeFeeRewards PlusNilTrading fees Charged to your Direct Investment Loan facility. A fee of $5.00 per trade applies to the number of trades above the free trade allowance per month. Calculated on the average…",
+   "links": [
+    {
+     "label": "Read more: Fee schedule",
+     "href": "fees/index.html#direct-investment-loan-h"
+    },
+    {
+     "label": "Download the Direct Investment Loan PDS (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-direct-investment-loan-pds.pdf"
+    }
+   ],
+   "source": "Fee schedule page"
+  },
+  {
+   "id": "page-rates-wholesale-rates",
+   "title": "Interest rate schedule: Wholesale rates",
+   "group": "Interest rate schedule",
+   "answer": "Leveraged offers wholesale rates to eligible clients for loan facilities over $500,000 (requires a current wholesale client certificate issued by a qualified accountant). Please contact the Business Development Manager for your region to enquire. Enquire with a Business Development ManagerWholesale rates are arranged through your regional BDM. Direct clients can speak with Young Ngai. Find your BDMCall Young (Direct) 03 8633 1236 Or call our team on 1300 307 807. See wholesale eligibility and the fee schedule.",
+   "links": [
+    {
+     "label": "Read more: Interest rate schedule",
+     "href": "rates/index.html#wholesale-h"
+    },
+    {
+     "label": "Find your BDM",
+     "href": "adviser-only/index.html#team"
+    },
+    {
+     "label": "Call Young (Direct) 03 8633 1236",
+     "href": "tel:+61386331236"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Interest rate schedule page"
+  },
+  {
+   "id": "page-rates-variable-rates",
+   "title": "Interest rate schedule: Variable rates",
+   "group": "Interest rate schedule",
+   "answer": "Current indicative variable rates for each product. Standard variable rates Variable ratesProductCurrent variable rate*Direct Investment Loan8.59% p.a.Margin Loan10.95% p.a.Investment Funds Multiplier10.95% p.a.Variable rates with Rewards Plus feature Variable rates with Rewards Plus featureProductCurrent variable rate*Direct Investment Loan with Rewards Plus9.59% p.a.Margin Loan with Rewards Plus11.95% p.a.Investment Funds Multiplier with Rewards Plus11.95% p.a.For new business rate enquiries, please contact our team on 1300 307 807.",
+   "links": [
+    {
+     "label": "Read more: Interest rate schedule",
+     "href": "rates/index.html#variable-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Interest rate schedule page"
+  },
+  {
+   "id": "page-rates-fixed-rates",
+   "title": "Interest rate schedule: Fixed rates",
+   "group": "Interest rate schedule",
+   "answer": "All fixed rates are indicative only. Firm rates are available on application. Direct Investment Loan Direct Investment Loan fixed ratesTermPaid annually in advancePaid monthly in arrears1 year8.94% p.a.9.04% p.a.Swipe the table sideways to see all columns → Margin Loan and Investment Funds Multiplier Margin Loan and Investment Funds Multiplier fixed ratesTermPaid annually in advancePaid monthly in arrears1 year10.29% p.a.10.39% p.a.2 year10.29% p.a.10.39% p.a.3 year10.29% p.a.10.39% p.a.4 year10.29% p.a.10.39% p.a.5 year10.29% p.a.10.39% p.a.Swipe the table sideways to see all columns → For new business rate enquiries, please contact our team on 1300 307 807.",
+   "links": [
+    {
+     "label": "Read more: Interest rate schedule",
+     "href": "rates/index.html#fixed-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Interest rate schedule page"
+  },
+  {
+   "id": "page-rates-how-our-rates-compare",
+   "title": "Interest rate schedule: How our rates compare",
+   "group": "Interest rate schedule",
+   "answer": "Standard variable margin loan rates from other major Australian lenders, alongside the Leveraged Margin Loan. Rates are tiered by loan size at most lenders. LenderUnder $250k$250k–$499k$500k–$999k$1m and overEffective Leveraged Margin Loan10.95%10.95%Enquire withinEnquire within07/10/2026Wholesale rates available over $500k NAB Margin Loan10.00%9.75%9.75%9.50%01/06/2026 Westpac Margin Lending10.52%10.52%10.52%10.52%Checked 14/10/2026 St.George Margin Loan10.58%10.33%10.08%10.08%13/10/2026Variable, in arrears. $500,000 and over is one tier. Fixed rates also available Competitor rates are taken from each lender's public website on the dates shown and may have changed since. Check NAB, Westpac…",
+   "links": [
+    {
+     "label": "Read more: Interest rate schedule",
+     "href": "rates/index.html#compare-h"
+    },
+    {
+     "label": "Enquire within",
+     "href": "contact-us/enquiry/index.html"
+    },
+    {
+     "label": "Enquire within",
+     "href": "contact-us/enquiry/index.html"
+    },
+    {
+     "label": "NAB",
+     "href": "https://www.nab.com.au/personal/trading-investments/investment-lending/nab-margin-loan"
+    }
+   ],
+   "source": "Interest rate schedule page"
+  },
+  {
+   "id": "page-wholesale-are-you-a-wholesale-customer",
+   "title": "Wholesale customers: Are you a wholesale customer?",
+   "group": "Wholesale customers",
+   "answer": "Our wholesale offering gives you all the features of our products, with added benefits including a faster application process. You can apply as a wholesale customer across all of our products. Check whether you are eligible.",
+   "links": [
+    {
+     "label": "Read more: Wholesale customers",
+     "href": "wholesale/index.html#diff-h"
+    },
+    {
+     "label": "our products",
+     "href": "products/index.html"
+    },
+    {
+     "label": "eligible",
+     "href": "#eligibility"
+    }
+   ],
+   "source": "Wholesale customers page"
+  },
+  {
+   "id": "page-wholesale-benefits-of-being-a-wholesale-customer",
+   "title": "Wholesale customers: Benefits of being a wholesale customer",
+   "group": "Wholesale customers",
+   "answer": "Streamlined application process Apply without the need to provide full financials.1 Interest rates Call or email our Business Development Managers for more information on a tailored rate. Tax effectiveness You may be entitled to claim an income tax deduction for some or all of your borrowing costs depending on your individual circumstances.2 Investment choice Borrow against a wide range of acceptable investments, including domestic and international shares,3 ETFs and managed funds. Specialist solutions A choice of multiple margin loan solutions, additional features, and Qantas Points. Increase your investment capacity Leverage an existing portfolio or create a new investment portfolio to…",
+   "links": [
+    {
+     "label": "Read more: Wholesale customers",
+     "href": "wholesale/index.html#ben-h"
+    },
+    {
+     "label": "Business Development Managers",
+     "href": "contact-us/our-team/index.html"
+    },
+    {
+     "label": "acceptable investment lists",
+     "href": "forms.html#investments"
+    }
+   ],
+   "source": "Wholesale customers page"
+  },
+  {
+   "id": "page-wholesale-eligibility-criteria-and-considerations",
+   "title": "Wholesale customers: Eligibility criteria and considerations",
+   "group": "Wholesale customers",
+   "answer": "To qualify and be recognised as a wholesale investor, you need to meet one of the following criteria under the Corporations Act 2001 (Corporations Act). Wholesale investor tests TestRequirement Income testEarned a gross income of $250,000 AUD p.a. or more over the last two financial years Asset testNet assets exceeding $2,500,000 AUD or more Accountant’s DeclarationIssued under Chapter 7 of the Corporations Act 2001 · PDFDownload ↓ You will need to provide an Accountant’s Declaration issued under Chapter 7 of the Corporations Act 2001. Wholesale customers must provide a new valid certificate every two years. If a customer is no longer wholesale, they may be required to undergo a full…",
+   "links": [
+    {
+     "label": "Read more: Wholesale customers",
+     "href": "wholesale/index.html#el-h"
+    },
+    {
+     "label": "Download ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitytransactionforms/leveraged-accountants-declaration.pdf"
+    }
+   ],
+   "source": "Wholesale customers page"
+  },
+  {
+   "id": "page-wholesale-risks-to-consider-when-using-a-margin-loan",
+   "title": "Wholesale customers: Risks to consider when using a margin loan",
+   "group": "Wholesale customers",
+   "answer": "Gearing involves risk It can magnify your returns; however, it may also magnify your losses. The performance of your investments may change, which may result in you earning a lower return or incurring a larger loss than if you had not borrowed to invest. Loan may become due quickly Events such as Margin Calls, market disruptions, credit limit exceeds, default events or termination can result in some or all of your loan being due for payment in a short period and/or immediately. Interest rate changes An increase in the variable interest rate will increase your borrowing costs and may affect your overall return.",
+   "links": [
+    {
+     "label": "Read more: Wholesale customers",
+     "href": "wholesale/index.html#risk-h"
+    }
+   ],
+   "source": "Wholesale customers page"
+  },
+  {
+   "id": "page-wholesale-thinking-about-applying-as-a-wholesale-customer",
+   "title": "Wholesale customers: Thinking about applying as a wholesale customer?",
+   "group": "Wholesale customers",
+   "answer": "Call our Business Development Team, who can help you get started. Apply nowEnquire now",
+   "links": [
+    {
+     "label": "Read more: Wholesale customers",
+     "href": "wholesale/index.html#next-h"
+    },
+    {
+     "label": "Business Development Team",
+     "href": "contact-us/our-team/index.html"
+    },
+    {
+     "label": "Apply now",
+     "href": "https://forms.marginlending.com.au/#/form/57ec60cfc4716135b855c8b4/"
+    },
+    {
+     "label": "Enquire now",
+     "href": "contact-us/enquiry/index.html"
+    }
+   ],
+   "source": "Wholesale customers page"
+  },
+  {
+   "id": "page-security-think-you-have-been-the-victim-of-a-scam",
+   "title": "Security centre: Think you have been the victim of a scam?",
+   "group": "Security centre",
+   "answer": "Let us know as soon as possible. Call us on 1300 307 807 (Mon–Fri, 8:30am–5:30pm AEST/AEDT; overseas +61 2 8282 8282) or email phishing@bendigoadelaide.com.au. Call 1300 307 807Email phishing@bendigoadelaide.com.au",
+   "links": [
+    {
+     "label": "Read more: Security centre",
+     "href": "security/index.html#scam-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "+61 2 8282 8282",
+     "href": "tel:+61282828282"
+    },
+    {
+     "label": "phishing@bendigoadelaide.com.au",
+     "href": "mailto:phishing@bendigoadelaide.com.au"
+    }
+   ],
+   "source": "Security centre page"
+  },
+  {
+   "id": "page-security-how-to-spot-a-scam",
+   "title": "Security centre: How to spot a scam",
+   "group": "Security centre",
+   "answer": "Scams cost Australian consumers, businesses and the economy hundreds of millions of dollars each year and cause serious emotional harm to victims and their families. In 2021, combined scam losses reported to Scamwatch, banks and other government agencies was $1.8 billion. One third of victims do not report scams, so actual losses were well over $2 billion. Warning signs A threat if you don’t pay immediately. An unexpected request that can’t wait. A link to update your personal details. An immediate payment so you don’t miss out. An attachment or link you weren’t expecting. Remember Stop and check. Protect your personal information. Be careful with payments. Verify before you buy. Research…",
+   "links": [
+    {
+     "label": "Read more: Security centre",
+     "href": "security/index.html#spot-h"
+    }
+   ],
+   "source": "Security centre page"
+  },
+  {
+   "id": "page-security-protect-yourself-and-your-investments",
+   "title": "Security centre: Protect yourself and your investments",
+   "group": "Security centre",
+   "answer": "Protecting yourself, your family and your investments from scams and identity theft can save you a lot of inconvenience, disruption and money. These tips can help. Phone Criminals use phones as the number one delivery method for scams. Never allow anyone to access your computer or device remotely. Never provide your Leveraged Online access password to anyone. Do not respond to unsolicited calls, SMS or email asking you for personal information or financial details. Delete spam emails and do not open SMS or email attachments or click on links in SMS or emails from strangers. Be aware of email, internet and telephone hoaxes and scams – if something appears too good to be true, it almost…",
+   "links": [
+    {
+     "label": "Read more: Security centre",
+     "href": "security/index.html#protect-h"
+    },
+    {
+     "label": "ACCC Scamwatch website",
+     "href": "https://www.scamwatch.gov.au/types-of-scams"
+    },
+    {
+     "label": "Australian Cyber Security Centre (ACSC)",
+     "href": "https://www.cyber.gov.au/"
+    }
+   ],
+   "source": "Security centre page"
+  },
+  {
+   "id": "page-security-investment-scams",
+   "title": "Security centre: Investment scams",
+   "group": "Security centre",
+   "answer": "Investment scams are often disguised as an offer to purchase cryptocurrency (like Bitcoin), business ventures, superannuation schemes, managed funds, or shares or property. Scammers create ‘opportunities’ with professional brochures, websites and advertisements. These mask fraudulent activities and trick people into taking up the offer. How to protect yourself Before putting money into an investment, do some of your own research. You can check whether a company has an Australian Financial Services Licence at moneysmart.gov.au. Watch out for offers promoting easy and early access to your superannuation. Don’t be pressured into making an investment decision, especially if the opportunity came…",
+   "links": [
+    {
+     "label": "Read more: Security centre",
+     "href": "security/index.html#inv-h"
+    },
+    {
+     "label": "moneysmart.gov.au",
+     "href": "https://moneysmart.gov.au/glossary/australian-financial-services-afs-licence"
+    }
+   ],
+   "source": "Security centre page"
+  },
+  {
+   "id": "page-security-received-a-suspicious-sms",
+   "title": "Security centre: Received a suspicious SMS?",
+   "group": "Security centre",
+   "answer": "If you have received a suspicious SMS claiming to be from us, forward it to 0429 557 997 for investigation. Take care not to click on the link while doing so. Alternatively, take a screenshot of the message and email it to phishing@bendigoadelaide.com.au. Apple device Tap and hold the SMS message until the options ‘Copy/More’ appear. Select ‘More’. Tap the arrow in the bottom right corner to ‘Share/Forward’. Type 0429 557 997 as the recipient and press ‘Send’. You can then delete the original and the forwarded message. Android device Tap and hold the SMS message until the three-dot menu icon appears in the top right corner. Tap the three-dot menu icon. Select ‘Forward’. Type 0429 557 997 as…",
+   "links": [
+    {
+     "label": "Read more: Security centre",
+     "href": "security/index.html#sms-h"
+    },
+    {
+     "label": "phishing@bendigoadelaide.com.au",
+     "href": "mailto:phishing@bendigoadelaide.com.au"
+    }
+   ],
+   "source": "Security centre page"
+  },
+  {
+   "id": "page-security-protecting-your-children",
+   "title": "Security centre: Protecting your children",
+   "group": "Security centre",
+   "answer": "Increasingly, children are being targeted online and can be vulnerable to aggressive behaviour and criminal activity. They use the internet regularly and interact via social media, but are often too inexperienced to recognise when they are being deceived. Education is the best way to help protect them. Resources for parents and children The Australian Government’s eSafety Kids website and the Australian Cyber Security Centre (ACSC) The eSmart Schools website The ThinkUKnow website for parents, carers, teachers and young people 11–17 years old",
+   "links": [
+    {
+     "label": "Read more: Security centre",
+     "href": "security/index.html#kids-h"
+    },
+    {
+     "label": "eSafety Kids website",
+     "href": "https://www.esafety.gov.au/kids"
+    },
+    {
+     "label": "Australian Cyber Security Centre (ACSC)",
+     "href": "https://www.cyber.gov.au/protect-yourself/resources-protect-yourself/protecting-your-family"
+    },
+    {
+     "label": "eSmart Schools website",
+     "href": "https://www.esmart.org.au/esmart-schools/"
+    }
+   ],
+   "source": "Security centre page"
+  },
+  {
+   "id": "page-transition-to-leveraged-transition-completed-1-april-2023",
+   "title": "ANZ Investment Lending transition to Leveraged Equities: Transition completed 1 April 2023",
+   "group": "ANZ Investment Lending transition to Leveraged Equities",
+   "answer": "If you have not yet returned your Transition Pack forms to Leveraged, you may experience some limitations on your facility. For questions about the transition, or if you do not wish to continue with Leveraged, call 1300 307 807.",
+   "links": [
+    {
+     "label": "Read more: ANZ Investment Lending transition to Leveraged Equities",
+     "href": "transition-to-leveraged/index.html#tn-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "ANZ Investment Lending transition to Leveraged Equities page"
+  },
+  {
+   "id": "page-transition-to-leveraged-what-this-means-for-you",
+   "title": "ANZ Investment Lending transition to Leveraged Equities: What this means for you",
+   "group": "ANZ Investment Lending transition to Leveraged Equities",
+   "answer": "Leveraged was named Money magazine’s Margin Lender of the Year for five consecutive years, from 2020 to 2024.* Leveraged is a provider of margin lending solutions with over 30 years of experience, 100% based in Australia. Leveraged has previously purchased margin lending portfolios from Macquarie Bank and JBWere. From 1 April 2023, your ANZ Share Investment Loan was transferred to a Leveraged Equities Share Investment Loan. When this happened: Your credit limit will remain the same The loan interest rate schedule will continue to apply Your current fee schedule will remain Any fixed loans will be transferred The Buffer Ratio will increase from 5% to 10% The LVRs (including Diversified)…",
+   "links": [
+    {
+     "label": "Read more: ANZ Investment Lending transition to Leveraged Equities",
+     "href": "transition-to-leveraged/index.html#mean-h"
+    }
+   ],
+   "source": "ANZ Investment Lending transition to Leveraged Equities page"
+  },
+  {
+   "id": "page-transition-to-leveraged-transfer-documents-and-forms",
+   "title": "ANZ Investment Lending transition to Leveraged Equities: Transfer documents and forms",
+   "group": "ANZ Investment Lending transition to Leveraged Equities",
+   "answer": "Please complete any outstanding forms in your Transition Pack and return them to Leveraged in the reply-paid envelope provided. These forms are partly pre-filled with your details; completing and returning them helps ensure the full operation of your Share Investment Loan. For other forms, visit our forms page. ANZ Share Investment Loan Customer CommunicationInformation only · PDFDownload ↓ Summary of Key ChangesPDFDownload ↓ Customer request cut-off datesPDFDownload ↓ For more about your Leveraged Share Investment Loan facility, see our rates, fees and forms pages.",
+   "links": [
+    {
+     "label": "Read more: ANZ Investment Lending transition to Leveraged Equities",
+     "href": "transition-to-leveraged/index.html#docs-h"
+    },
+    {
+     "label": "forms page",
+     "href": "forms.html"
+    },
+    {
+     "label": "Download ↓",
+     "href": "https://www.leveraged.com.au/siteassets/transitiontoleveraged/anz-share-investment-loan-customer-letter.pdf"
+    },
+    {
+     "label": "Download ↓",
+     "href": "https://www.leveraged.com.au/siteassets/transitiontoleveraged/summary-of-key-changes.pdf"
+    }
+   ],
+   "source": "ANZ Investment Lending transition to Leveraged Equities page"
+  },
+  {
+   "id": "page-transition-to-leveraged-product-features",
+   "title": "ANZ Investment Lending transition to Leveraged Equities: Product features",
+   "group": "ANZ Investment Lending transition to Leveraged Equities",
+   "answer": "After the Transfer Date your loan moved from ANZ to Leveraged. Both products offer the following features. Leveraged also offers additional benefits, including the ability to earn Qantas Points. Leveraged Share Investment Loan Australian shares & exchange traded funds Manage your facility online 24/7 Fixed and variable interest rates Interest payments – prepay or in arrears Unlisted managed funds (including regular gearing plans) Exchange traded options Lending on international shares through approved platforms ANZ Share Investment Loan Australian shares & exchange traded funds Manage your facility online 24/7 Fixed and variable interest rates Interest payments – prepay or in arrears…",
+   "links": [
+    {
+     "label": "Read more: ANZ Investment Lending transition to Leveraged Equities",
+     "href": "transition-to-leveraged/index.html#feat-h"
+    }
+   ],
+   "source": "ANZ Investment Lending transition to Leveraged Equities page"
+  },
+  {
+   "id": "page-transition-to-leveraged-key-product-information",
+   "title": "ANZ Investment Lending transition to Leveraged Equities: Key product information",
+   "group": "ANZ Investment Lending transition to Leveraged Equities",
+   "answer": "Margin Calls QuestionLeveragedANZWhen is a Margin Call notice given?Typically, before 10am the next business day (so that after-market transactions can be considered).Typically, around 4pm (after current market close).How is a Margin Call notice given?You can indicate your preference for receiving a Margin Call via email, or a notice posted through Leveraged Online (your Online Service), together with a short text message (SMS) alerting you to the notice.By telephone, SMS, email or any other method ANZ has agreed with you.Who receives a Margin Call notice?Borrowers only.Borrower or, if applicable, any agreed ‘Authorised Person’. Credit limit and buffer QuestionLeveragedANZWhat will my…",
+   "links": [
+    {
+     "label": "Read more: ANZ Investment Lending transition to Leveraged Equities",
+     "href": "transition-to-leveraged/index.html#key-h"
+    },
+    {
+     "label": "Fees page",
+     "href": "fees/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "ANZ Investment Lending transition to Leveraged Equities page"
+  },
+  {
+   "id": "page-transition-to-leveraged-frequently-asked-questions",
+   "title": "ANZ Investment Lending transition to Leveraged Equities: Frequently asked questions",
+   "group": "ANZ Investment Lending transition to Leveraged Equities",
+   "answer": "When did the acquisition occur?Bendigo and Adelaide Bank Limited announced in July 2022 it had agreed to acquire the ANZ Investment Lending portfolio. The acquisition allows Bendigo and Adelaide Bank to further grow its margin lending business, Leveraged Equities Limited. View the original ASX announcement. What information will I receive and how?The Transition Pack was communicated in two parts: In early February 2023, ANZ issued important information regarding the transfer of your loan to Leveraged, which may require actions from you. Soon after, a letter from Leveraged was posted to you with any relevant forms to complete and return in the reply-paid envelope enclosed. In late March…",
+   "links": [
+    {
+     "label": "Read more: ANZ Investment Lending transition to Leveraged Equities",
+     "href": "transition-to-leveraged/index.html#faq-h"
+    },
+    {
+     "label": "ASX announcement",
+     "href": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-02539655-3A596842?access_token=83ff96335c2d45a094df02a206a39ff4"
+    },
+    {
+     "label": "Leveraged Online",
+     "href": "https://www.leveragedonline.com.au/"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "ANZ Investment Lending transition to Leveraged Equities page"
+  },
+  {
+   "id": "page-transition-to-leveraged-we-re-here-to-help",
+   "title": "ANZ Investment Lending transition to Leveraged Equities: We’re here to help",
+   "group": "ANZ Investment Lending transition to Leveraged Equities",
+   "answer": "Leveraged Share Investment Loan For help completing your forms, or with any queries about your transfer to Leveraged. Call 1300 307 807Monday–Friday, 8:30am to 5:30pm AEST/AEDTcustomerservice@leveraged.com.au ANZ For any other accounts you may have with ANZ, or questions about your transfer to Leveraged. Call 1300 525 667Monday–Friday, 8am to 6pm AEST/AEDTwealthservices@anz.com",
+   "links": [
+    {
+     "label": "Read more: ANZ Investment Lending transition to Leveraged Equities",
+     "href": "transition-to-leveraged/index.html#help-h"
+    },
+    {
+     "label": "Call 1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    },
+    {
+     "label": "Call 1300 525 667",
+     "href": "tel:1300525667"
+    }
+   ],
+   "source": "ANZ Investment Lending transition to Leveraged Equities page"
+  },
+  {
+   "id": "page-important-notices-upcoming-changes-upcoming-changes-to-the-adelaide-bank-product",
+   "title": "Upcoming changes to Adelaide Bank products: Upcoming changes to the Adelaide Bank products linked to your Leveraged Equities margin loan",
+   "group": "Upcoming changes to Adelaide Bank products",
+   "answer": "Leveraged Equities currently uses products issued by Adelaide Bank and Sandhurst Trustees Limited (wholly owned subsidiaries of Bendigo and Adelaide Bank Limited) to provide you with the services you need to manage your margin loan. On 6 December 2025, these products and/or transaction services will transition to equivalent Bendigo Bank products and/or transaction services. You may have received communications from us in April, July and October or seen an alert on Leveraged Online, advising you of these changes. If you haven’t received these communications and you would like to, please contact us. A frequently asked questions section is provided below as an ongoing resource. We are…",
+   "links": [
+    {
+     "label": "Read more: Upcoming changes to Adelaide Bank products",
+     "href": "important-notices/upcoming-changes/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "+61 2 8282 8282",
+     "href": "tel:+61282828282"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Upcoming changes to Adelaide Bank products page"
+  },
+  {
+   "id": "page-important-notices-upcoming-changes-faq-s",
+   "title": "Upcoming changes to Adelaide Bank products: FAQ's",
+   "group": "Upcoming changes to Adelaide Bank products",
+   "answer": "How does this transition impact your Leveraged Equities margin loan? When your margin loan was established, you were provided with a BSB and an Account Number attached to an Adelaide Bank account specifically for managing payments into your Loan Account. On 6 December 2025, this account will transition to an equivalent product issued by Bendigo Bank. The new bank account name, BSB and account number will be communicated to you via a posted letter on or around 27 October 2025 (and will also be available upon request). You will need to use the updated bank account details for any transfers and payments made from 6 December 2025. You may notice an alert when making initial payments into this…",
+   "links": [
+    {
+     "label": "Read more: Upcoming changes to Adelaide Bank products",
+     "href": "important-notices/upcoming-changes/index.html"
+    },
+    {
+     "label": "Confirmation of Payee",
+     "href": "https://www.auspayplus.com.au/solutions/confirmation-payee"
+    },
+    {
+     "label": "https://www.bendigobank.com.au/disclosure-documents/",
+     "href": "https://www.bendigobank.com.au/disclosure-documents/"
+    },
+    {
+     "label": "leveraged.com.au/important-notices/upcoming-changes/",
+     "href": "https://www.leveraged.com.au/important-notices/upcoming-changes/"
+    }
+   ],
+   "source": "Upcoming changes to Adelaide Bank products page"
+  },
+  {
+   "id": "page-support-deceased-estates-let-us-know-as-soon-as-you-can",
+   "title": "Deceased estates: Let us know as soon as you can",
+   "group": "Deceased estates",
+   "answer": "To ensure the loan account of your recently deceased family member or friend is protected, please contact us to advise of their passing as soon as practicable so that we can assist you in managing the next steps relating to their margin loan (including, suspending the account to stop any further debits or fees). Phone 1300 307 807Email customerservice@leveraged.com.auMon–Fri, 8:30am–5:30pm AEST/AEDT. From overseas, call +61 2 8282 8282.",
+   "links": [
+    {
+     "label": "Read more: Deceased estates",
+     "href": "support/deceased-estates/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    },
+    {
+     "label": "+61 2 8282 8282",
+     "href": "tel:+61282828282"
+    }
+   ],
+   "source": "Deceased estates page"
+  },
+  {
+   "id": "page-support-deceased-estates-what-you-need-to-do",
+   "title": "Deceased estates: What you need to do",
+   "group": "Deceased estates",
+   "answer": "Please provide us with the following details of the deceased account owner: Full name Loan account number (if known) Residential and mailing address Date of birth Date of passing",
+   "links": [
+    {
+     "label": "Read more: Deceased estates",
+     "href": "support/deceased-estates/index.html"
+    }
+   ],
+   "source": "Deceased estates page"
+  },
+  {
+   "id": "page-support-deceased-estates-what-happens-next",
+   "title": "Deceased estates: What happens next",
+   "group": "Deceased estates",
+   "answer": "Review of the estate Once we are notified, we will: check all margin loan accounts held with us by the deceased suspend the facility (or facilities) review the requirements for the settlement of the estate. We’ll then send a letter or email to the personal representatives or the solicitor outlining the requirements for the settlement of the estate. Documents you may be asked to provide Depending on the account type, securities, and Loan Balance you may need to provide additional documents. The documents you may be asked to provide commonly include: Two original certified copies of the Death Certificate. Two original certified copies of the Grant of Probate or Letters of Administration. An…",
+   "links": [
+    {
+     "label": "Read more: Deceased estates",
+     "href": "support/deceased-estates/index.html"
+    }
+   ],
+   "source": "Deceased estates page"
+  },
+  {
+   "id": "page-support-deceased-estates-important-note",
+   "title": "Deceased estates: Important note",
+   "group": "Deceased estates",
+   "answer": "Please note that even though the account is suspended, or the HIN is locked, Margin Calls or Margining Events may still arise, and/or the credit Limit may still be exceeded, e.g. due to changes in market prices and/or increases in the loan balance and due to any amounts periodically debited from the account (such as accrued but unpaid interest). We will contact the executor/administrator to notify them and discuss options to resolve should these events occur on the loan account. These events can occur at any time until the loan account is closed.",
+   "links": [
+    {
+     "label": "Read more: Deceased estates",
+     "href": "support/deceased-estates/index.html"
+    }
+   ],
+   "source": "Deceased estates page"
+  },
+  {
+   "id": "page-support-financial-abuse-intro",
+   "title": "Financial abuse support",
+   "group": "Financial abuse support",
+   "answer": "If you or someone close to you is in immediate danger, dial 000.",
+   "links": [
+    {
+     "label": "Read more: Financial abuse support",
+     "href": "support/financial-abuse/index.html"
+    },
+    {
+     "label": "000",
+     "href": "tel:000"
+    }
+   ],
+   "source": "Financial abuse support page"
+  },
+  {
+   "id": "page-support-financial-abuse-talk-to-us-in-confidence",
+   "title": "Financial abuse support: Talk to us in confidence",
+   "group": "Financial abuse support",
+   "answer": "Our staff will also ensure that we respect your privacy and confidentiality. We know that telling us about your circumstances may be difficult, and our goal is to minimise you repeating your story. Phone 1300 307 807Between 8:30am and 5:00pm AEST/AEDT, Mon–FriIf calling from overseas +61 2 8282 8282",
+   "links": [
+    {
+     "label": "Read more: Financial abuse support",
+     "href": "support/financial-abuse/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "+61 2 8282 8282",
+     "href": "tel:+61282828282"
+    }
+   ],
+   "source": "Financial abuse support page"
+  },
+  {
+   "id": "page-support-financial-abuse-understanding-financial-abuse",
+   "title": "Financial abuse support: Understanding financial abuse",
+   "group": "Financial abuse support",
+   "answer": "Financial abuse happens when someone uses money, or your access to it, to control you. They might do this by: Making decisions about your money without asking you. Pressuring you or tricking you into giving them money, even if you don’t want to. Hiding information about your finances from you. This makes it difficult for you to understand your financial situation and could lead to debt or other problems. Financial abuse can happen in any relationship, even with people we trust, like family members, partners or caregivers. There are many types of financial abuse, and it can happen to anyone, no matter how old, or how much money they have. Learn about the types of financial abuse.",
+   "links": [
+    {
+     "label": "Read more: Financial abuse support",
+     "href": "support/financial-abuse/index.html"
+    },
+    {
+     "label": "Learn about the types of financial abuse",
+     "href": "support/financial-abuse/types-of-financial-abuse/index.html"
+    }
+   ],
+   "source": "Financial abuse support page"
+  },
+  {
+   "id": "page-support-financial-abuse-how-we-can-help-you",
+   "title": "Financial abuse support: How we can help you",
+   "group": "Financial abuse support",
+   "answer": "There are many different ways we can help you to regain control of your banking. Of course this will depend on your personal circumstances as everyone’s situation will be different.",
+   "links": [
+    {
+     "label": "Read more: Financial abuse support",
+     "href": "support/financial-abuse/index.html"
+    }
+   ],
+   "source": "Financial abuse support page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance",
+   "title": "Financial abuse support: Additional assistance",
+   "group": "Financial abuse support",
+   "answer": "If you require further information or assistance, please contact us or refer to our external agency listing. Find a support agency →",
+   "links": [
+    {
+     "label": "Read more: Financial abuse support",
+     "href": "support/financial-abuse/index.html"
+    },
+    {
+     "label": "Find a support agency →",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    }
+   ],
+   "source": "Financial abuse support page"
+  },
+  {
+   "id": "page-support-financial-abuse-types-of-financial-abuse-intro",
+   "title": "Types of financial abuse",
+   "group": "Types of financial abuse",
+   "answer": "If you or someone close to you is in immediate danger, dial 000.",
+   "links": [
+    {
+     "label": "Read more: Types of financial abuse",
+     "href": "support/financial-abuse/types-of-financial-abuse/index.html"
+    },
+    {
+     "label": "000",
+     "href": "tel:000"
+    }
+   ],
+   "source": "Types of financial abuse page"
+  },
+  {
+   "id": "page-support-financial-abuse-types-of-financial-abuse-are-you-experiencing-financial-",
+   "title": "Types of financial abuse: Are you experiencing financial abuse?",
+   "group": "Types of financial abuse",
+   "answer": "Financial abuse can come in the form of Elder, Family/Domestic, Disability and/or Cultural abuse. Elder There are many forms of elder financial abuse, but there is a common thread. In general, it is an effort by unscrupulous person/s to extract money and resources through a variety of devious means from elderly persons. Deceit Forgery Coercion through bullying and intimidation Undue influence for personal gain Misuse of a person's Power of Attorney or Administration instructions In general, all involve improper use of an older person’s assets. Disability Financial abuse of a disabled person is any act involving the misuse of the person’s money or property. This is done without their full…",
+   "links": [
+    {
+     "label": "Read more: Types of financial abuse",
+     "href": "support/financial-abuse/types-of-financial-abuse/index.html"
+    }
+   ],
+   "source": "Types of financial abuse page"
+  },
+  {
+   "id": "page-support-financial-abuse-types-of-financial-abuse-we-re-here-to-help",
+   "title": "Types of financial abuse: We’re here to help",
+   "group": "Types of financial abuse",
+   "answer": "Call us in confidence on 1300 307 807 (Mon–Fri, 8:30am–5:00pm AEST/AEDT), or find an external support agency.",
+   "links": [
+    {
+     "label": "Read more: Types of financial abuse",
+     "href": "support/financial-abuse/types-of-financial-abuse/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "external support agency",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    }
+   ],
+   "source": "Types of financial abuse page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-intro",
+   "title": "Additional assistance",
+   "group": "Additional assistance",
+   "answer": "If you or someone close to you is in immediate danger, dial 000.",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "000",
+     "href": "tel:000"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-external-support-agencies",
+   "title": "Additional assistance: External support agencies*",
+   "group": "Additional assistance",
+   "answer": "The organisations that are listed below are nation-wide, however there are local support services available. If you are looking for a specific service in your area, try AskIzzy.",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "AskIzzy",
+     "href": "https://www.askizzy.org.au"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-aging-australians",
+   "title": "Additional assistance: Aging Australians",
+   "group": "Additional assistance",
+   "answer": "1800 ElderHelp1800 353 374 Capacity Australiacapacityaustralia.org.au Dementia Australiadementia.org.au National Seniors Australianationalseniors.com.au Senior Rights Serviceseniorsrightsservice.org.au",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "1800 353 374",
+     "href": "tel:1800353374"
+    },
+    {
+     "label": "capacityaustralia.org.au",
+     "href": "https://capacityaustralia.org.au/"
+    },
+    {
+     "label": "dementia.org.au",
+     "href": "https://www.dementia.org.au/"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-domestic-family-violence",
+   "title": "Additional assistance: Domestic & family violence",
+   "group": "Additional assistance",
+   "answer": "1800RESPECT1800respect.org.au Aboriginal Family Domestic Violence Hotline1800 019 123 Domestic Violence Resource Centre Victoria (DVRCV)dvrcv.org.au MensLine Australiamensline.org.au Orange Doororangedoor.vic.gov.au QLifeqlife.org.au White Ribbon Australiawhiteribbon.org.au",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "1800respect.org.au",
+     "href": "https://www.1800respect.org.au/"
+    },
+    {
+     "label": "1800 019 123",
+     "href": "tel:1800019123"
+    },
+    {
+     "label": "dvrcv.org.au",
+     "href": "https://www.dvrcv.org.au/talk-someone/victorian-services"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-mental-health",
+   "title": "Additional assistance: Mental health",
+   "group": "Additional assistance",
+   "answer": "Beyond Bluebeyondblue.org.au Headspaceheadspace.org.au Kids Helplinekidshelpline.com.au Lifelinelifeline.org.au Suicide Call Back Servicesuicidecallbackservice.org.au",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "beyondblue.org.au",
+     "href": "https://www.beyondblue.org.au"
+    },
+    {
+     "label": "headspace.org.au",
+     "href": "https://headspace.org.au/"
+    },
+    {
+     "label": "kidshelpline.com.au",
+     "href": "https://kidshelpline.com.au/"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-government-legal-services",
+   "title": "Additional assistance: Government & legal services",
+   "group": "Additional assistance",
+   "answer": "Centrelink/Department of Human Servicesservicesaustralia.gov.au/centrelink Community Legal Centre (CLC)clcs.org.au Legal Aidnationallegalaid.org",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "servicesaustralia.gov.au/centrelink",
+     "href": "https://www.servicesaustralia.gov.au/individuals/centrelink"
+    },
+    {
+     "label": "clcs.org.au",
+     "href": "https://clcs.org.au/"
+    },
+    {
+     "label": "nationallegalaid.org",
+     "href": "https://www.nationallegalaid.org/"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-relationships-family",
+   "title": "Additional assistance: Relationships & family",
+   "group": "Additional assistance",
+   "answer": "Family Relationship Advice Linefamilyrelationships.gov.au MensLine Australiamensline.org.au Relationships Australiarelationships.org.au",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "familyrelationships.gov.au",
+     "href": "https://www.familyrelationships.gov.au/"
+    },
+    {
+     "label": "mensline.org.au",
+     "href": "https://www.mensline.org.au"
+    },
+    {
+     "label": "relationships.org.au",
+     "href": "https://www.relationships.org.au/"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-disability",
+   "title": "Additional assistance: Disability",
+   "group": "Additional assistance",
+   "answer": "National Disability Servicends.org.au Capacity Australiacapacityaustralia.org.au",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "nds.org.au",
+     "href": "https://www.nds.org.au/"
+    },
+    {
+     "label": "capacityaustralia.org.au",
+     "href": "https://capacityaustralia.org.au/"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-financial-difficulty",
+   "title": "Additional assistance: Financial difficulty",
+   "group": "Additional assistance",
+   "answer": "Money Smartmoneysmart.gov.au National Debt Helplinendh.org.au CreditSmartCreditSmart.org.au",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "moneysmart.gov.au",
+     "href": "https://moneysmart.gov.au/"
+    },
+    {
+     "label": "ndh.org.au",
+     "href": "https://ndh.org.au/"
+    },
+    {
+     "label": "CreditSmart.org.au",
+     "href": "http://CreditSmart.org.au"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-bereavement",
+   "title": "Additional assistance: Bereavement",
+   "group": "Additional assistance",
+   "answer": "Australian Centre for Grief and Bereavementgrief.org.au Government Bereavement Assistanceservicesaustralia.gov.au/death-and-bereavement",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "grief.org.au",
+     "href": "https://www.grief.org.au/"
+    },
+    {
+     "label": "servicesaustralia.gov.au/death-and-bereavement",
+     "href": "https://www.servicesaustralia.gov.au/individuals/subjects/death-and-bereavement"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-financial-abuse-additional-assistance-addiction",
+   "title": "Additional assistance: Addiction",
+   "group": "Additional assistance",
+   "answer": "Counselling Online – Drug and Alcohol Supportcounsellingonline.org.au Gambling Helpgamblinghelponline.org.au *These are independent external organisations. Leveraged is not responsible for the content of external websites.",
+   "links": [
+    {
+     "label": "Read more: Additional assistance",
+     "href": "support/financial-abuse/additional-assistance/index.html"
+    },
+    {
+     "label": "counsellingonline.org.au",
+     "href": "https://www.counsellingonline.org.au/"
+    },
+    {
+     "label": "gamblinghelponline.org.au",
+     "href": "https://www.gamblinghelponline.org.au/"
+    }
+   ],
+   "source": "Additional assistance page"
+  },
+  {
+   "id": "page-support-guides-products",
+   "title": "Guides: Products",
+   "group": "Guides",
+   "answer": "Product guides explain how each loan works, including its features, fees and risks. Leveraged Margin Loan Product GuideMargin LoanPDF · 405 KB ↓ Leveraged Investment Funds Multiplier Product GuideInvestment Funds MultiplierPDF · 404 KB ↓ Leveraged Direct Investment Loan Product GuideDirect Investment LoanPDF · 361 KB ↓",
+   "links": [
+    {
+     "label": "Read more: Guides",
+     "href": "support/guides/index.html#g0-h"
+    },
+    {
+     "label": "PDF · 405 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-margin-loan-product-guide.pdf"
+    },
+    {
+     "label": "PDF · 404 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-investment-funds-multiplier-product-guide.pdf"
+    },
+    {
+     "label": "PDF · 361 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-direct-investment-loan-product-guide.pdf"
+    }
+   ],
+   "source": "Guides page"
+  },
+  {
+   "id": "page-support-guides-add-on-features",
+   "title": "Guides: Add-on features",
+   "group": "Guides",
+   "answer": "Guides for optional features you can add to your facility. Leveraged Exchange Options Plus Product Guide and ApplicationExchange Options PlusPDF · 786 KB ↓",
+   "links": [
+    {
+     "label": "Read more: Guides",
+     "href": "support/guides/index.html#g1-h"
+    },
+    {
+     "label": "PDF · 786 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/productdocs/leveraged-exchange-options-plus-product-guide.pdf"
+    }
+   ],
+   "source": "Guides page"
+  },
+  {
+   "id": "page-support-guides-using-leveraged-online",
+   "title": "Guides: Using Leveraged Online",
+   "group": "Guides",
+   "answer": "Step-by-step help with our online application, identification and lending ratios. Leveraged Online User Guide – ClientLeveraged Online User GuidePDF · 1.7 MB ↓ Leveraged Online Application ID and Certification GuideLeveraged identification & certificationPDF · 107 KB ↓ Know Your Customer list of certifiersLeveraged identification & certificationPDF · 117 KB ↓ Leveraged Online Application Quick Reference GuideOnline applicationPDF · 220 KB ↓ Lending Ratios User GuideLending ratiosPDF · 104 KB ↓ Gearing involves risk. It can magnify your returns; however, it may also magnify your losses. Please read the Product Disclosure Statement and Incorporated Statements (together, the ‘PDS’) and Product…",
+   "links": [
+    {
+     "label": "Read more: Guides",
+     "href": "support/guides/index.html#g2-h"
+    },
+    {
+     "label": "PDF · 1.7 MB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-online-user-guide-client.pdf"
+    },
+    {
+     "label": "PDF · 107 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/documents/facilitymaintenanceforms/leveraged-online-application-id-and-certification-guide.pdf"
+    },
+    {
+     "label": "PDF · 117 KB ↓",
+     "href": "https://www.leveraged.com.au/siteassets/support/guides/certification.pdf"
+    }
+   ],
+   "source": "Guides page"
+  },
+  {
+   "id": "page-contact-us-ways-to-contact-us",
+   "title": "Contact us: Ways to contact us",
+   "group": "Contact us",
+   "answer": "Contact us via one of the channels below or take a look at our FAQs in the support section of this website. Phone 1300 307 807Overseas: +61 2 8282 8282 8:30am – 5:30pm AEST/AEDT Monday – Friday Online Send us an online enquiry or email customerservice@leveraged.com.au Enquire now Mail GPO Box 5388 Sydney NSW 2001",
+   "links": [
+    {
+     "label": "Read more: Contact us",
+     "href": "contact-us/index.html#ways-h"
+    },
+    {
+     "label": "FAQs in the support section",
+     "href": "support/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "+61 2 8282 8282",
+     "href": "tel:+61282828282"
+    }
+   ],
+   "source": "Contact us page"
+  },
+  {
+   "id": "page-contact-us-compliments-and-complaints",
+   "title": "Contact us: Compliments and complaints",
+   "group": "Contact us",
+   "answer": "Make a complaint We love to hear from you whether it’s a compliment or a complaint. It is important for us to know what we do well and we are just as keen to hear when we have not met your expectations no matter the circumstance. Find out what to do if you have a complaint related to the Bendigo and Adelaide Bank Group. Make a complaint Provide a compliment We’re always keen to hear when one of our team has provided exceptional service. Please use our online form to let us know. Provide your feedback online",
+   "links": [
+    {
+     "label": "Read more: Contact us",
+     "href": "contact-us/index.html#fb-h"
+    },
+    {
+     "label": "Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html"
+    },
+    {
+     "label": "Provide your feedback online",
+     "href": "https://www.bendigobank.com.au/contact-us/customer-compliments/"
+    }
+   ],
+   "source": "Contact us page"
+  },
+  {
+   "id": "page-contact-us-sanctioned-locations",
+   "title": "Contact us: Sanctioned locations",
+   "group": "Contact us",
+   "answer": "Online access to our services is available in most countries around the world. However, to help us comply with our international banking obligations, there are some locations where online access to our services has been blocked. Our online services, including our mobile apps and internet banking, are unavailable in: Iran Syria North Korea Crimea and Sevastopol regions of Ukraine Cuba For further information, please contact us on 1300 307 807.",
+   "links": [
+    {
+     "label": "Read more: Contact us",
+     "href": "contact-us/index.html#sanc-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Contact us page"
+  },
+  {
+   "id": "page-contact-us-address-for-service",
+   "title": "Contact us: Address for service",
+   "group": "Contact us",
+   "answer": "Secured party group number101439973 Secured party detailsLEVERAGED EQUITIES LIMITED ABN 26 051 629 282, AFSL 360118 Emailcustomerservice@leveraged.com.au PPSR refinancing documentsFinancing Statement (PDF) Mailing addressGPO Box 5388 Sydney NSW 2001 AUSTRALIA Physical addressLevel 12 175 Pitt St Sydney NSW 2000 AUSTRALIA",
+   "links": [
+    {
+     "label": "Read more: Contact us",
+     "href": "contact-us/index.html#afs-h"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    },
+    {
+     "label": "Financing Statement (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/documents/financing-statement.pdf"
+    }
+   ],
+   "source": "Contact us page"
+  },
+  {
+   "id": "page-contact-us-customer-advocate-your-customer-advocate",
+   "title": "Customer Advocate: Your Customer Advocate",
+   "group": "Customer Advocate",
+   "answer": "The Customer Advocate’s role is to be a voice for customers within the Group. The Customer Advocate will aim to make things easier for our customers by helping to facilitate fair outcomes and minimising the likelihood of future problems.",
+   "links": [
+    {
+     "label": "Read more: Customer Advocate",
+     "href": "contact-us/customer-advocate/index.html#ya-h"
+    }
+   ],
+   "source": "Customer Advocate page"
+  },
+  {
+   "id": "page-contact-us-customer-advocate-what-we-do",
+   "title": "Customer Advocate: What we do",
+   "group": "Customer Advocate",
+   "answer": "The Customer Advocate operates impartially within the Bank and reports directly to the Managing Director’s Office. The Customer Advocate will be alert to customers who are experiencing challenging personal or financial circumstances, particularly those that may be vulnerable. Advise and guide our complaints team to drive fairer dispute resolution outcomes, with a particular focus on sensitive and complex cases. Review feedback to identify potential systemic issues, as well as opportunities to enhance products, services, systems and processes within the Bank. Help the Bank to make customer-centric decisions through the use of insights and perspectives.",
+   "links": [
+    {
+     "label": "Read more: Customer Advocate",
+     "href": "contact-us/customer-advocate/index.html#wd-h"
+    }
+   ],
+   "source": "Customer Advocate page"
+  },
+  {
+   "id": "page-contact-us-customer-advocate-how-to-get-help",
+   "title": "Customer Advocate: How to get help",
+   "group": "Customer Advocate",
+   "answer": "To provide your feedback, please visit the ‘Resolve a complaint’ page of our website which outlines the complaints process. Make a complaint",
+   "links": [
+    {
+     "label": "Read more: Customer Advocate",
+     "href": "contact-us/customer-advocate/index.html#hg-h"
+    },
+    {
+     "label": "Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html"
+    }
+   ],
+   "source": "Customer Advocate page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-we-re-listening",
+   "title": "Make a complaint: We’re listening",
+   "group": "Make a complaint",
+   "answer": "Your experience and satisfaction with our products, services, staff, complaint handling process or Consumer Data Right (CDR) is essential to us meeting the high standards we aspire to and designing banking solutions which meet your everyday needs. We will ensure that all complaints are fully documented, investigated and resolved in a timely manner. Our complaints guide (PDF) provides information on how to make a complaint and what you can expect from the process. If you have a complaint, any of our staff can assist you and their objective will always be resolution at first point of contact. They will work proactively with you to achieve fair, reasonable and timely outcomes. You can also…",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#li-h"
+    },
+    {
+     "label": "complaints guide (PDF)",
+     "href": "https://www.leveraged.com.au/siteassets/contactus/customerfeedback/resolveacomplaint/leveraged-making-a-complaint-guide.pdf"
+    },
+    {
+     "label": "Arabic (PDF)",
+     "href": "https://www.leveraged.com.au/globalassets/babl-to-ben/contact-us/customer-feedback/complaints-guides/customer-complaints-guide-arabic.pdf"
+    },
+    {
+     "label": "Greek (PDF)",
+     "href": "https://www.leveraged.com.au/globalassets/babl-to-ben/contact-us/customer-feedback/complaints-guides/customer-complaints-guide-greek.pdf"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-the-complaints-process-step-by-step",
+   "title": "Make a complaint: The complaints process, step by step",
+   "group": "Make a complaint",
+   "answer": "Tell us about your complaint Contact us using any of the channels below. Include your name and preferred contact details, what your complaint is about (the product or service and what has gone wrong), and the resolution you are seeking. Supporting documents or records with times and dates help us start investigating. We acknowledge your complaint Where possible we aim to resolve complaints on the spot, or within five business days. If we need more time, you’ll receive a reference number and the contact details of the person handling your complaint. We investigate and respond We’ll review the information you’ve given us and investigate the issue thoroughly, with regular progress updates. We…",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#proc-h"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-maximum-response-timeframes",
+   "title": "Make a complaint: Maximum response timeframes",
+   "group": "Make a complaint",
+   "answer": "Timeframes as published on Complaints FAQs. Complaint typeResponse no later than Standard complaints30 calendar days after receiving the complaint Credit-related complaints involving default notices21 calendar days after receiving the complaint Credit-related complaints involving hardship notices or requests to postpone enforcement proceedings21 calendar days after receiving the complaint. Exceptions apply if the credit provider or lessor does not have sufficient information to make a decision, or if they reach an agreement with the complainant. Traditional trustee complaints45 calendar days after receiving the complaint",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#tf-h"
+    },
+    {
+     "label": "Complaints FAQs",
+     "href": "contact-us/make-a-complaint/frequently-asked-questions/index.html"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-how-to-make-a-complaint",
+   "title": "Make a complaint: How to make a complaint",
+   "group": "Make a complaint",
+   "answer": "There are many ways to provide your complaint to us. We encourage you to provide as much relevant detail as possible. Call us to talk Call us on 1300 307 807 or if calling from overseas call +61 2 8282 8282. Talk to us in person Speak to a member of our staff in one of our branches. Locate a branch Submit your complaint online Complete our simple online form and we will make contact with you. Access the online form Write to us Reply Paid GPO Box 5388 Sydney, NSW 2001",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#how-h"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "+61 2 8282 8282",
+     "href": "tel:+61282828282"
+    },
+    {
+     "label": "Locate a branch",
+     "href": "https://www.bendigobank.com.au/locate-us/"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-if-you-re-not-satisfied-afca",
+   "title": "Make a complaint: If you’re not satisfied: AFCA",
+   "group": "Make a complaint",
+   "answer": "If you are not satisfied with the response provided, you have the option to refer your complaint to the relevant external dispute resolution scheme. We are a member of the Australian Financial Complaints Authority (AFCA). AFCA provides fair and independent financial services complaint resolution that is free to customers. You can contact AFCA: In writingGPO Box 3, Melbourne VIC 3001 Telephone1800 931 678 (free call) Emailinfo@afca.org.au Websitewww.afca.org.au Time limits may apply to complain to AFCA so you should act promptly or otherwise consult the AFCA website to find out if or when the time limit relevant to your circumstances expire. Complaints about your personal information If your…",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#afca-h"
+    },
+    {
+     "label": "Australian Financial Complaints Authority (AFCA)",
+     "href": "https://www.afca.org.au/"
+    },
+    {
+     "label": "contact AFCA",
+     "href": "https://www.afca.org.au/about-afca/contact-us"
+    },
+    {
+     "label": "1800 931 678",
+     "href": "tel:1800931678"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-authorising-someone-else-to-help-you",
+   "title": "Make a complaint: Authorising someone else to help you",
+   "group": "Make a complaint",
+   "answer": "You can appoint someone else to lodge or handle your complaint on your behalf. This may be a family member or friend, a financial counsellor or a legal representative. We will require you to sign a form which provides your consent for us to liaise with your representative. Once this authority is in place, we’ll work with your representative to resolve your complaint. Contact us to discuss appointing a representative.",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#auth-h"
+    },
+    {
+     "label": "Contact us to discuss appointing a representative.",
+     "href": "https://www.bendigobank.com.au/contact-us/"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-interpreter-services",
+   "title": "Make a complaint: Interpreter services",
+   "group": "Make a complaint",
+   "answer": "If English isn’t your first language, you can access a free interpreter service through Translating and Interpreter Services (TIS). This service is available in over 150 languages and is provided by the Department of Home Affairs. Please let us know if you would like us to arrange this service for you, or call TIS directly on 131 450. An automated prompt will ask you which language you need and then connect you with a TIS National operator who can allocate an interpreter for you.",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#int-h"
+    },
+    {
+     "label": "131 450",
+     "href": "tel:131450"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-accessibility-support",
+   "title": "Make a complaint: Accessibility support",
+   "group": "Make a complaint",
+   "answer": "At BEN, we are building a disability confident organisation. While our staff are trained to provide practical accessibility support, there are times we may need to take your lead and invite you to guide us on what we can do to make the complaints process easier for you. Please ensure you include any specific accommodations you may require from us in your complaint submission or during conversations with our team. Our complaints guide is available in an Easy English format (PDF), explaining the complaints process in a plain language that is concise and easy to understand. National Relay Service If you are deaf or have a hearing or speech impediment, you can call through the National Relay…",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#acc-h"
+    },
+    {
+     "label": "Easy English format (PDF)",
+     "href": "https://www.leveraged.com.au/globalassets/babl-to-ben/contact-us/customer-feedback/complaints-guides/customer-complaints-guide-easy-english.pdf"
+    },
+    {
+     "label": "133 677",
+     "href": "tel:133677"
+    },
+    {
+     "label": "1300 555 727",
+     "href": "tel:1300555727"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-frequently-asked-questions",
+   "title": "Make a complaint: Frequently asked questions",
+   "group": "Make a complaint",
+   "answer": "Answers on timeframes, written responses, representatives and AFCA. Read the complaints FAQs",
+   "links": [
+    {
+     "label": "Read more: Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html#faq-h"
+    },
+    {
+     "label": "Read the complaints FAQs",
+     "href": "contact-us/make-a-complaint/frequently-asked-questions/index.html"
+    }
+   ],
+   "source": "Make a complaint page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-frequently-asked-questions-questions-about-complaint",
+   "title": "Frequently asked questions: Questions about complaints",
+   "group": "Frequently asked questions",
+   "answer": "What details do you need from me when I make a complaint?We need enough information from you to allow us to investigate your complaint. In general, we need any supporting documentation or records with times, dates etc. Providing this information to us as soon as you raise your complaint assists our staff to begin investigations. Can I ask someone else to complain on my behalf?Yes, however that person must be authorised to represent you. This means they would be a signatory to your account, or you have provided us with written authorisation for the person to act on your behalf. Without your consent we can only provide the person with information that is general in nature and not personal or…",
+   "links": [
+    {
+     "label": "Read more: Frequently asked questions",
+     "href": "contact-us/make-a-complaint/frequently-asked-questions/index.html#q-h"
+    },
+    {
+     "label": "www.afca.org.au",
+     "href": "https://www.afca.org.au/"
+    },
+    {
+     "label": "1800 931 678",
+     "href": "tel:1800931678"
+    },
+    {
+     "label": "info@afca.org.au",
+     "href": "mailto:info@afca.org.au"
+    }
+   ],
+   "source": "Frequently asked questions page"
+  },
+  {
+   "id": "page-contact-us-make-a-complaint-frequently-asked-questions-ready-to-make-a-complaint",
+   "title": "Frequently asked questions: Ready to make a complaint?",
+   "group": "Frequently asked questions",
+   "answer": "See every way to contact us, and what happens next. Make a complaint",
+   "links": [
+    {
+     "label": "Read more: Frequently asked questions",
+     "href": "contact-us/make-a-complaint/frequently-asked-questions/index.html#n-h"
+    },
+    {
+     "label": "Make a complaint",
+     "href": "contact-us/make-a-complaint/index.html"
+    }
+   ],
+   "source": "Frequently asked questions page"
+  },
+  {
+   "id": "page-policies-privacy-policy-intro",
+   "title": "Privacy Policy",
+   "group": "Privacy Policy",
+   "answer": "Bendigo and Adelaide Bank Group Privacy Policy, which applies to Leveraged Equities. Related document European Union General Data Protection Regulation Policy PDFOther policies Privacy Policy Credit Reporting Policy Notifiable Matters Statement Terms of Use Disclaimer",
+   "links": [
+    {
+     "label": "Read more: Privacy Policy",
+     "href": "policies/privacy-policy/index.html"
+    },
+    {
+     "label": "European Union General Data Protection Regulation Policy PDF",
+     "href": "https://www.leveraged.com.au/globalassets/documents/policies/european-union-general-data-protection-regulation-policy.pdf"
+    },
+    {
+     "label": "Privacy Policy",
+     "href": "policies/privacy-policy/index.html"
+    },
+    {
+     "label": "Credit Reporting Policy",
+     "href": "policies/credit-reporting-policy/index.html"
+    }
+   ],
+   "source": "Privacy Policy page"
+  },
+  {
+   "id": "page-policies-privacy-policy-about-this-policy",
+   "title": "Privacy Policy: About this policy",
+   "group": "Privacy Policy",
+   "answer": "This document sets out how the Bendigo and Adelaide Bank Group safeguards your privacy. In this document, the Bendigo and Adelaide Bank Group (‘we’, ‘our’ or ‘us’) includes all or any of the following: Bendigo and Adelaide Bank Limited, including its division Bendigo Bank Bendigo and Adelaide Bank Limited subsidiary companies, including Sandhurst Trustees, Leveraged Equities, National Mortgage Market Corporation, Ferocia, and Up Money Bendigo Bank franchises (including Community Bank branches) Community Enterprise Foundation™ Information about how we handle your credit related information is contained in our Credit Reporting Policy. Credit Reporting Policy Privacy Policy We recognise the…",
+   "links": [
+    {
+     "label": "Read more: Privacy Policy",
+     "href": "policies/privacy-policy/index.html#about-this-policy"
+    },
+    {
+     "label": "Credit Reporting Policy",
+     "href": "policies/credit-reporting-policy/index.html"
+    },
+    {
+     "label": "tracking pixels and cookies",
+     "href": "#our-website-and-the-use-of-cookies"
+    },
+    {
+     "label": "www.bendigobank.com.au/blog/personal/10-tips-to-protect-yourself-from-scams/",
+     "href": "https://www.bendigobank.com.au/blog/personal/10-tips-to-protect-yourself-from-scams/"
+    }
+   ],
+   "source": "Privacy Policy page"
+  },
+  {
+   "id": "page-policies-privacy-policy-disclosure-to-overseas-recipients",
+   "title": "Privacy Policy: Disclosure to overseas recipients",
+   "group": "Privacy Policy",
+   "answer": "In some cases we may need to share some of your information with organisations outside Australia, or Australian organisations that store data or operate outside of Australia. For example, when we use service providers located in Australia or overseas to perform a function on our behalf. We may share your information with overseas organisations that are located in the following countries: Austria Belgium Canada Denmark France Germany India Indonesia Ireland Israel Nauru The Netherlands New Zealand Philippines Singapore Spain Sweden Switzerland UK US When we share your information with organisations overseas we ensure appropriate data handling and security measures are in place. Access and…",
+   "links": [
+    {
+     "label": "Read more: Privacy Policy",
+     "href": "policies/privacy-policy/index.html#disclosure-to-overseas-recipients"
+    },
+    {
+     "label": "Contacting us",
+     "href": "#contacting-us"
+    },
+    {
+     "label": "Contacting us",
+     "href": "#contacting-us"
+    },
+    {
+     "label": "Use and disclosure",
+     "href": "#use-and-disclosure"
+    }
+   ],
+   "source": "Privacy Policy page"
+  },
+  {
+   "id": "page-policies-privacy-policy-changes-to-this-policy",
+   "title": "Privacy Policy: Changes to this policy",
+   "group": "Privacy Policy",
+   "answer": "From time to time, it may be necessary for us to review this policy and the information contained in this document. We will notify you of any changes by posting an updated version on our websites.",
+   "links": [
+    {
+     "label": "Read more: Privacy Policy",
+     "href": "policies/privacy-policy/index.html#changes-to-this-policy"
+    }
+   ],
+   "source": "Privacy Policy page"
+  },
+  {
+   "id": "page-policies-privacy-policy-privacy-queries-or-complaints",
+   "title": "Privacy Policy: Privacy queries or complaints",
+   "group": "Privacy Policy",
+   "answer": "If you have a query or wish to make a complaint regarding the handling of your personal information, including your credit related information, by us, please contact our Customer Feedback Team. We will promptly investigate your complaint and notify you of the outcome. Resolve a complaint",
+   "links": [
+    {
+     "label": "Read more: Privacy Policy",
+     "href": "policies/privacy-policy/index.html#privacy-queries-or-complaints"
+    },
+    {
+     "label": "Resolve a complaint",
+     "href": "contact-us/make-a-complaint/index.html"
+    }
+   ],
+   "source": "Privacy Policy page"
+  },
+  {
+   "id": "page-policies-privacy-policy-if-you-are-unhappy-with-the-resolution",
+   "title": "Privacy Policy: If you are unhappy with the resolution",
+   "group": "Privacy Policy",
+   "answer": "If you are not satisfied with the response provided, you have the option to refer your complaint to the relevant external dispute resolution scheme. We are a member of the Australian Financial Complaints Authority (AFCA). AFCA provides fair and independent financial services complaint resolution that is free to customers. You can contact AFCA: In writing: GPO Box 3, Melbourne VIC 3001 Telephone: 1800 931 678 Email: info@afca.org.au Website: www.afca.org.au Time limits may apply to complain to AFCA so you should act promptly or otherwise consult the AFCA website to find out if or when the time limit relevant to your circumstances expire. If your complaint relates to how we handle your…",
+   "links": [
+    {
+     "label": "Read more: Privacy Policy",
+     "href": "policies/privacy-policy/index.html#if-you-are-unhappy-with-the-resolution"
+    },
+    {
+     "label": "Australian Financial Complaints Authority",
+     "href": "https://www.afca.org.au/"
+    },
+    {
+     "label": "contact AFCA",
+     "href": "https://www.afca.org.au/about-afca/contact-us"
+    },
+    {
+     "label": "1800 931 678",
+     "href": "tel:1800931678"
+    }
+   ],
+   "source": "Privacy Policy page"
+  },
+  {
+   "id": "page-policies-privacy-policy-contacting-us",
+   "title": "Privacy Policy: Contacting us",
+   "group": "Privacy Policy",
+   "answer": "If you have any questions about this policy, what personal information or credit related information we may hold in relation to you, or about the way we manage your personal information or credit related information you can contact us. If you would like to contact an entity in the Bendigo and Adelaide Bank Group which is not listed, please contact 1300 236 344 (in Australia) or +61 3 5445 0666 (from overseas - standard international call charges apply). Bendigo Bank PO Box 480 Bendigo VIC 3552 Tel: 1300 236 344 E-mail: ContactUs@bendigoadelaide.com.au Sandhurst Trustees Level 4, 555 Collins Street Melbourne VIC 3000 Tel: 1800 634 969 E-mail: managedfunds@sandhursttrustees.com.au National…",
+   "links": [
+    {
+     "label": "Read more: Privacy Policy",
+     "href": "policies/privacy-policy/index.html#contacting-us"
+    },
+    {
+     "label": "1300 236 344",
+     "href": "tel:1300236344"
+    },
+    {
+     "label": "+61 3 5445 0666",
+     "href": "tel:+61354450666"
+    },
+    {
+     "label": "1300 236 344",
+     "href": "tel:1300236344"
+    }
+   ],
+   "source": "Privacy Policy page"
+  },
+  {
+   "id": "page-calculations-html-intro",
+   "title": "How your margin loan numbers work",
+   "group": "How your margin loan numbers work",
+   "answer": "What lending value, available funds, gearing and the buffer mean, how each is calculated, and when a margin call happens. Try your own numbers in the calculator.",
+   "links": [
+    {
+     "label": "Read more: How your margin loan numbers work",
+     "href": "calculations.html"
+    }
+   ],
+   "source": "How your margin loan numbers work page"
+  },
+  {
+   "id": "page-calculations-html-key-terms-and-how-they-re-calculated",
+   "title": "How your margin loan numbers work: Key terms and how they're calculated",
+   "group": "How your margin loan numbers work",
+   "answer": "These figures appear in your online account and statements, and update through the trading day as prices move. TermWhat it meansHow it's calculated Market valueWhat all the investments in your loan portfolio are worth today.Sum of (units × current price) Lending ratioThe percentage of an investment's value we'll lend against. Each investment has its own, set on the acceptable investments list.Set per investment, e.g. 75%, 70%, 50% Lending valueThe most you can borrow against your portfolio as it stands.Sum of (market value × lending ratio) Loan balanceWhat you currently owe.Previous balance + drawdowns and purchases + interest and fees − repayments and sale proceeds Credit limitThe maximum…",
+   "links": [
+    {
+     "label": "Read more: How your margin loan numbers work",
+     "href": "calculations.html#terms-h"
+    }
+   ],
+   "source": "How your margin loan numbers work page"
+  },
+  {
+   "id": "page-calculations-html-worked-examples",
+   "title": "How your margin loan numbers work: Worked examples",
+   "group": "How your margin loan numbers work",
+   "answer": "A portfolio of two shares worth $50,000 each, with a $40,000 loan and a $100,000 credit limit. 1. Market value Add up what each holding is worth. $50,000 + $50,000 = $100,000 2. Lending value Share A has a 75% lending ratio, share B 50%. ($50,000 × 75%) + ($50,000 × 50%) = $37,500 + $25,000 = $62,500 3. Available funds Lending value ($62,500) is lower than the credit limit ($100,000), so it sets the cap. Subtract your $40,000 loan balance (what you’ve already borrowed) to get what’s left to draw. $62,500 lending value − $40,000 loan balance = $22,500What if the credit limit were $50,000?It would be lower than the lending value, so it sets the cap instead. Available funds would be $50,000…",
+   "links": [
+    {
+     "label": "Read more: How your margin loan numbers work",
+     "href": "calculations.html#ex-h"
+    }
+   ],
+   "source": "How your margin loan numbers work page"
+  },
+  {
+   "id": "page-calculations-html-when-a-margin-call-happens",
+   "title": "How your margin loan numbers work: When a margin call happens",
+   "group": "How your margin loan numbers work",
+   "answer": "A margin call is made when your loan balance goes above your lending value plus the buffer. This usually happens because the market value of your investments falls, which lowers your lending value. Margin call if: loan balance > lending value + buffer Same portfolioTodayAfter a 45% fall Market value$100,000$55,000 Lending value$62,500$34,375 Buffer (10% of market value)$10,000$5,500 Lending value + buffer$72,500$39,875 Loan balance$40,000$40,000 Margin call?NoYes, $125 over If you get a margin call, you'll usually need to act within 24 hours by repaying some of the loan, adding cash or acceptable investments, or selling investments. If you don't, we can sell investments for you. Between…",
+   "links": [
+    {
+     "label": "Read more: How your margin loan numbers work",
+     "href": "calculations.html#mc-h"
+    }
+   ],
+   "source": "How your margin loan numbers work page"
+  },
+  {
+   "id": "page-calculations-html-concentration-limits",
+   "title": "How your margin loan numbers work: Concentration limits",
+   "group": "How your margin loan numbers work",
+   "answer": "To encourage a spread of investments, some investments get a higher lending ratio while they make up no more than a set share of your portfolio, called the concentration limit. Any amount above that limit gets a lower ratio. Only the excess is affected, not the whole holding. Each investment's concentration limit, and the lending ratios either side of it, are on the acceptable investments list. Check the latest list, as these can change. Example: $60,000 of one share in a $100,000 portfolio Say this share has a 40% concentration limit, a 60% lending ratio up to the limit and 40% above it. The limit is 40% of $100,000 = $40,000. Part of the holdingValueLending ratioLending value Up to the…",
+   "links": [
+    {
+     "label": "Read more: How your margin loan numbers work",
+     "href": "calculations.html#conc-h"
+    },
+    {
+     "label": "acceptable investments list",
+     "href": "forms.html#investments"
+    }
+   ],
+   "source": "How your margin loan numbers work page"
+  },
+  {
+   "id": "page-calculations-html-how-transactions-change-your-numbers",
+   "title": "How your margin loan numbers work: How transactions change your numbers",
+   "group": "How your margin loan numbers work",
+   "answer": "TransactionMarket valueLending valueLoan balanceAvailable funds Cash drawdownNo changeNo change↑ by the amount↓ by the amount Cash repaymentNo changeNo change↓ by the amount↑ by the amount Buy using the loan↑ by the cost↑ by cost × lending ratio↑ by the cost↓ by cost × (1 − lending ratio) Sell, proceeds repay the loan↓ by the proceeds↓ by proceeds × lending ratio↓ by the proceeds↑ by proceeds × (1 − lending ratio) Transfer investments in↑ by their value↑ by value × lending ratioNo change↑ by value × lending ratio Transfer investments out↓ by their value↓ by value × lending ratioNo change↓ by value × lending ratio Interest charged to the loanNo changeNo change↑ by the interest↓ by the…",
+   "links": [
+    {
+     "label": "Read more: How your margin loan numbers work",
+     "href": "calculations.html#tx-h"
+    }
+   ],
+   "source": "How your margin loan numbers work page"
+  },
+  {
+   "id": "page-product-comparison-html-intro",
+   "title": "Compare our loans",
+   "group": "Compare our loans",
+   "answer": "Three ways to borrow to invest. See how they differ on investments, flexibility and risk, then pick the one that suits how you invest. Only show differences Most flexible",
+   "links": [
+    {
+     "label": "Read more: Compare our loans",
+     "href": "product-comparison.html"
+    }
+   ],
+   "source": "Compare our loans page"
+  },
+  {
+   "id": "page-product-comparison-html-margin-loan",
+   "title": "Compare our loans: Margin Loan",
+   "group": "Compare our loans",
+   "answer": "Borrow against a broad list of shares, ETFs and managed funds. Draw down and repay any time. Apply nowExplore Margin Loan → For regular investing",
+   "links": [
+    {
+     "label": "Read more: Compare our loans",
+     "href": "product-comparison.html"
+    },
+    {
+     "label": "Apply now",
+     "href": "#"
+    },
+    {
+     "label": "Explore Margin Loan →",
+     "href": "products/margin-loan/index.html"
+    }
+   ],
+   "source": "Compare our loans page"
+  },
+  {
+   "id": "page-product-comparison-html-investment-funds-multiplier",
+   "title": "Compare our loans: Investment Funds Multiplier",
+   "group": "Compare our loans",
+   "answer": "Build a managed-fund portfolio with regular contributions, matched by borrowing. Apply nowExplore Funds Multiplier → Lower ongoing risk",
+   "links": [
+    {
+     "label": "Read more: Compare our loans",
+     "href": "product-comparison.html"
+    },
+    {
+     "label": "Apply now",
+     "href": "#"
+    },
+    {
+     "label": "Explore Funds Multiplier →",
+     "href": "products/investment-funds-multiplier/index.html"
+    }
+   ],
+   "source": "Compare our loans page"
+  },
+  {
+   "id": "page-product-comparison-html-direct-investment-loan",
+   "title": "Compare our loans: Direct Investment Loan",
+   "group": "Compare our loans",
+   "answer": "A structured loan for direct shares and ETFs, with no margin calls. Apply nowExplore Direct Investment Loan → Margin Loan, Investment Funds Multiplier and Direct Investment Loan compared FeatureMargin LoanInvestment Funds MultiplierDirect Investment Loan Who it suits Best forActive investors who want to borrow against an existing or growing portfolioInvestors building wealth through regular contributionsInvestors who want leverage without the risk of margin calls Borrower typesIndividuals, joint, companies and trustsIndividuals, joint, companies and trustsIndividuals and joint borrowers only Not available to companies or trusts What you can invest in Australian shares & ETFsYesSelected…",
+   "links": [
+    {
+     "label": "Read more: Compare our loans",
+     "href": "product-comparison.html"
+    },
+    {
+     "label": "Apply now",
+     "href": "#"
+    },
+    {
+     "label": "Explore Direct Investment Loan →",
+     "href": "products/direct-investment-loan/index.html"
+    },
+    {
+     "label": "See rates",
+     "href": "rates/index.html"
+    }
+   ],
+   "source": "Compare our loans page"
+  },
+  {
+   "id": "page-product-comparison-html-not-sure-which-is-right-for-you",
+   "title": "Compare our loans: Not sure which is right for you?",
+   "group": "Compare our loans",
+   "answer": "Talk to Young Ngai, our Business Development Manager for direct clients. He can explain how each loan works and help you get started. Our specialists can't give personal advice, so speak to a financial adviser about your situation. Call Young 03 8633 1236Email YoungOr call our team on 1300 307 807 Want to see how lending value, available funds and margin calls are worked out? Read how your margin loan numbers work. Summary only. Features, eligibility, lending ratios and rates can change and depend on your circumstances. Read the PDS, Product Guide and Terms and Conditions for full details before deciding.",
+   "links": [
+    {
+     "label": "Read more: Compare our loans",
+     "href": "product-comparison.html"
+    },
+    {
+     "label": "Call Young 03 8633 1236",
+     "href": "tel:+61386331236"
+    },
+    {
+     "label": "Email Young",
+     "href": "mailto:young.ngai@leveraged.com.au"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Compare our loans page"
+  },
+  {
+   "id": "page-educational-insights-what-is-a-margin-lending-facility-what-is-a-margin-lending-",
+   "title": "What is a margin lending facility?: What is a margin lending facility?",
+   "group": "What is a margin lending facility?",
+   "answer": "A margin loan allows you to borrow money, in addition to your own, increasing your investment capacity to invest in financial products. Acceptable Investments include shares, Exchange Traded Funds (ETFs) and managed funds. The securities are mortgaged to the lender as security for the loan and the amount you owe. A margin loan will allow you to borrow either against existing investments or new investments purchased up to a level permitted on each holding, known as a Lending Value Ratio (LVR). Borrowing to acquire an asset is called gearing or leverage. Investors use gearing when they expect the return on their investments to be larger than the cost of borrowing. Yet it’s worth remembering…",
+   "links": [
+    {
+     "label": "Read more: What is a margin lending facility?",
+     "href": "educational-insights/What-is-a-margin-lending-facility/index.html"
+    }
+   ],
+   "source": "What is a margin lending facility? page"
+  },
+  {
+   "id": "page-educational-insights-what-is-a-margin-lending-facility-benefits-of-using-a-margi",
+   "title": "What is a margin lending facility?: Benefits of using a margin loan",
+   "group": "What is a margin lending facility?",
+   "answer": "You can use a gearing strategy for a variety of reasons: Increase your investment capacity Leverage an existing portfolio or create a new investment portfolio to boost your investment capacity and increase your exposure to the market. Diversify your investment portfolio If you have an existing investment portfolio, this can be mortgaged to the lender, and you may be able to borrow against this portfolio for further investment. This may allow you to diversify your investment portfolio without needing to sell any existing holdings. Potential tax benefits Depending on your situation, interest incurred from borrowings used for an investment may be tax deductible. You may also be able to fix and…",
+   "links": [
+    {
+     "label": "Read more: What is a margin lending facility?",
+     "href": "educational-insights/What-is-a-margin-lending-facility/index.html"
+    }
+   ],
+   "source": "What is a margin lending facility? page"
+  },
+  {
+   "id": "page-educational-insights-what-is-a-margin-lending-facility-what-are-the-risks",
+   "title": "What is a margin lending facility?: What are the risks?",
+   "group": "What is a margin lending facility?",
+   "answer": "There are risk factors to margin lending. Some of the key risks include: Market Risk It is possible that the performance of your investments may change, which will result in you earning a lower return or incurring a larger loss than if you had not borrowed to invest. Interest rate risk Interest rates may rise which can impact your ability to service the loan or achieve a desired outcome. An increase in the variable rate will increase your borrowing costs. Margin Calls It is possible for certain events such as margin calls to occur at any time that may result in some or all of the loan being due for payment at short notice or immediately, depending on the nature of the event. If you are…",
+   "links": [
+    {
+     "label": "Read more: What is a margin lending facility?",
+     "href": "educational-insights/What-is-a-margin-lending-facility/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "Business Development Managers",
+     "href": "contact-us/our-team/index.html"
+    }
+   ],
+   "source": "What is a margin lending facility? page"
+  },
+  {
+   "id": "page-educational-insights-calculating-the-buffer-intro",
+   "title": "Calculating the buffer",
+   "group": "Calculating the buffer",
+   "answer": "Investment strategy 20 September 20242 min read The buffer is an allowance over and above the approved loan to value ratio or Lending Ratio to accommodate small market fluctuations without triggering a Margin Call. In most circumstances, Leveraged offers a buffer of 10%. Important information to remember when considering the buffer: Cash and cash like products will not have any buffer applied. Put protected holdings will not have any buffer applied. The buffer is not intended to provide additional borrowing capacity. Case study - calculating the buffer: Identify all acceptable investments with a lending ratio applied; Calculate the market value of these acceptable investment; and Sum the…",
+   "links": [
+    {
+     "label": "Read more: Calculating the buffer",
+     "href": "educational-insights/calculating-the-buffer/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Calculating the buffer page"
+  },
+  {
+   "id": "page-educational-insights-fix-and-prepay-interest-intro",
+   "title": "Fix and Prepay Interest",
+   "group": "Fix and Prepay Interest",
+   "answer": "Case study 1 May 20265 min read Borrowing to invest, or gearing, is a medium-to-long-term strategy used by investors to access additional funds for investments, on top of their own capital. Dependent on individual circumstances, interest expenses on the funds borrowed for income-producing purposes are generally tax deductible* and can either be variable or fixed interest. One strategy available for some people by the end of a financial year is to fix the interest rate on the loan, prepay the fixed interest for up to 12 months and then claim a tax deduction on that in the current financial year. This could assist in tax planning by bringing forward a tax deduction from next financial year to…",
+   "links": [
+    {
+     "label": "Read more: Fix and Prepay Interest",
+     "href": "educational-insights/fix-and-prepay-interest/index.html"
+    }
+   ],
+   "source": "Fix and Prepay Interest page"
+  },
+  {
+   "id": "page-educational-insights-fix-and-prepay-interest-what-is-fix-and-prepay",
+   "title": "Fix and Prepay Interest: What is Fix and Prepay?",
+   "group": "Fix and Prepay Interest",
+   "answer": "Fix and Prepay is fixing the interest rate on your margin loan and prepaying the fixed interest cost in one upfront payment for a maximum term of 12 months. It locks in the interest rate, often at a discount, for the duration of the fixed term and provides certainty to your interest cost for the period. Fix and Prepay is available across all our margin loan products. Considerations when determining if fixing and prepaying your interest is the right strategy for you: Interest Rates: Changes in interest rates on funds borrowed can affect investment returns. Fixing your interest rate may remove the uncertainty of changes in interest rate during the fixed rate period, giving you more certainty…",
+   "links": [
+    {
+     "label": "Read more: Fix and Prepay Interest",
+     "href": "educational-insights/fix-and-prepay-interest/index.html"
+    }
+   ],
+   "source": "Fix and Prepay Interest page"
+  },
+  {
+   "id": "page-educational-insights-fix-and-prepay-interest-case-study",
+   "title": "Fix and Prepay Interest: Case Study",
+   "group": "Fix and Prepay Interest",
+   "answer": "The below example outlines how a borrower can choose what method of paying interest most aligns with their financial strategy. Introducing: Viraj Viraj is a current Leveraged customer and has a variable loan balance of $80,000. He is a long term investor. Viraj is interested in how to obtain more certainty around interest costs and the options available to him. He has three choices available for payment of interest: A) Fix and Prepay all or some of his variable margin loan interest costs; B) Fix the loan without prepaying (Fixed in Arrears); or C) Stay Variable",
+   "links": [
+    {
+     "label": "Read more: Fix and Prepay Interest",
+     "href": "educational-insights/fix-and-prepay-interest/index.html"
+    }
+   ],
+   "source": "Fix and Prepay Interest page"
+  },
+  {
+   "id": "page-educational-insights-fix-and-prepay-interest-the-choices",
+   "title": "Fix and Prepay Interest: The Choices",
+   "group": "Fix and Prepay Interest",
+   "answer": "A) Fix and Prepay By fixing and prepaying the interest for 12 months for the total current loan balance of $80,000, Viraj gains certainty of his interest payment for the chosen term. By choosing this method, he may be eligible to bring forward any eligible tax deduction for the interest to the current tax year. Alternatively, Viraj may fix and prepay the interest on a smaller portion (e.g., $40,000 of his current loan balance, allowing him to gain certainty on the interest costs of half of his current loan). The remaining loan will still be subject to changes in variable interest rates. B) Fix the loan without prepaying (Fixed in Arrears) Viraj is also able to fix his loan for any amount…",
+   "links": [
+    {
+     "label": "Read more: Fix and Prepay Interest",
+     "href": "educational-insights/fix-and-prepay-interest/index.html"
+    }
+   ],
+   "source": "Fix and Prepay Interest page"
+  },
+  {
+   "id": "page-educational-insights-fix-and-prepay-interest-ability-to-fix-a-higher-amount",
+   "title": "Fix and Prepay Interest: Ability to fix a higher amount",
+   "group": "Fix and Prepay Interest",
+   "answer": "If you have an existing margin loan with a variable loan component, you are not restricted to fix and prepaying your current variable loan amount. You can choose to fix and prepay a higher loan amount (subject to your credit limit) that you intend to use for the term of the fixed loan (subject to equity available). If you are yet to decide on which investments to acquire using the fixed loan, the sweep feature (dependent on the particular type of loan product) can manage the unused portion of your fixed rate loan into an approved cash management account until you are ready to transact.",
+   "links": [
+    {
+     "label": "Read more: Fix and Prepay Interest",
+     "href": "educational-insights/fix-and-prepay-interest/index.html"
+    }
+   ],
+   "source": "Fix and Prepay Interest page"
+  },
+  {
+   "id": "page-educational-insights-fix-and-prepay-interest-manage-your-loan-account-with-a-swe",
+   "title": "Fix and Prepay Interest: Manage your loan account with a sweep feature",
+   "group": "Fix and Prepay Interest",
+   "answer": "We can help you manage any unutilised fixed loan amount by sweeping funds between your margin loan and a cash management account approved by the lender, which will form part of your portfolio secured to the loan. Typically, you will nominate a loan amount as a ‘Target Facility Balance’ equal to your fixed rate loan. If the total amount borrowed under your margin loan is less than your Target Facility Balance, then we will sweep the unused loan portion between your borrowed amount and the target balance to your approved cash management account to earn credit interest on these funds. Equally, if the total amount borrowed under your margin loan is greater than your Target Facility Balance, we…",
+   "links": [
+    {
+     "label": "Read more: Fix and Prepay Interest",
+     "href": "educational-insights/fix-and-prepay-interest/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au.",
+     "href": "mailto:customerservice@leveraged.com.au"
+    },
+    {
+     "label": "Business Development Managers",
+     "href": "adviser-only/index.html"
+    }
+   ],
+   "source": "Fix and Prepay Interest page"
+  },
+  {
+   "id": "page-educational-insights-managing-volatility-and-your-margin-loan-intro",
+   "title": "Managing volatility and your margin loan",
+   "group": "Managing volatility and your margin loan",
+   "answer": "Loan management 16 April 20252 min read There are numerous adages in investing reminding investors that’s it’s not always smooth sailing, from the perfunctory ‘past performance is not an indication of future performance’ to the more colourful ‘up by the stairs down by the elevator’ and the more realistic ‘the market doesn’t go up in a straight line’. These statements are timely reminders of the volatility that can present at any time and that investors should prepare for and at least consider the possibilities of falling valuations in their holdings, particularly over short time periods. When investing, especially in shares, investors should consider how to manage volatility in their…",
+   "links": [
+    {
+     "label": "Read more: Managing volatility and your margin loan",
+     "href": "educational-insights/managing-volatility-and-your-margin-loan/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "customerservice@leveraged.com.au",
+     "href": "mailto:customerservice@leveraged.com.au"
+    }
+   ],
+   "source": "Managing volatility and your margin loan page"
+  },
+  {
+   "id": "page-educational-insights-gear-into-international-shares-intro",
+   "title": "Are your clients looking to gear into international shares?",
+   "group": "Are your clients looking to gear into international shares?",
+   "answer": "Investment strategies 13 September 20171 min read Leveraged has additional capability to lend against international shares with our recently expanded Acceptable Investments List for International Shares. Investors are faced with limitations when choosing to invest only in the domestic market - the Australian share market is heavily weighted toward the financial and mining sectors, accounting for 60% of the ASX All Ordinaries index*. Your clients may be interested to add international household brands to their portfolio. Big names like Facebook, Amazon, Apple, Netflix, Google and many more can form part of their investment and gearing strategy using the Leveraged margin loan. In fact, in a…",
+   "links": [
+    {
+     "label": "Read more: Are your clients looking to gear into international shares?",
+     "href": "educational-insights/gear-into-international-shares/index.html"
+    },
+    {
+     "label": "Acceptable Investments List for International Shares",
+     "href": "https://www.leveraged.com.au/siteassets/documents/acceptableinvestments/leveraged-margin-loan-international-acceptable-investments-list.pdf"
+    },
+    {
+     "label": "Leveraged margin loan",
+     "href": "products/margin-loan/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Are your clients looking to gear into international shares? page"
+  },
+  {
+   "id": "page-educational-insights-boost-your-investment-capacity-why-gearing",
+   "title": "Boost your investment capacity.: Why gearing?",
+   "group": "Boost your investment capacity.",
+   "answer": "There are different factors investors should consider in reaching their financial goals. Most people know how much they can contribute initially and over a set term when they set out, and they will know the size of their goal. They will also have a likely idea of their capacity to invest after living expenses and their disposable income. However, there are also other factors to be considered rather than just the amount they can contribute. These include: The timeframe or set date the goal needs to be reached. The returns earned on investments over the long-term. The risk an investor is prepared to take to generate investment returns. Over the long-term, investment returns tend to have the…",
+   "links": [
+    {
+     "label": "Read more: Boost your investment capacity.",
+     "href": "educational-insights/boost-your-investment-capacity/index.html"
+    }
+   ],
+   "source": "Boost your investment capacity. page"
+  },
+  {
+   "id": "page-educational-insights-boost-your-investment-capacity-the-gearing-process",
+   "title": "Boost your investment capacity.: The gearing process",
+   "group": "Boost your investment capacity.",
+   "answer": "Step 1: What is the goal in mind? Financial goals drive investment decisions. Goals should be realistic, achievable and consistent with the risk appetite of the investor. Examples of goals for using gearing to develop and grow a portfolio include building: A deposit for a property purchase. An income-producing portfolio outside of superannuation. Contributions for children’s education costs. Step 2: How to go about achieving it? Having identified a goal, the next step is to set out some reasonable scenarios. This includes how much can be contributed, when the money is required and what potential returns are expected. An investor should also consider their risk appetite and what potential…",
+   "links": [
+    {
+     "label": "Read more: Boost your investment capacity.",
+     "href": "educational-insights/boost-your-investment-capacity/index.html"
+    },
+    {
+     "label": "enquiry form",
+     "href": "contact-us/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    }
+   ],
+   "source": "Boost your investment capacity. page"
+  },
+  {
+   "id": "page-educational-insights-negative-gearing-is-changing-but-not-for-margin-lending-how",
+   "title": "Negative gearing is changing. But not for margin lending.: How has the 2026-27 Federal Budget impacted margin lending?",
+   "group": "Negative gearing is changing. But not for margin lending.",
+   "answer": "Margin lending has long been a tax-effective investment strategy for many investors. With the 2026 Federal Budget changing the tax implications of investment properties, margin lending could now become a more attractive investment option because the tax reforms do not impact financial assets such as margin loans.",
+   "links": [
+    {
+     "label": "Read more: Negative gearing is changing. But not for margin lending.",
+     "href": "educational-insights/negative-gearing-is-changing-but-not-for-margin-lending/index.html"
+    }
+   ],
+   "source": "Negative gearing is changing. But not for margin lending. page"
+  },
+  {
+   "id": "page-educational-insights-negative-gearing-is-changing-but-not-for-margin-lending-mar",
+   "title": "Negative gearing is changing. But not for margin lending.: Margin lending vs borrowing for property investing",
+   "group": "Negative gearing is changing. But not for margin lending.",
+   "answer": "For many years, property investment has been a way to grow wealth harnessing the tax concessions of negative gearing and the capital gains tax (CGT) discount. However, the 2026 Federal Budget, handed down on 12 May 2026, has changed the landscape. With reforms to property taxation, the traditional strategy of negatively gearing established residential housing is potentially less enticing to some investors. As a result, investors may look to include margin lending for shares, exchange traded funds (ETFs) and managed funds as part of their investment strategies.",
+   "links": [
+    {
+     "label": "Read more: Negative gearing is changing. But not for margin lending.",
+     "href": "educational-insights/negative-gearing-is-changing-but-not-for-margin-lending/index.html"
+    }
+   ],
+   "source": "Negative gearing is changing. But not for margin lending. page"
+  },
+  {
+   "id": "page-educational-insights-negative-gearing-is-changing-but-not-for-margin-lending-wha",
+   "title": "Negative gearing is changing. But not for margin lending.: What is gearing? And what is negative gearing?",
+   "group": "Negative gearing is changing. But not for margin lending.",
+   "answer": "Gearing simply means borrowing money to invest. You can borrow to invest in a range of financial assets like shares, managed funds or Exchange Traded Funds (ETFs). Gearing can also be used for property investment. When the costs incurred in holding the investment are more than the income produced by the investment, the difference may be tax deductible*. This is known as negative gearing and has historically been a tax-effective way to access funds to invest into growth assets, like property or shares.",
+   "links": [
+    {
+     "label": "Read more: Negative gearing is changing. But not for margin lending.",
+     "href": "educational-insights/negative-gearing-is-changing-but-not-for-margin-lending/index.html"
+    }
+   ],
+   "source": "Negative gearing is changing. But not for margin lending. page"
+  },
+  {
+   "id": "page-educational-insights-negative-gearing-is-changing-but-not-for-margin-lending-mar",
+   "title": "Negative gearing is changing. But not for margin lending.: Margin lending can be a tax-effective* investment strategy",
+   "group": "Negative gearing is changing. But not for margin lending.",
+   "answer": "As the tax benefits of buying established property potentially diminish, for some investors margin lending could be an attractive alternative. The government’s reforms on negative gearing (beginning 1 July 2027) impact existing residential investment properties purchased after 12 May 2026, but they do not impact financial assets such as margin loans. Depending on their circumstances, investors who use a margin loan to buy shares, interests in managed funds or ETFs can still deduct their borrowing costs against their salary or wage income.* Both investment strategies – margin lending and property investing – have various risks and benefits. These are outlined in the summary below, together…",
+   "links": [
+    {
+     "label": "Read more: Negative gearing is changing. But not for margin lending.",
+     "href": "educational-insights/negative-gearing-is-changing-but-not-for-margin-lending/index.html"
+    }
+   ],
+   "source": "Negative gearing is changing. But not for margin lending. page"
+  },
+  {
+   "id": "page-educational-insights-negative-gearing-is-changing-but-not-for-margin-lending-ben",
+   "title": "Negative gearing is changing. But not for margin lending.: Benefits and risks of margin lending and property investing",
+   "group": "Negative gearing is changing. But not for margin lending.",
+   "answer": "Margin Loan (Shares/Funds)Investment PropertyTax advantagesInterest may be tax deductible with ability to negative gear.* (Interest can also be prepaid to bring the deduction into the current financial year). With the government changes, tax-deductible expenses and the ability to negatively gear are only available on new builds, or established residential property purchased before 12 May 2026.* Established properties purchased between 12 May 2026 and 30 June 2027 can be negatively geared until the new changes begin on 1 July 2027. Income receivedDividends, distributions, and possible franking credits (depending on company policy).Rental income from tenants.LiquidityAustralian shares can be…",
+   "links": [
+    {
+     "label": "Read more: Negative gearing is changing. But not for margin lending.",
+     "href": "educational-insights/negative-gearing-is-changing-but-not-for-margin-lending/index.html"
+    },
+    {
+     "label": "contact us",
+     "href": "contact-us/index.html"
+    },
+    {
+     "label": "1300 307 807",
+     "href": "tel:1300307807"
+    },
+    {
+     "label": "Business Development Managers",
+     "href": "contact-us/our-team/index.html"
+    }
+   ],
+   "source": "Negative gearing is changing. But not for margin lending. page"
   }
  ]
 }
