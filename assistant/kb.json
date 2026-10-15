@@ -71,18 +71,23 @@
     "account number",
     "add cash",
     "margin call payment",
-    "funds"
+    "funds",
+    "where are my bpay details",
+    "facility details",
+    "welcome letter",
+    "payment details"
    ],
    "answer": "You can put money into your Loan Account by bank transfer (EFT), BPAY or direct debit from your nominated bank account. Money you deposit reduces your loan balance.",
    "steps": [
-    "EFT: transfer to the BSB and account number you were given when your margin loan was set up. This is an Adelaide Bank account used only for payments into your Loan Account.",
+    "Find your payment details: log in to Leveraged Online and go to Profile and settings > Facility details. They're also in your welcome letter.",
+    "EFT: transfer to your Loan Account's BSB and account number (an Adelaide Bank account used only for payments into your Loan Account).",
     "BPAY: pay using the BPAY details for your Loan Account.",
     "Direct debit: ask us to debit your nominated bank account. Direct debits take three business days to clear, so a debit processed on Monday is available Thursday morning.",
     "Check the deposit has arrived by logging in to Leveraged Online."
    ],
    "notes": [
     "Use EFT or BPAY rather than posting a cheque, to avoid delays.",
-    "Can't find your BSB, account number or BPAY details? Call 1300 307 807 (Mon–Fri, 8:30am–5:30pm AEST/AEDT) or email customerservice@leveraged.com.au. Never send money to account details received in an unexpected email or call.",
+    "Not sure your details are right? Call 1300 307 807 (Mon–Fri, 8:30am–5:30pm AEST/AEDT) to confirm them, or email customerservice@leveraged.com.au. Never send money to account details received in an unexpected email or call.",
     "To nominate or change a bank account for direct debits, we need confirmation of the BSB, account number and account name from your bank, usually a bank statement."
    ],
    "links": [
